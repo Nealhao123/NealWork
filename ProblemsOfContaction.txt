@@ -1,0 +1,42 @@
+-->接触问题记载：
+	-->温州服务器，出问题
+	lsl：因为我正好前天晚上在上面修改了一个.net framework 3.5 用于发送短信，然后第二天早上温州问题
+	原因：none of my business，原因未知
+	clear:
+	mlf解决
+	
+	-->新版上报登录不上去问题
+	xxy：注册账户登录不上去
+	原因：因为他的注册账户被删了，两个迹象是mlf删的;我代码写得不严谨
+	后面包括一系列误操作，把所有都置为那家设计院
+	请求重新报审被拒绝，找出谁修改了，I'm busy.time too late.
+	clear:
+	我解决了，mlf提供意见，zy提供帮助
+	xxy不会数据库查询语句。
+	
+	-->9:00早走
+	jumyf:全流程，我们协助。22.30 most time。
+	他们是工程，我们是研发。
+	有3次早走。
+	clear:
+	I don't know what should I do.
+	but now ,I'm self-confidence because I'm pursue efficiency.
+	I have my own life.
+	I should be a little mystery.
+	
+	-->late in 12/20 morning
+	ok, they said it out, so fix it. do not let it getting long. on the other side,stay yourself.
+	clear
+	:stay yourself
+-->袁宗华提出企业找不到信息，我已经找出来了马鞍山接口有问题，而且已经用postman了，然后叫郑光耀反馈，他在忙，态度很坚硬，叫我去群里问。that's not my fucking bussiness, why are you so fuck tough?
+	clear:拉袁宗华进群，对接完成，我退出群聊，并退出了山东电子审图群，在对接完成，功能完善后，这些不应该在我的职责里面，这应该是他们实施和客服的工作，that's not my fuck bussiness, stay away the shit stuffs。
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

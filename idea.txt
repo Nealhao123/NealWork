@@ -1,0 +1,1144 @@
+-->学习历史是为了创新
+	历史总是有那么多，学不一定能学完
+	但是如果是站在创新的思维去学习，学以致用
+	为了用而学，碎片化的学习
+	需要深入的时候深入。
+	系统化的学习：	
+	clear
+	:走马观花，有一个整体观念。就像是在艺术馆参观一样，走马观花更好一点。
+美国贸易战争，处理器、华为自主研发。RSA算法，竞争困难。多年积累。
+根源难寻。
+
+-->理性与感性
+	基于只有一个绝对真理的理论
+	理性与感性应该是绝对真理分化出来的矛盾体（联系又对立）
+	理性和感性都是用来指导人进行处理问题的
+	当一件事情对于一个人有很强的逻辑的时候（自信），这个人比较倾向于使用理性来分析（倾向与适合是否正相关）
+	当一件事情对于一个人是比较生疏的（不自信，不确定），比较倾向于跟着感觉走。（如果自己感觉也不太好的时候，会求助于逻辑比较强的人，又跳到了理性）
+	理性和感性的共同作用来使事件的处理达到目的（最优化，只是一个目的，假结果等于目的）
+	-->体验for结果和目的：
+	
+	结果同与目的（成功）
+		对于使用理性和感性的方式，成功当然体验不错，非完全理性，成功就会忘了
+			完全理性后，会当成经验
+	结果不同于目的（失败）
+		体验不太好，归于自己的运气不好，因为不知道，所以依旧会使用理性并进行下一次实验。
+	能
+	clear
+	:能不能改变、这有点困难、需要足够的理论和实践经验
+	
+	clear:
+	:理论来自于实践。所以你需要很多的实践，实践：依旧使用理性。
+	
+	-->关于环境和rule
+	是rule服务于环境
+	主要想finger it out 的是rule 能不能在环境中坚持
+	两种rule 两种环境
+	当然是指的有config
+	good rule and bad 环境
+	真的有觉得bad环境到了连这个rule都无法实现的吗？
+	肯定还有其他因素
+	Neal never owe
+	clear:
+	:Don't do more harmful test.
+	:quickly conclusion,be a litte superficial when judge people.
+	:it's mean, don't believe them ,when u get hurt.
+	
+--><good connection>	<4 work>
+	为什么会觉得反应很快Memory却很差
+	假定cpu的性能都是一样的
+	那么就很可能是因为在Memory区域的时间很短，
+	而跑在Understand区域一定（或者快一点点）
+	所以最后得出结果的整体时间会显示得缩短
+	所以现在是需要一种，适合于这个这种工作模式语言
+	just like English 这种模式，只需要记住一些Represention noun
+	如果能达成共同的认识（协议，遵循协议，进出口协议），那么信息交互的速率就会提升
+	你的工作内容是为了creative，而不是hold the whole prj， 那么这种快速的工作有助于提升速率
+		clear:
+	:快速解决问题
+	
+-->	但是se是我比较需要的
+	se并不是很喜欢
+	因为se做得不好
+	所以需要一个steady s relationship
+	so the next thing should I do is cost on it
+	Where is the Old theory?
+	when u are doing some thing u're like and seriously then u can attract them
+	the only thing u should do is catch the opportunity
+	clear:
+	:Focus on others, and then give them a good reflaction
+	
+-->Plan for Travel:
+	云南：
+		小马哥、繁总....
+	宁波：
+		alone 蹦极，recently in autumn(fall) maybe good 
+		
+	乌镇：
+		alone and maybe April is the best time
+	：
+		-->V Old friend(that one maybe) sinCityNeal that wanna do think about in 2018/06/05
+		that will not happen because the distance is beyond too much than ur imagination. so this would happen
+		so if u wanna date her ,maybe another reason 
+		I'm fucking freedom but I don't use it, what a coward! shame on you if you can't do it 
+		clear I finish it 2019/06/07
+
+	How about the cost?
+	Have no many money
+	8000 + 3000 = 11000
+	14000
+	In fact, I have no ideal with how much money will I cost, only I feel is no money
+clear:
+	:just cost it and pay for it with time !
+	:big bang with big things
+	X:I'think the important one is travel whth dad.
+	:But,
+-->	hypothesis（假定）:
+		电磁波，能影响人的大脑，会产生热能
+		脑电波是电磁波吗？
+		脑电波分为 α β ..γ
+		紧张，认真的时候会是β
+		relax的时候会是α
+		
+		clear:
+	:δ波 小孩智力没有发育、成人麻醉或极度疲乏
+	
+	-->情绪和序列化的联系
+		将复杂原因作用的情绪结果根据分泌的激素来将其序列化
+		symbol极端->无
+		生气跟体含能量有关
+		能量是爆发能量？
+		这得看一下过后是否需要补充调整来维持原来的状态
+		如果不是过后，而是过程中。
+		将能量进行了转移
+		本来维持在脑部的能量转移通过激素的控制转移到了行为表现上
+		所以经常生气的人脑中的能量并不太多
+		经常生气，能量维持并没有在脑中，而是维持在了行为表现上
+		生气是为了释放能量
+		那么到底哪种类型的生气起来更可怕
+		如果是以对作用对象的结果来进行评估
+		第二种更为直接的伤害
+		第一种比较间接，有可能对自身也有作用，所以就是 第一种<=第二种
+		但是，如果这里有堆积，（第一种）更容易堆积，所以有很难控制的风险。但是相对来说，因为伤害是有临界值的（acceptor death），如果这个临界值比较容易达到，那么其实第一种更为容易造成坏的结果。
+		而第一种能让人有种未知的畏惧感，但同时又有一些调控手段，比如通过其他人的努力来进行趋向性调控和自我消化。
+	clear
+	:所以社会倾向于第一种（脑部自我消化）。
+	
+	-->	那么通过眼神反应出的（do not exactly(空洞？)）
+		X
+	clear	
+		:这里其实有真理的
+		
+	>:如果你的目标在变小，你正在慢慢地倾向于舒适区
+
+	-->解释的时候总是很复杂，实践的时候总是很简单粗暴
+	clear:
+	:上帝和解决方案
+	
+-->	<exception found>--奥卡姆剃刀原理：
+	如果你有两个或多个原理，它们都能解释观测到的事实，那么你应该使用简单或可证伪的那个，直到发现更多的证据。
+	需要最少假设的解释最有可能是正确的
+	如果将这一理念与中国儒家的《中庸》思想结合起来，那么会使我们的行为（能不能称作实践）更趋于完美。
+	结合薛定谔的猫
+	解释：为什么会薛定谔的猫，这仍旧是因为对于微观（宏观）的局限性（所以采用结果为导向，可以很快速地得到结果。所以整个物理界都是中庸的思想，可能仍旧是受第三方条件（假设——也就是被剃刀剃掉的部分）的局限。但是原力的作用，
+	clear:
+	:实践：奥卡姆剃刀原理+中庸
+	：既使用奥卡姆剃刀，又控制中庸
+	-->Big bang theory
+	那么我们越来越接近
+	熵值？
+	有序和无序
+	到底
+	多线程处理模式
+	多线程是最好的还是必定的
+	量子力学：
+	海森伯提出  依赖于两个态的观测量数组代替只描述一个态的物理量
+	玻恩和约当以及狄拉克分别 据此 提出 正则对易关系，给出量子力学的海森伯 表象
+	薛定谔 根据 德布罗意波 建立波动方程，给出量子力学的薛定谔 表象
+	玻恩提出 波函数的统计 诠释
+	狄拉克和约当分别给出 量子力学的表象变换 理论，统一 量子力学的不同 表象
+	海森伯发现 测不准关系，给出量子力学的物理基础
+	测不准的意思是你无法同时获取一个量子的动量和位置。能量和时间无法同时确定。
+	每一个层次都有一些无法避免的偏差。这个偏差，可能可以使用更低层级来确定。
+	clear:
+	Extention-->
+	：从1到0，大部分是靠近了1和0的两个极端，但是也有一些需要更低层级的摇摆。他们可以是1，也可以是0。所以为什么会有中庸？ 中庸可能就是指这一个更低层级的摇摆。然后再对这个摇摆进行量化，最后影响到1-0？他为什么会影响到1-0，首先大部分不是会影响到这个1-0。质变，把摇摆量化到质变。变成了1or0的量，然后累加起来就影响到了1-0的结果。他的量化有两方面，一方面是防守，一方面就是进攻。这个进攻，超越了1-0的普通。更优于1-0。
+	clear	
+	：首先大方向的做法是既使用奥卡姆剃刀理论，也要掌控中庸。
+	：所以我现在的做法是，主要把握和拓展自己的奥卡姆剃刀，极化自己的1-0，然后检测着中庸部分，如果中庸过于量化，就尝试着去干预。
+	-->0-1的中间，是不是Motional?
+	有时候可能会从这中间体现出来。从而影响到人的判断？ 这是潜意识？这是隐式的？这好像很重要，因为这种恰恰是多变的，人并不能对其进行一个固化的总结。
+	所以每次进行判断的时候，都需要通过实际的情况来进行判断。
+	需要分析？这和情绪有关吗？
+	情绪是一种感性，中间部分隐式体现，所以更倾向于使用感性，理性分析？这个逻辑不是通的。
+	不知道的东西都会归于感性？感性确实比较难以琢磨。
+	clear
+	: 我可能需要往感性方面去探索。
+	：大胆地走出舒适区。配合积极的错误处理机制，来强化自己的感性。
+	
+	-->Extension:宏观和微观的有所不同，波粒二象性
+	测不准关系，联系引力波，会不会变成相对测不准关系
+	这得深入理解一下测不准关系
+	比利时（Belgium）布鲁塞尔（Brussels）第五届索尔维物理会议
+	series of stuff and connections
+	统计和物理分析
+	clear
+	:测不准和薛定谔的猫，本来就含有马克思的度的原理。
+	
+	-->如果他们的节奏跟自己的节奏有冲突的时候呢？
+	Fuck off
+	慢（托）节奏的队友
+	关系大不大？ 首先我没有义务去强行带动节奏。如果是跟自己的节奏冲突呢？那就协商
+	如果能让他们有足够的主观能动性，那当然是最好了。
+	还是跟着领导的节奏走吧，这才是最好的，毕竟你不得不这样。当然我现在比较喜欢他稍微快一点。
+	托节奏并不是我喜欢的，因为这是我自我工作衡量的一个比较简单的手段之一，托节奏对于我自己来说往往肯定做着自己不太喜欢的工作，而我现在，喜欢自己的工作。
+	慢节奏也不一定是坏事，这得针对个人来说
+	有的人节奏慢，有的人节奏快。
+	clear:
+	:控制上都是领导说了算，我目前还不需要太关心这些东西。
+	:My adaptive capacity are so strong！ruerrrr（Mundo）
+	
+	-->学而时习之，不亦说乎？有朋自远方来，不亦乐乎，人不知而不愠，不亦君子乎
+	愠
+	clear:
+	:the distant friends come to you just wanna be happy,so make them happy
+	
+	-->why I'm not in this contradition
+	because I'm convert into my Work, so I'm not in that stuff
+	but she is in that,so this is the contradition.so I really don't care about her, and I have convert my work to something for her.Because we still independent ,not together. what is the reason?
+	because we think different ,and fall to have a good communication.
+	clear:
+	:problem still get back to communication.
+	:1.finally I separated with her
+	:2.begin my new plan
+	:3.still not clearly is what did I learned?
+	
+	:at last, It's not all my problem, now you make your future partner more clearly.
+	
+	-->CompanyIdea:没有一个任务的完成的回复机制
+	 clear
+	:使用Trello管理
+	
+	-->MyWork
+	clear
+	:Anything I can do ,I'll do .
+	:because next time I have experience, I'll think about it ,I'll know	:how to decide it ,and knowing why.
+	:it's good to advance mine coding skill. 
+	
+	-->流水线式的生产
+	序列化，减少熵值？
+	clear:
+	notclear
+	...
+	-->人的全部分为两部分
+	:一部分是我的工作，我的事业。（现实）
+	:另一部分是我的理想（情感，兴趣）
+	clear
+	:尝试将理想转化为额外的实际价值
+	Extension:目前写的影评的文采都不是很强，我需要更为专业和更为精彩的影评，学习一下你所喜欢的影评，然后分析、模仿。
+	很多时候都会在影评后面附带自己最近生活的总结（这个是为了自己）。
+	为了提高关注而为大家提供一些利益。（这也是为了自己）
+	（这并不可取，所以
+	1.尝试着改变一下面向的受众。
+	2.采取多阅读的方式来提高自己的文采。）
+	-->clear
+	：阅读和模仿。
+	-->资本的累积
+	目前获得资本的有两种方法。
+	clear
+	一种是靠自己创造的价值去等量获取
+	一种是创造一个系统，让系统自己运行并获取。自己和系统独立或者耦合较低。那么这个时候，就很依赖系统，而系统又是需要维护。维护当然也可以交由他人。
+	
+	-->讲道理不要附带情绪。
+	clear
+	
+	-->不要害怕犯错，不要害怕写重复的代码。
+	犯这些错，并解决他们。然后积累经验。
+	clear
+	
+	-->有些事不要认真对待，
+	无关紧要，忽悠过去好了。
+	clear
+	
+	-->the connection of cycle and motional 
+		April. they wanna leave.Something maybe Comfortable make them feel afrid, them they are change the environment.
+		Uncentainty element:
+		1.the holiday?
+		2.season?
+		3.something of year cycle.
+		time to time.
+		time:
+		sicial development
+		age
+		year
+		season 
+	clear
+	not clear:
+	:but season is really important.
+		maybe it's about the wide range also common of influence
+		and step is vital too.
+	-->look back. say something do something, or learn to it in other way also good.
+	but never abandon.
+	clear
+	:总结。
+	Extension-->可能我需要一个阶段
+	到了一个阶段的时候，就应该去总结自己。
+	人总是应该这样。
+	成年的时候去总结。
+	30岁的时候，总结。
+	我应该有时间就去总结一下。
+	what is the time?
+	maybe birthday.
+	maybe the right oct.1?
+	clear
+	notclear
+	:now the time comes naturally.
+	...
+	-->why talk dirty.
+	because the problem in socity relationship.
+	so you'd like to do that.
+	it's king of practice.
+	clear
+	:so do not abandon.keep it, till get some result.
+	:then finger it out.
+	:them summarize.
+	
+	-->Do I need play games for fun?
+	keep playing games:
+		1.first at all, 娱乐和游戏没有即时地影响到我的生活。
+		也就是目前还没有受到即时的影响和危害。
+		2.它给予我更多的度过休闲时间。如果我是在很难过的一段时间里面，它是一个比较好的方式。让我可以放松。
+		我的剩余时间能做些什么？ 前段时间尝试做了一下bigZhangPrj，但是感觉太难了。
+		所以剩余时间，其实不太适合做这么困难的东西。
+		剩余时间来培养兴趣和爱好？
+		看电影、写影评。我的目的是什么？ 我只是为了记录自己的感受，延续看完电影以后的情绪。那么我以后写影评的时候可以尝试着投入更多来提升自己的影评水平，利用自己的优势来进行提升，这样我会收获额外的快乐。
+		贩卖别人所不能及，这就是价值的体现。
+		书籍也是贩卖别人所不知，别人所不能体验。
+		深处深处，体验的深处。
+	abandon games:
+		1.但是它在长远看来，肯定有影响。
+		2.它浪费了我的剩余时间。 
+		3.我可以利用这种时间来做其他的尝试。
+			我能用来尝试些什么东西？
+clear
+	:我应该尝试着使用一些我擅长的东西来变为我额外的经济来源。如果能这样，那么也是价值的体现。waho~cool Idea.
+	:play less and less games.
+	Extension:What should you do when you feel empty and no plan?
+	don't use game of cigaret numb yourself.
+	make new plan or implove communication.
+	
+-->what's your thought? about the bigest talk, bigs are listening and learning.
+	talking about the management、bussiness
+	the New Net Thought.
+	some keywords
+	ChongQ/All flow process/Digital City
+	actually works.
+	clear
+	:Be good with bigest always good.
+	:now make attitude turn good slowing.
+	:you haven't work connection with him, the less attitude you have.
+	
+--> 为什么效率会低下呢？
+	1.有可能是没有休息好？
+	2.有可能是没有运动？
+	3.有可能是工作时间太长？
+	4.有可能是工作太困难？
+	5.有可能是季节性的？
+	6.有可能是压力太大？
+	7.有可能是问题太多？
+	8.有可能是对付出和回报有想法？
+	9.有可能是因为工作外的其他问题没有处理好？
+	10.有可能是没有完成一个小的功能就收获相应的满足感？
+	11.没有太多的目标？
+	12.太多的目标没有完成？
+	13.我会不会到了我效率的瓶颈期？
+	首先我不知道自己的效率怎么样，这没有一个自己能肯定的考核比对参考标准模板。
+	但是这可能不是巅峰时候的效率，这是肯定的，为什么我会这么觉得我效率低？
+	可能是我的心理，内心有点觉得疲于应对。
+	这肯定没有像巅峰的时候那种激动和兴奋的情绪，而且我还老想着空出一些时间出来放松一下。
+	我的工作很多，但是并不是很tight。
+	有可能我的效率可能并不是降低了，只是熟练地让我觉得不是那么着急了。
+	所以效率来说，我更加熟练，那么解决的时间也缩短了，其实我的效率是提升了。
+	
+	Extension:可能只是潜意识的感知到精神放松，误认为是效率降低了。
+	:我想要神经紧绷的状态，因为这是我再努力进步思考创造的感觉。
+	:这种状态让我觉得很喜欢。
+	:当然这只是短期的。长期的又另外一说，因为这个战略是不一样的。
+	clear
+	:休息一下就好了（更多的其实是需要一个好的睡眠），适当放松和调节自己的工作状态。
+	:不忙的时候关注一下他人，并和他们交流。
+	Extension:伴随状态：
+	-->1.总感觉需要额外的刺激大脑。
+		玩游戏？
+	2.有一点想Find new relationship.但是觉得自己恐怕会做不好，因为总觉得自己不够关心别人。
+	3.会有一点觉得跟别人的交流太少了。当然太少了，我可能有时候一天都遇不见几个人，说不了几句话。更加不能表达出自己的思想。
+	
+	我可能需要cleanning一下。
+	也可能是需要总结一下。
+	when will be the time?
+	2018年，我失去了很多。满腔的热血，可不能帮你实现一些讲出来的目标。
+	所以我学会了践行。实践、实践、实践。这是我对于这些东西的探索。我这一年比任何时候讲的话都少，有时候甚至一天可能都不会讲几句，其中有一部分conversation可能还是在大脑里面完成的。
+	I lose a lot.
+	忙碌，一些大的事情发生了。却被工作使变得来得更加缓慢，本来应该很激动，很伤心，很烦恼的问题。但是有时候甚至感觉不到，后知后后后觉。
+	我开始的接触公司项目的时候，思绪乱飞，总是有很多新奇的东西冒出来，但是后面，居然再也没有了。人的大脑在α波的时候，创造力（灵感）会很厉害
+	clear
+	:适当地	Have Fun
+Extension:
+	我应该把最难的东西，放在我最精力充沛的时间段。
+  
+-->I feel comfortable in this environment, also busy.
+		concern early always be good.
+		What concerned by me?
+		conncern about progress.
+		clear 
+	:All right, when I'm not busy.I Have found some plan to do.
+		
+-->I always hear not (-->)clear
+		:hear problem. that ok.
+		clear
+	:listen some Chinese.Learn some words.other way is asking for.
+		-->this is the time, What time? time to learn
+	learn what? some dirty words.not so sick but tasted talk.
+	how to learn, read.
+	read what?
+	read some Chinese book, or ,showing? movie? do what ever you can
+	can English ?
+	clear 
+	notclear
+	...	Find the way
+	:maybe do one thing together can improve your communication.
+	
+-->How to use mine Surplus?
+		age:24->25
+	clear
+	notclear
+	
+-->Why OldZhang can't leave? Because of the system, He wanna do such system, so he can leave him along, because this is irreplaceable.OMG, How smart are he.
+	What is suggest, some friends ,do it together? 
+	will be a lot of problems.
+	notclear
+	
+-->分析一下"Whatever ,I'm not going to change myself."
+	this means that Someone feel that changing herself is difficult, And the she maybe getting throught some problems, that make her have not much energy to do such things needs long time to build.
+	clear
+	:she is busy. busy on other stuffs.
+	:Be less think it your problem, but if real is, then change it.
+-->压力能提交社交能力，正确面对压力。
+	in another way to think:
+	what is the contaction between Pressures and Conflicts.
+Pressures:why think it became Pressures? because it upgrade to the main conflict
+in the time
+	Social Contaction became to the second. And communication also make conflict, and motional thing accumulating make social contaction harder, people social contact for happiness. this is different between male and female.
+	(female is better than male in the management)
+	make conflict and make both feel good(also better).
+	but if ignore the basic conflict. the time will expose it. that's is why, fall in love quickly, but in a long time reletionship make them argue a lot. 
+	clear
+	:good social contaction also make people feel easy. but when the big conflict occuring, that turn to the work. work under social contaction, it called solution.
+	:sln is important.
+	Extension:-->under pressure enhance socity is just in the face. 3-Concept and long time getting along is the main of Deep socity.
+	clear
+	:so this opinion is right, but not total exactly, properly speaking, pressure inhance opportunity of the socity.
+	-->What is her thought.
+	What in her mind.
+	有可能她感觉到你想改变她，
+	不，你不会改变她的，即时你可能没有想那么做。
+	我在和她在进行思维的碰撞，但是貌似我的思维更为强势。（善于制造摩擦，但是结果得让双方都得到满足）
+	有碰撞，肯定是有一些改变的，可能是反向，也可能是固化
+	所以多碰撞是好的，这个为什么又会有影响到情绪呢？这会趋于好的情绪还是坏的情绪？
+	开始心态，是主动还是被动？先入为什么会为主。
+	她（每个人）的潜意识可能都想，将自己所践行的想法持续地存在下去。所以事与愿违是想法无法践行的表现，这个时候，如果是比较能变通的，就会接受调整，而不会变通的。慢慢变通，那么有可能的是，她现在有额外的主要矛盾。
+	clear
+	
+	悖论，都有一个时间检验。
+	但是如果是无限循环的时间依赖呢？
+	时间有没有a？时间会坍缩吗，时间会折叠吗？
+	时间的概念是相对的还是绝对，时间是和运动有关吗？
+	如果速度超过光速，那么时间将会被重定义。
+	a和t是独立的。他们同级？
+--> think about why you do not like to alert him?
+	the fuck noise influence me.
+	why?
+	why am I didn't like to alert?
+	1.he still has a lot.
+		but  when will be right time better than right now?
+	2.make things change.maybe people get used to not change.
+	3.any thing else? frankly , I don't give a damn.
+	4.no help.
+	clear
+	:the good news is that you found you earphone, you don't have to change people. just adjust yourself, because you still young to change yourself.
+	I think I will not liberated until I have found my spirit and it will not base on the difficult-building environment.
+	
+	-->只有绝对真理才不受时间的限制。
+	clear
+--> 25 years old :
+	quote one sentence: no body know about you more than youself.
+	but We always wanna known ourselves more objective through others eyes, or maybe we care about how other people look us.
+	before 25, review my ages.
+	Once time there is no thought in my head.I'm really frighened that days.I think maybe it's too busy that time. I learning much, working much.But in contrast, When I feel pressure, Ideas came up my head one by one, so I think that is not the reason.And then I think it maybe Drowning in to the relationship make's me like this. I live simple and -->clear but I don't pay time to leave myself along.I havn't think something to myself.
+	That time, I think I'm so boring.no ideas
+just works, no life. Is it because the season? I don't konw, maybe a litte bit connection.
+	If can it conclusion, the relationship make people superficial? If busy work make people superficial? no.I think, do not spend time leave yourself alone make you superficial.
+	so leave me alone.
+	I must learn something.ExBoss give me some advise, the best is staying in the next company at least two years. yes this thing I always looks hurry.I don't know why he told me be slow.But I'm going to obey his advise if there is no serious problems. because if I do not believe it, How about my haft-year pain I'v being through.Do not know the reason but I wouldn't let it go with out means.
+the other advise he gives me:this trade learn 5 years are enough. it is hard to exhaust the knowledge of Computer Science . it means that you can spend your lift time on it.
+	how to keep balance on your world and life.
+	that not the question.
+	the real question is how to live in now and live forever.
+	sln: live in now. sln: live forever.(goal).
+	clear
+--> If I can spend two hours everyday for learn?
+	the reasons that you scruple:
+	1.the body, spirit.
+	2.other workmates' opinions, particularly the leaders'.
+	3.the main mission.
+	
+	if you care about others opinion, just do it,do not care about others opinion. if they really care, they will prompt.
+	
+	mission
+	do you afrid they know that you are not busy?
+	not afrid.
+	do you fear about that they know that you are not busy, so arrange some work you didn't like to do?
+	I don't know, work is work.
+	if they arrange me to do such unhappy thing.
+	fuck off I'll ask for more emoluments for balance.Everyone should know this, spending my time is expensive.
+	
+	clear
+	:just learn.
+	:learn direction:
+	
+	the problems of learn is : 
+	When I decide to learn something, I'm learn right away, but when the works came to me,I deal with work, then forget the learn process.
+	ok, have a rest today. 
+	:my aim is unique.
+	:but only for work.
+	
+	停滞区	v
+	复杂圈	
+	秩序区	v
+	混乱区	
+	
+	成长只有在不舒服的情况下才会发生
+	
+    If I really haven't much work to do, do something that make your time valued.
+-->关于speak out:
+	目标不能宣扬、那么不好的情绪呢？
+	不好的情绪是需要发泄的。
+	clear
+	:对于目标仍旧是需要保守不能宣扬。
+	:不好的情绪需要发泄，但是需要转换。
+	:该拒绝的时候坚定地拒绝，你不应该对任何人难为情。
+	:请不要在情绪上面量化，情绪确实是时效性比较短的东西，而你应该在意和花费时间精力的，是你自身的核心。
+-->sometimes, they can knows that your some small mind.
+	but that's ok, even they are right, do not care, they care because they are too free to do care such thing,
+	clear
+	:do great things would not mind this minutia.
+	:I'm handle the minutia. I'm gonna handle the direction.
+-->deal with girls:
+	clear
+	:give them more good adjectives than verbs.
+	
+-->sometimes, I'm boring to deal some a little hard work, so I've thought other will do not wanna do hard work either.this time, give him time to deal with, adjust their own mood. and the work soon or later will deal.
+clear
+	
+-->10000小时理论，这10000小时里面，到底包不包括重复的时间。
+clear
+	有时间了解一下1W小时理论。
+--> 相对于大方向，满足了以后小方向的问题。可以适当地忍让一下。
+clear
+	female's emotion is seem alike too?
+	:female decide the small stuff, male decide the direction.
+	
+-->对于你的在这呆两年，如果没有保持进步的话，那么这个确实就只能是两年了。
+	呆在这种城市不是为了舒服，是为了激励自己进步，如果没有进步，那么长远地看你也不可能在这个城市能立足。
+	想想你的长远目标阶段目标。
+	一年两年。你所距离你的理想越来越远，你嗅到了电影行业的生机了吗？ 嗅到了clear
+	:如果你是奔着钱而去，就算你得到了钱但是却仍旧是失败的，如果你奔着理想而去，就算最后你没有得到钱，你也不会因自己追逐理想的过往而感到懊悔。 计算机是这个时代的正道，它确确实实能改变世界，而你在这上面的投入对于你的存在是有意义的，而电影是你的理想。等你事业有成再去追逐理想也是可以的。
+	
+	-->成家？
+	how about her, the one you contact for many years.
+	now ,In my mood, I wanna be with her. but I'm a little fear.
+	I don't know how many difficulties will we getting through. but I hope it will not influence my most important thing 
+	clear 
+	-- Be myself.
+	accept changes.
+	you lose her, you still can't accept her. face-lift, tattoo, try to conceal the past but no accept herself.  your presentiment is right, she wanna find some honest and getting marry with. he is not you, 阅读确实可以改变一个人的心态，但是无法改变一些东西，是阅读得不够多吗？可能不是，这个度是非常极端的，你忽略了其他因素。
+	
+-->架构上面的架构
+	架构上面的架构，解决方案。 架构已经有了很多种，现在还缺什么？
+	任何人都需要学习，帮助你解决问题？
+	因为懒，所以会有很多东西可能会懂得原理，但是不愿意花时间去实现。已经提供了从底层出来的解决方案。但是不愿意的，因为现在做得好的实在太多了，你又怎么能保证自己比别人设计得更好呢？
+	clear
+	:唯一的可能是修改别人的设计。
+	
+-->穷则独善其身，达则兼济天下
+	在没有得志的时候，应该只顾及自己，你根本不能给他们太多的教育。你也不要去向那些仍旧在自己道路上面的人进行讨教，当然交流是可以的。
+	等你有所成就的时候，去大学当一个教授什么的，再去激励他们去追寻一些东西，那么是最好的了。
+	clear
+-->movIdeaRec:
+	烈火雄心，蚂蚁
+	clear
+-->窒息点:一旦你的某项技能变得机械化，思考该技能的精确构成会影响你完成它的能力。有时候，我们无意识做的某些事情会完成的比较好，一旦对它加以思考，情况就变得有些糟糕，这时候也最容易受到“窒息点”影响。
+	clear
+	sln:
+		1.平时在有压力的条件下进行练习
+		2.此前做一些可使自己内心放松的事。
+		3.the strength of belief
+你现在克服这个了吗？
+不知道，但是心态确实放松了很多，就感觉我根本不再去重视那个compete的结果，反而在乎自己是否有发光的表现。
+这确实让人舒服了很多，不是吗。
+
+--> why I wanna leave here 
+	3 reasons:
+	1.work 
+	2.people
+	3.money
+	
+	1.when I reach the work, I feel very proud of it, because of work for Goverment. for the coding skills, I was reaching the full of coding knowledge
+	that I have never learn which can enhance my coding skill a lot.But with the time flow, there are no fresh knowledge to me, just coding user ctrl C + Ctrl V.it's no longer creative work to me, I feel boring. And then ,I turn my work attitude to prove how much my ability to the work, littly I did it. But as the result ,I got nothing but more boring work.So I getting tired.
+	2.quote a sentence:there must are people around you can teach you something. After more than one year ,There are less and less things that I can learn.And even through they bring me too much life style belong to them ,but I know it clearly that is not what I want.I don't think the people around me are worth to learn.Just like the NBA player Durant said:I don't think I'm better than anyone, but I don't think anyone is better than me.
+	3.less money, complicate expenses reimbursement system.
+	clear
+	:when I do nothing,I will not think this yet, but just few time.
+	
+-->强关系会传递信任，弱关系可以传递信息
+	clear
+	
+-->金钱用来衡量价值。
+	个人价值、社会价值。
+	价值：0到1的趋向。
+	所有人的趋向？
+	时代的趋向？
+	clear
+	:tenddency makes value.  
+-->Environment:
+	我越来越讨厌现在所处的环境了，它的优点确实是互不干扰，可以忙活自己的工作或者工作以外的事，但是他没有让我看到奋斗和积极向上的一面。
+	他们都是些什么人，觉自己不优秀也就理所当然地只想感性方面得到舒适和满足的人。
+	我最喜欢的和最需要的是什么？是奋斗，是我可能不是为了公司的利益去奋斗，我可能是比较喜欢这种一直向上发展的感觉。当然压力过大又是另外一回事。
+	
+	优秀的人还在努力，而他们这些本来就不优秀的人从思想上面就不想去努力进步。
+	这就是你可以抓住的不同于其他人的点，你的努力并不是痛苦的，通过自身的调节它是一个良性的循环。
+	选择放弃和轻松真的很容易，而这个时候你就需要用同等的价值来换取轻松和放弃。不要觉得绝望，用金钱去衡量确实算算就觉得绝望，但是你记得那些采访，谁会认为自己是最幸福的人，那些自己努力奋斗差一点成功的人，就算是帮助了竞争对手或者他人成功，在他们回忆的时候仍旧觉得自己是最幸福的。不幸有各自的不幸，幸福却都是唯一而且贯穿人的一生的。
+	clear
+	:劣币驱逐良币。
+	:如果你试图定义自己为良币，那么你就有可能被自己的缺陷所打倒。
+	:so 定义自己为劣币，然后get what you want with your practice.
+	
+-->我可以很清楚地辨别一个人和记住一个人的相貌，
+那么我如何将这个与他的名字关联起来呢？
+	先试试通过名字一些想象和他本人关联起来？
+	如果是实际的，因为名字生来就有的，只可能名字影响人（相貌？），不会相貌关联于人。
+	clear
+	外号倒是可以。
+	所以有一个就是  外号:相貌：人名
+	
+-->不要盲目的爱上你的模型
+无论任何事情，当走向极端时都是有害的。极端化时，面向对象编程和函数式编程都试图把整个世界装入它们的特有模型中，但这个世界是在完全不依赖我们的大脑思考的情况下运转的。如果以为你有一个锤子，就把所有东西都当成钉子，这明显是不对的。只有通过认清我们的真实世界，才能摆脱信仰对我们的束缚。
+clear
+	:不要让世界适应你的模型。让你的模型适应世界。
+	:中庸的重要。
+	
+-->when you lost you direction of your life:
+	1) Grab a pen and some paper
+	2) Imagine you’ve won the lottery and money is no object. What does your dream life look like? Write it down in as much detail as possible.
+	
+	fame, do not depends on the relationship but the real thingsc can exist forever.
+	
+	Think about…
+	Where you live
+	How you spend your days
+	How you feel
+	What your perfect day looks like
+	Who you spend time with
+	3) Close your eyes and imagine how this life would feel if you were living it. Allow the energy of these positive thoughts to engulf and inspire you.
+	4)Now look again at your dream life. When it comes down to it, what do you really want in your life? What type of activities do you really want to be doing? And what could you start working towards today? Pick out what’s most important to you and set yourself a goal…something to work towards and action.
+	clear 
+--> most people do what they wanna all have money-concern, so money is the essential to everything of your life.so what you should now ,is to accumulation.
+clear 
+ex:how much you need? how many years will cost? 
+not clear.
+
+-->千万不要在晚上做任何决定，睡一觉等第二天早上再决定。
+clear
+-->别低估了交流给你带来的益处。clear
+
+-->最近在情感的生活中非常活跃，没有新的计划。有一些疑惑。
+而且看到知乎上面对钱、贫富差距的问题都非常地多。
+有一些摇摆的设想是放弃为了钱的竞争。这可能是不想进入矛盾的表现。
+突然发现，我好像确实是这样，我只是需要钱而不是为了钱。
+clear
+
+-->我突然发现，我的ex并不适合我。
+我跟她在一起有很痛苦的时候。
+我有时候会想念她，和当然也会想念她让人喜欢的瞬间。
+就好像猫咪很可爱，她喜欢猫咪，她也很可爱。我喜欢她的可爱。这很吸引人，但这只是她客观存在的品质，不属于任何人
+我跟她在一起，会觉得我失去了我的思想，而且我好像很多时候无法深入她的思想。处久了，我还会变得行尸走肉。
+我和她分开的真正原因其实不是因为异地恋，而是我必须通过离开她来捍卫自己独立的思想。
+为什么说不是异地恋的原因，因为我仍旧可以别人相处愉快，靠着共同的爱好相互吸引而不存在于对方的世界。
+有趣的是，你们的关系并不是couple，而是friend，如果是couple，可能会趋势你去做一些仍旧爱的证明，比如去假装关心。这只是你觉得需要的事，而不是你发自内心想去做的事。这可能是你的责任和义务去主动完成，但是，你并没有养成这个习惯，所有会有一点小小的牵强。
+
+如果只是一个人，那么他并不是完整的，有了另一半，他才会变得完整。
+（那些诗人总是在追求女性的时候歌颂爱情，结了婚以后就开始歌颂自由）
+
+但是为什么现在的舆论无论是对高额的房价还是生育都是一切负面的评价呢？是因为这是事实还是因为他们想用舆论来改变事实？  
+clear
+
+-->房价和孩子会是你的矛盾吗？ 
+他们应该成为你的矛盾吗？ 不应该，我并不因为送给了我一套房子而放弃自我的追寻。当你觉得孩子的一切都不是你自己的，那么你可能会轻松一点，压力没有那么大。
+所以房价根本不是我追寻的东西，它只是一个60分。我要在这个社会中生活下去，需要获取一些东西，但是我也要产出一些东西，而我产出的东西，必须要及格。
+那么评定你的60的是谁呢？ 是社会，是达尔文的进化论。
+这个60不单是社会和达尔文定义的，自己的定义也有一部分？
+但是我的一些东西是谁给的？ 并不是我自己创造的，是环境给我的。所以我自己的定义也不是自己的，还是这个社会定义的。
+
+如果我向下或者上进行了选择，这才是我的定义，但是很大部分我可能不会这样做。
+
+我一直的生活的遵循社会规律
+需不需要早一点达到这个及格线呢？
+他是根据什么来的呢？
+年龄吗，经验吗？
+为什么我现在only want to have fun
+
+clear
+	:
+-->Extension:
+	非常有意思的一个，如何实现共产主义，就是让你还房贷，
+	所以这个60分的理论和实现共产主义的实际运作是一样的。
+	所以说这种情况，是思维与现实的统一。
+	实现价值，才是自己应该做的事。
+	如果你有时候好逸恶劳，你应该反思一下，是因为和女性接触多了导致感性比较强烈的原因吗？
+	girls only wanna fun.你应该在接触的时候保持自己，要对世界有产出和努力证明自己的存在才是你的使命，不然你为什么而来到这。
+	不要害怕他们，不要害怕那些高峰。
+	我对这个社会的产出还不够多，所以我还没有车和房。车和房只是付出的及格线，并不代表真正的东西。这就是共产主义。
+	你需要积淀，学习产出学习产出这样的循环。
+	clear
+	// 好逸恶劳如果是真的不去做和思考，那么是真正的好逸恶劳。但是如果是想用头脑或者更上一层的思想，算法，理论等来高效地达到更加损耗时间（精力、体力）所产出的劳动力，那么可能不叫好逸恶劳，而是更加优秀的方式处理问题而已。所以不是懒，是比较聪明。
+	那么最后检验是否好逸恶劳的条件是什么呢？ 1.有没有对其进行量变。2.最后的结果是一致。
+	clear
+-->Extension2:
+	畸形的房价关系。房价是否畸形？
+	房价可能是有一些他自己的矛盾，毕竟参与其中的也是各种人。
+	所以这其实是一个摇摆的过程。
+	怎么畸形？按照劳动时间来算，建造一栋房子在不同地市花费的时间应该是一样的。那么贵的是什么东西呢？1.土地成本2.建安成本
+	（房屋的构成：....国外土地和建安是3/7，而在中国是颠倒的状态。足以说明情况。）
+	土地成本带来的价值也是取决于周围的环境，条件公共措施等。所以如果对公共措施依赖比较大，是不可能脱离城市生存的。
+	城市化是一种人类迁徙的趋势，这个过程是不可逆的。
+	对于一线城市的城市化应该是有一个临界点，根据自身需求。
+	所以城市化的概念就有点模糊了。
+	（至于为什么要想着往低阶的房价上面靠拢？ 因为是想使用这个差值来让自己对房价的投入上最少，但是收获的价值相等，然后将这部分投入的价值转移到其他方向上去。为什么要这么做呢？因为早期想达到及格线并不一定是自己喜欢的方式，而是比较痛苦的方式。）
+	所以最终的，理想城市并不一定是一线城市，而是符合自己投入的城市。
+	劳动和产出成正比吗？ 肯定不是的。
+	
+	然而对你来说,房价最重要的东西是什么？
+	1.装修
+	2.交通
+	3.环境 
+	....
+	clear
+
+-->我如何走出这个舒适区的怪圈？
+是不是所有的工作都会有一个舒适区？
+我现在就是在舒适区，这并没有给我带来什么感受除了无聊和无意义。
+我之前想在我的兴趣上面试着产出，但是，我可能之前指的是发一点影评什么的，我现在看完以后好像并没有太深的感受和思考。是电影不够经典还是自己不想花心思上去？有很经典的桥段。但是我还是没有发。看来还是自己心思的问题。业余时间也就那一点，我无法每次都用最好的时间去对待它。碌碌无为，大概就是这种感觉。碌碌无为的碌碌不是忙碌的，也是平庸的意思。当然我现在也不碌。
+没事，你今年的目标是去旅行。
+没事就出去走走好了。
+clear
+
+-->如果是对会编程的人，甚至是一个菜鸟，培养他接收我现在的项目我都是很有信心的，但是如果不是这一行的让我去培养我却有非常的不情愿。
+这是为什么呢？
+是因为他的基础薄弱吗？
+是因为投入和产出吗？
+是因为他自己从业选择的因素吗？
+为什么会觉得很难？
+其中一个有趣的成分是他本人的主观能动性。
+所以如果你能感受到很强的意愿的时候，你可能会乐观一些，因为可能不会花费太多的精力。
+clear
+
+-->我现在的主要矛盾是什么？
+1.实际产生的社会价值和期望产生的社会价值相比较低。
+2.社会价值的学习部分做得不是很好，和自己预想的进度不一致，也就是许多觉得自己应该要会的东西，实际上心里没数，没有实际经验，没有开始第一步。
+缺少迈出第一步的魄力，做事犹犹豫豫，提前吹嘘自己能做，虽然也相信自己能做，但是却没有动力去做这个事。
+3.因此而错过了机会，吸取教训，以后不要吹嘘，千万不能提到这些词语：简单，可以做，没有问题。如果你的心态自己是一定不会去做这个事，那么没有问题，但是一旦你有做这个东西的打算，那千万要谦逊，不要说简单，而且只要是涉及到编程，对于别人说简单的情况，一定要感觉到厌恶，毕竟实际处理的人是自己，如果真说简单，那不是在贬低自己的劳动成果吗，真是蠢。
+4.不要抓住以前的东西不放，除非你抽出空来做一个demo后发现真的很简单，心里有数。
+5.
+6.搬砖是个很简单的事，但是如果是让你搬一万块，这事还简单吗？写代码也一样的，可能道理简单，但是实际的工作量又不是那么简单了。
+7.在乎得失，leader也有很多需求想要他去处理，但是他为什么没有去处理？就是因为得失并不平衡。你会去做这种事吗？当然也是看得失的。
+
+clear
+	：不要吹嘘，千万不能提到这些词语：简单，可以做，没有问题，随便都可以做，轻轻松松。
+	：合作与价值。
+	什么东西对我有价值，合作共赢。
+
+--> 社会和科学是否也是一样的，科学是往上的矛盾，社会是中层的矛盾。
+我经常让人觉得我不是在社交的矛盾中，又不像是在其他更低的矛盾，所以他们就觉得我可能是在更高一点的矛盾，科学，思想，艺术等领域。
+	这倒好像是一个事实。
+	clear
+	：有点意思的是，部门领导他的矛盾是在哪？是在部门内部。
+	但是这个又不是我的矛盾？他会觉得怎么样？当然他应该挺开心的，毕竟没有什么麻烦事。但是他也会觉得苦恼，如果和我的冲突实在太大。
+	所以这个矛盾是越少越好，也是双方所共同期望的。
+	
+-->我现在的矛盾在哪？
+	是不确定目标，也有目标没有去执行，这才是我的矛盾。
+	不确定目标，需要继续探索，这个很重要，但是不着急，需要用心。
+	确定好目标的需要去执行，这个很重要且比较着急。
+	所以先把确定好目标的需要去执行的先执行，再
+	clear
+
+-->人类和计算机的对比
+	人类并不比计算机聪明
+	人类的容错率高
+	计算机容错率低
+	人类可预测性低
+	逻辑思维比计算机弱，但是感性思维比计算机强。
+	再加上女性是感性的综合体，
+	那么以后的进化结果的极端情况就是，只剩下女人和一堆机器人。
+	我在和其他人相处吧 愉快的时候，大多数都是靠感性，而不是理性
+	我有强烈的感性，敏感，细致。
+	为什么要学会计算机语言？
+	就是为了能更好地跨物种交流，（交流交流交流）
+	是为了让计算机更好服务于人类，而不是变得像计算机一样的人。
+	interesting，
+	clear
+	
+-->公司运营，用实际的框架去套用人，
+30%比的销售就应该去录用对等的人来干这个活。
+当然也需要考验这30比的人是否实际匹配值。
+clear
+	
+-->精力，是很有意思的一个名词。
+	社会必要劳动时间去换取。
+	有很多需要花费这些东西，也就是需要换取。
+	那么这东西是平等的吗？
+	这个和脑中形成的（通道）又有什么关系？
+	clear
+	阳哥的观点是，物资积累，使用体力换取物资，使用物资再去换取其他东西。
+-->人的情感问题其实也是一个量。
+	如果缺少男女之期的感情，就会用其他方面来弥补。
+	而婚姻这种标志，是量变到质变的一个点。
+	而这个质变点，是根据不同的人社会关系（自身判断和联系判断）来决定的。
+	
+	如果要使用奥卡姆剃须理论，那么我必须要自己来决定自己的这个质点。千万不要考虑其他关系以外的东西。这样分析来说，我应该考虑ex的其他东西吗？ 我其实不应该考虑。所以主要原因还是性格因素，而分析的时候，把ex放在中心，那么noneofbroorsis这个就会成为ex性格形成的因素之一，而我parents在建议，其实是跟他们自身的利益相关。他们已经在考虑养老的问题了。当然，毕竟已经年过半百了。所以，坚定一些，不要找noneofbroorsis的人作为伴侣，而毕竟自己也是在这中的社会关系中，当然如果有碰撞，也应该会有进步，可是你是否需要这种进步呢？这倒是很有趣，又衍生出了，是否所有的进步你都需要，如果你渐渐变得专业，那么一个人的精力如果是有限的，那么你必须放弃一些东西，这些当然包含了进步。
+	那你怎么考虑互补这个问题呢？互补是什么？为什么要互补？如果这种是不完整的，那么完整的又是什么样子的呢？
+	所以你得找一些你的缺点。这些能实际造成问题的缺点，不要一直沉浸在自我满足和自我认可。需要找到并记录那种你明知道，却不愿意改变的缺点。
+	比如：
+	1.自以为是，这个应该是一个缺点（如果不清楚，也要记录下来），
+	还有就是窒息点，这个不算我想去改变。什么事开始感觉都很厉害，上手也快，但是却没能做到顶尖，或者是目标定得太少，然后投入就会很少。
+	x关于窒息点，是有明显的界限，我是想要的。
+	2.但是如果没有明确的目标，是自由决定投入目标的，那么我确实不太乐意，那这个算是我一个不愿意改变的缺点。
+	3.有严重的记仇心理，这也是我的缺点，我愿意改变吗？我有点害怕它，它不确定但是也让我能清楚感受。（你可能不是喜欢星座也不相信星座什么的，你只是喜欢那种描述，因为它确实是一种描述，是对人类性格的客观描述。）
+	算了吧，你不是记仇，你记着所有的东西，你只是需要给他们的一些行为定位而已。
+	这样能让你快速学会不再受到伤害。
+	4.缺少经济
+	
+	clear
+-->如果拿这种资源的观念去审视我的初中班主任，那他真的太有趣了：
+	1.我父母至今还对他保持着一种信任。
+	想想，他做了些什么，不满镇上的人，埋怨环境，通过向同学们（那些年少无知的初中生当然奉上了一脸的崇拜和认同）贬低环境来提高自己的不同和价值。
+	他们打我后那种眼神让他们后怕，所以才会让我父亲来给他们心里安慰。
+	他将自己的脾气发泄到学生身上。他最后以母亲病重为由向学生家长借钱，并且至今未归还，高利贷风波也不是那么简单的事，最后还选择逃离。
+	孔小书，确实是喜爱，那种眼神能体会出，这可能情感大于经济。
+	而陈瑞林是欣赏。欣赏是什么意思，是看见了价值，是承认了价值。
+	what a jerk! bastard!
+	clear
+-->情感和经济。
+	情感可以拿经济来衡量吗？是用社会劳动来换取的，也就是价值，情感也有价值。或者说情感就是主观对价值的判断。这个判断以人的自身为中心，所以这种只能体会出平等和不平等。体会不出具体的量，情感对价值判断一种参照Reference。
+	所以你想要自己置身于那种地方也是非常合理的，因为，你缺少实际的经济，但是不缺情感。
+	当你考虑如何去实现的时候，你发现得包装自己，结果你跟那些包装自己然后进入rich的圈子，然后获取到，资源但是同时也会炫耀来获取更高的圈子？还是来弥补自己付出的情感。
+	
+	那你是为了什么呢？
+	是为了获取到情感吗？
+	
+	你有情感需求吗？
+	当然有，那么是哪一种呢？
+	你为什么想去成为一个时代皆知的人，为什么想要去付出，是为了荣耀吗？
+	是使命？
+	鲍勃迪伦那种不愿意去的诺贝尔奖的，我想情感已经从劳动价值中获取到了。他不是为了去得到诺贝尔或者荣耀。
+	
+	为什么我的目标是修一间别墅？
+	为什么我需要别墅？
+	我需要一个客厅？
+	是为了荣誉？
+	是向往那种别墅的风格？（民宿？）
+	是看见了电影所描述的风格？
+	
+	说到底你只是想那种东西，有钱人的生活。快感，仍旧还是一种感官。
+	如果你的理想是这些，你会发现，你是为了消费。而不是为了创造，你接受了他们给你的消费观念，使用奢侈的消费来换取你感官的愉悦。
+	当你的理想是创造的时候，那是为了什么？做贡献，是为了名誉。也是为了感受。
+	所以说来说去，都是为了感。只是收获的方式不一样。在创造的同时享受，或者是一次性地收获。这是对于自己，但是如果对于世界呢？ 世界仍旧是看你的量，所以并无关系，那么对于其他的人呢？他们需要symbol。
+	所以的怎么说，都是俗人，所以我想做一个幸福的人，是感官，这没有正确与否，这本来就是所有人的归属。感官可能是与生俱来的性质。无感到有感是0和1还是a？
+	clear
+-->如果把手游的那种留人方式来运用到企业也管理，会不会很好？
+clear
+
+--> 奇怪，提到新的需求后，你为什么会觉得很烦这种改动？
+首先你已经完成了这个系统的建设，也就是你的之前的目标已经达成，而现在，应该是属于新的目标。至少对于你来说是新的目标，但是他们却不这么认为，他们会认为这是你以前的目标，所以你做这件事，如果回报是他们给的，那么他们就会给你的以前的回报，所以后面的工作，是属于白干活。所以你在心里会觉得厌烦是正确的，你并不预料到他想要你付出并极有可能地得不到回报价值。
+
+这也很奇怪，那么之前的工作重心放在上面，为什么现在又开始把工作重心放到其他位去了？那么之前对这个事的预料，不会考虑到后面的需求，因为这个需求是无法确定和考虑的。 所以，在商量到这个问题的时候，他们提出新的需求，就应该给予应该的回报。为什么人们害怕吃亏？ 这种就是吃亏，这种事你一直保持及时性，就短时间来看确实是有收益的，但是在长时间来看，极有可能地吃亏，但是却有极小几率是对自己的个人成长有益的。
+
+
+
+
+
+
+clear
+	
+--> 很奇怪，我在后面会去反对我的初中班主任那样的人，他们judge自己工作的学校，吹捧其他的是多么多么的好。而且在他们这样做的时候，我还很认同他们的看法和思维，觉得很开心，同时也不理解，其他同学为什么会生气，或者反对他说的话。我心里会归咎于他们比较是属于这个矛盾中的人，而你接触了其他的，说不定也会这样来judge自己所工作的地方有多么差劲。
+现在我想想，即使是我在上大学以后，我仍旧会被那种judge自己所在学校的人格所吸引。
+虽然现在我想想会觉得他们真是什么都不如，对我来说一点意义都没有甚至会嘲笑他们所做的一些烂事。
+
+那么分析一下，现在有两种人格，一种是judge自己工作环境的人，一种是反对，并且热爱自己所生活的环境的人。
+judger自己实际工作在这个环境中，但是却妄自菲薄（中性词），但是却没有离开这个环境去他所认为好的环境当中去，如果他去了，有可能他会改掉他judge的习惯，也有可能保持这种习惯，继续judge自己的工作环境，直到自己没有能力去改变自己的工作环境。到最后只有通过Judge来表达，这个地方有这个矛盾，你们不应该这样。这样解释出来judgers倒是看起来像是个贡献者，至少他传达出来了这种矛盾，建立了别人了解这个矛盾的联系。
+
+一种反对的人，首先他满足自己的环境，而且如果是反对别人的这种judge，因为自己认同这种环境价值，如果judge，证明别人是反对自己的认同，也就是反对自己的价值。当然他会知道这必定会有一些不尽人意的地方，但是如果这些问题如果和自己相关（当然大部分是相关，只是会思考自己是否有这个能力去改变什么的），他将会贡献自己的力量去做出实际改变，以至于改变所在环境。这真是崇高的。因为这些人真正改变了环境，对其价值观念，都是值得去推崇的。
+王垠是什么样的人？不满足自己的环境，一直在换环境的人，而他遇到的是，通过自己的贡献去改变环境的人，即使他会抨击另一些为了自身利益来索取的人。但是又怎么说得清这些人和环境的关系呢,肯定是现有人再有环境，但是环境反过来作用人。
+	所以对于我来说，我当然想成为那种可以自己切换环境的人，但是我大多数时间做的是改变自己环境的人。向周围人辐射这种能力，提醒他们，确实有这种充满力量的人在这个环境。
+所以这样来说，如果我去改变我的环境，会是少之又少的事。当然是少之又少，其实让他们感受也是少之又少。
+
+clear
+	
+-->很奇怪他们很多时候沟通都感觉必须要使用口述的方式进行沟通，但是我却趋向于使用文字沟通。
+   我现在确实有在尝试着也使用口头沟通，但是脑的容量是一定的，文字的载体确实无限的。
+   当然，其实还没有用到太多的脑容量。
+   clear
+-->如果工作重叠，必定会有互相推诿的情况发生。
+	如果多个工作交到一个人手里，有先后顺序，如果都没有时间压力，那么必定会出现延期滞后发生。
+clear
+-->人类可能只是一个载体。或者是一个中介。
+clear
+--> 区域性，通过改变硬件环境来提升房产价值。
+哪些硬件？
+：养老
+：生活环境（水资源、篮球场、活动）
+：民宿？
+：那里交通是很好的
+：
+not clear
+
+-->婚姻的本质是什么？
+就是财产重分配，就是经济的交易
+你为什么不看好那些早早结婚的人？因为你觉得他们可以更好？还是因为他们的感情不能久远？ 调侃倒是早日迈进婚姻的坟墓，但是为什么会这么觉得呢？  可能是因为对于他事业的减益效果吧？  结婚生子确实是有debuff的。 
+如果你早点认清现实，你这一辈子不会有太大的成就，那么你就应该早早得把婚结了，把孩子生了，承担教育所带来的劳动支出，享受一下和孩子相处的欢乐时光。
+
+那些早早结婚的人，婚姻的本质是爱情吗？
+为什么外国没有这种感觉？就中国这样吗？
+外国怎么想的？如果在一定的条件下是完全可以离婚的，当然这里也这么想。可能外国的条件更多？ 查看一下外国的结婚和离婚率再说。 那么他们是否也有女生最佳生育年龄的忧虑？应该有，比较最佳生育年龄是科学 他们的婚姻当然是他们自己的选择，这是肯定的。你为什么迷信破腹产没有自然分娩生下的孩子好？更多的是考虑对母亲，确实应该这样，外国相信这一点吗？外国夫妻的年龄差也这样吗？
+	
+艰难的岁月不会让他们抛弃的对方，反而因为发达后的日子，才会主动选择离开。 这样是经过思考、道德等约束后的结果。离开是什么？ 是人追求自己更大的利益，但是道德使得是在考虑不伤害对方的同时才这样的。 使自己的离开，承担的后果最少。
+
+在默认的情况下，如果是站在女方的角度去看，都会考虑对方有没有房的问题，因为有了房，好像是解决了一个大麻烦。确实是这样不是吗？
+但是会考虑一下房产在哪，值多少钱的问题吗？好像不会，这就有点意思了，意思是你并不会非常地在意，它的本身的价值，
+
+所以谈恋爱应该是一个过程，而结婚是一个目的。谈恋爱可能会结婚，但是结婚，不一定谈恋爱。最好的当然是谈恋爱后结婚。
+所以为什么我会觉得这样？
+有可能是因为和那些很多人一样，他们觉得他们很缺钱，所以会在所有的地方都会使用经济学的一些东西来考虑，所以于你而言呢？你不应该这样，是吗？对，如果给你一个选择，你可能不会因太多的钱来考虑对方，因为钱在你的生活中的组成部分将不会重于对方的额外的东西，灵魂，品行，等一些额外的东西，对，我仍旧是追求的爱情，而不是其他的经济考量。
+clear
+-->实用型婚姻，最终必定会以离婚收尾，也就是如果婚姻看作是经济，那么在达成交易以后，婚姻将不再具有价值，所以最终走向离婚的结局。
+
+我将会在做我最喜欢的事的时候，顺便认识我的另一半。
+
+不能太独立，独立应该是让她后来的改变，如果过早地独立，那么极有可能过早地经历过创伤？
+用情不专，这是一个相对概念，因为你的观念里面，感情的容池是一定量的，如果不能满足，肯定也会找其他东西来弥补，当然如果你投入到阅读书什么的是最好的，游戏其次，转移同性也还行，要是异性那可是个问题了。
+clear
+
+https://www.wf-lawyers.com/divorce-statistics-and-facts/
+-->美国的结婚率和离婚率都在下降
+离婚率在世界前列。不知道为什么中国没有在20的榜上。Russia第一，美国第四瑞士11
+在美国每13个人就有一个离婚的，离婚很常见
+67%的婚姻终结40年一轮
+一些低离婚率的职业：
+5 Professions with lowest divorce rate:
+Farmers – 7.63
+Podiatrists – 6.81
+Clergy – 5.61
+Optomitrists – 4.01
+Agricultural Engineers – 1.78
+其实看整个表，科学家和牙医这种稳定的职业离婚率真的很低，反而一些接触浅薄的离婚率会更高，其中没有谈到Programer。但我想，应该算作Engineer的话，那么离婚率也是往下的。
+Lack of commitment is the most common reason given by divorcing couples 
+其实家暴离婚算少数，最高的是缺乏交流、吵架、不忠,当然结婚太早也在其后，不切实际的幻想也有，不平等，无准备的结婚。
+太早这一点的对比的48比25，十八岁前后25岁后，10年为界限。而20到25结婚有60%的概率会离婚
+多次离婚经历会对自己的婚姻观产生影响（导致更容易的离婚）。
+不离婚的婚姻是思想观念的产物。这很有意思。
+孤寡老是是别人看起来的很可怜，还是自生确实很可怜，如果相对他有伴侣呢？是客观的吗？
+但是我真的不想孤老终生，太可怕了，不敢想。
+所以熊掌和于不可兼得，你需要一些东西必须要接受放弃一些东西，或者遭受一些东西。这倒是有点意思，需要分析一下。
+有信仰的离婚率会小于14
+同居数多的会有更高的概率40%离婚
+婚前同居60%会结婚，但是有40会离婚
+如果是高中、大学、校友，小于41的离婚率
+婚前6个或更多的，少于3倍的概率会呆在稳固的婚姻。
+看浪漫的电影和围绕它的对话能降低头三年的离婚率
+父母的离婚率直接影响孩子的离婚率
+有孩子离婚率减少
+单亲家庭的离婚率50%双方都是200%
+婚前有孩子会增加离婚率
+愚蠢的花销也会导致离婚率上升
+无资产与前三年的资产在$70k以上70%的概率离婚
+吸烟喝酒会提升离婚率
+相同的饮酒习性会更容易stay
+15%的videogameaddiction也会导致离婚的决定。
+朋友离婚147%朋友的朋友离婚33%
+同事正处于离婚中57%概率导致已婚同事离婚
+兄弟姐妹22%的影响
+
+以前的couple在一起都为维持和付出了很多，
+谈恋爱谈得好了，那么婚姻的经济是否还会影响呢？（其实，维持和付出也是劳动力，为什么不会，就是因为用这种方式来减少了必要的价值。所以才不会）答案是不会的。身边有很多为了爱情的例子，足以让人们津津乐道。大姐和二姐的婚姻刚好是相反的，这挺有趣的，观察他们可以得到你的结论。
+
+clear
+
+
+
+-->社交
+	cinema，简陋一点的
+	信息在
+	差别服务
+clear
+--> 很多时候我都去认同别人的价值，去假意地夸赞对方。
+我突然想不起我为什么要这么做了，
+当然我也有。hard to say.
+	但是如果熟悉一点，我一般都采取比较real的方式，抨击周围的人，哈哈哈。这tm就是为了快乐？低级趣味。
+clear
+-->少刷一点知乎，里面现在充斥着怨声载道。 总是在里面抱怨什么房价太高这种问题。
+这不是你这个阶段应该去处于的矛盾。
+远离那些矛盾，就好像远离那些时常抱怨的人一样。
+每个人都有自己的节奏，和别人比较只应该是偶尔用来校正自己的事，做你想做，有能力去做的事。
+
+clear
+-->现在生育比较低，那确实是经济的原因。对于普通人来说。那么如果真的过5年后，个人经济有所提升，那么生孩子这种岂不就会变得很热，但是这个时候也会出现问题，也就是这个，压力最大，上有老下有小，所以这个时候兄弟姐妹的相互扶持和帮助变得尤为重要，不是吗。
+	
+凡事讲度，在合理的情况就应该去做合理的事。
+	
+如果你是一个经济学家，你确实应该考虑一下如果让利益最大化，但是你并非一个经济学家，所以你只需要再合适的时间点去做合适的事就好了， 当然你得学习一些浅薄的经济知识，别让自己犯太大的错误。所以把精力放在你比较喜欢的事情上，其他的东西只是浅尝辄止就好了。that's ok。
+代际传递，只有精神永不磨灭。
+假设如果真把购房者当作韭菜那么其实每一代都是韭菜，只是收割的多少的问题。
+收割我很多，因为我有的也很多，所以它是一个参照。
+也就是说，只要我仍旧保持这样的进取，不管房价高低，我总有一天是可以达到这个比例的。 所以有些人就算是高位被收割也不会觉得什么，因为他们确实就是，一个参照。所以并不会心疼，因为这在这个时间段，确实就是一个合理的比例。
+clear
+-->
+一步一步来。
+
+如果你把自己定义为解决方案，那么你现在又是想要的是什么状态？
+你又想去解决什么问题？
+现在一切看起来很正常，没有什么问题。
+业精于勤，荒于嬉。
+
+
+
+clear
+-->你对你最亲近的人，总是想着去改变他们。不知道这是为什么？你想把你的思想强加于他们身上，你结结实实地把自己看到的他们不好的一面告诉他们，然后通过一些思想的传达或者另外的手段去鼓励或者迫使他们按照你认为的那样去改变。都说爱一个人就是爱他们本来的样子，应该觉得他们的存在就是这个世界对你最大的恩惠，但是不知道为什么你却刚好相反。你经常改变自己，你希望他们也和我一样经常改变，但是这种往往会给你最挚爱的他们带来痛苦，人需要被爱被认同被赞美，而不是让你去挖掘他们的缺点把它们通通拿出来狠狠晾晒。人无完人，你太幼稚了，你还无法接受不完美，你还只是活在你的理想中。你居然还声称自己是一个严严实实的马克思主义者，马克思最重要的就是度，你看你却妄图生活在只有0和1的计算机世界。
+这还挺有意思的，你为什么和有微弱距离的好友不这样呢？ 你们之前存在完完全全不同的两个思想，但是你却极少尝试着去说服他们。
+1.因为是平等的，但是你爱的人难道和你不是平等的？比你弱还是比你强？ 这不应该，就算再亲近，人与人之间都应该是平等的。
+2.因为你尝试过，但是你确确实实改变不了他们的想法
+3.你只是想要认同，一旦他们假意表示认同，你也不会再进行深究，你往后实际的行动只会影响你个人，如果三观不用，当然他们早就默然离你而去了。但是亲近的人不一样，因为这样会马上决定下面的行动，会有实际意义上面的影响，当然也有不会采取实际行动的时候，所以这个时候，装聋作哑就是最好的。哈哈哈，不是吗，和谐的关系靠什么？ 就是装聋作哑。
+
+对这还有点意思，以前为什么你的另一半，对，那个时候你们关系是最好的，从来不会吵架，她会要求你们吵架。
+但是那个时候你认同了她的一切。不知道是什么，感觉什么都可以接受。
+如果你用矛盾来分析是应该你们两个有经历共同的矛盾，这样就比较少地出现内部矛盾。但是如果从另一个方面考虑，为什么她想要吵架而你不想？因为她需要和你产生矛盾，制造摩擦，然后你却不想加大这个摩擦更没有最后控制住让双方感受到愉悦。她们的所求是什么？就是沉浸在两个人的世界，而你却不这样，硬是要把矛盾放在个人矛盾上面，也就是进步什么的。
+假设你现在恋爱了，那么毫无疑问，你想要保持在的关系中，那么你必须要处在这个内部矛盾中，如果良好，那么需要花费一些精力心思在上面。
+幸福生活靠什么？ 当然是靠别人的吹捧了，不然你还真以为这世上会有一直的幸福生活？996的福报，但是福报多了，就成了时运不济了。而被人吹捧，你的观念得到认同，马上就收获到了快乐，马上就进入忘我的幸福中，吹的人有成就，被吹的人感受到幸福，这一举两得啊。你经常吹捧别人，有时候确实是注重真实的表达，有时候其实只是想敷衍或者假意地套话，演员，你真是个演员，演得你开心吗？反正别人是挺开心的，但是自己开心的话，还是在于表现自己的时候比较开心。说实话听别人吹牛B难受死了，因为是有点假的原因吧，但是人家到兴头上了，你看你软弱，不懂直接拒绝，如果你加入自己的经历，肯定也演得更像，相同经历会触发相同情感，但是这个时候你也进行了一点输出，虽然是假意的，但是却总比完全的假意，不参与更好吧。当然，最后你还是收获了交流。connection，这是你应该做的。
+繁总和我那次争论也挺有意思，但是他后面不是很愿意继续的感觉。这倒是真的很有意思。
+clear
+
+-->跟幺爸征求一下意见，找个时间一起自驾去西藏。
+clear
+
+-->我发现我可能还是离不开知乎，为什么？
+	因为我工作了短暂的时间，我的工作内容是看一个项目的源代码。
+	然后差不多看得我快睡着了，为什么？因为是没有思考吧，对，所以我需要看知乎这种可以启发人思考的东西。不论是我喜欢(intersting)和讨厌的东西(房价)，但是它确实是我还算比较关注的，也是可以启发我的思考的。
+	看完我也会有些想要去实践的想法，这对我来说很重要。实践是最重要的。
+	它至少可以让我保持头脑运转而不是像我的同事一样睡觉。干着让你快要睡着的工作，那真是太可怕了。
+	不但kill了你的时间，而且更容易患老年痴呆。即时我日复一日地工作，但是我工作都是有记录和实际的效果的，虽然也只可能是一些堆积，但是也是有用的对吧，有时候就是需要这些堆积，或者说大部分都是需要这些堆积。
+	clear
+	Extension:
+	-->对于哲学，我应该浅尝辄止，不是吗？ 这次我首次主动宣布对一门学科浅尝辄止，非常有意思，所以我打算设定一些目标，然后达到后马上抛弃掉它，那么需要成就吗？不需要对外的成就，我只需要自己肯定的成就就好了，不是为了please anyone else but myself。
+	所以我的第一阶段目标，那么肯定是阅读了，你所能想到的人：叔本华、尼采、老庄、孔孟、马克思、一些古典德国派系...，好吧，快速看完苏西的世界，这本来就是一本哲学入门书籍。快速，快速。
+	对了，说到为什么做这个宣布，因为很多哲学家都是单身，孤独终老，我不应该这样。不要脱离现实社会，我应该实际一点，我本来就是一个普通和正常的人，我有自己的缺点，也有自己的优点，坚守自己的思想和偏见。
+	clear
+	
+-->如果有人让我开心、高兴、满足，我很愿意他所做的内容花钱。是这样的吗？钱指的是价值
+	-->我总觉得，我不应该再spend去怜悯别人，我应该花更多的花销在价值的交换上面。我爱别人，我应该获取到价值，这可能是让我开心，让我满足这种价值，我去帮助别人，我应该获取价值，乐于助人，我需要感到快乐，我才能去助人，我树立自己的威信，传播我的思想。
+	其实这是一种欺骗对吗？对，他们让自己的表象年老，抱着一个完全可以自己站立的孩子看起来很吃力。
+	他们想通过这种表象去误导你，让你认为他们真的很需要你的座位，但是事实上呢？事实上我坐的不是爱心专座，而且我一直给自己加油打气说自己是个没有爱心的人。然后呢，你看见别人让座确实脸红了一下，但是你还是需要克服这种心理，即使没有让座，他们依旧好好的不是吗，这能说明你的道德低下吗？反而不，这正是说明了你坚守着自己的正义！男孩需要学会坚强，女孩呢，一样的，别听那些什么天生下来就是公主，需要被人好好对待，你需要给她们一点不符合实际期望的东西，这才是正确的，这才是现实的。
+	这会很有影响吗？这不会的，我能看到一些细节，我很清楚一些情况，不是吗。我让座是理所当然的，不让也是理所当然的。
+所以现在你的心情怎么样呢？蛮开心，因为我坚持了我自己。而且给那些认为自己应该得到座位的人迎头痛击。
+clear
+	:I'm a tough man，任何方面都是，direction and detial both。
+	
+clear
+	事实不是这样的，这是只是在承认他人的价值而已。
+
+-->你学到了什么？
+	通过这一次短暂的交谈，我觉得你就是有点贱，你的态度是什么？坚决？算了，如果你用马克思理论来讲，你们之间的联系确实就像是一个度一样。仍旧是有联系但是却只是一种度，你希望她以后过得好吗，这是当然的，毫无疑问。绝情一点？她不属于你对吗？
+	是的，没有任何人完完全全属于我。那如果她不是你的真正的另一半，那么你真正的另一半会是属于你的吗？我的另一半应该是属于我的，但是首先她是属于她自己的。对，即使是情侣，也需要在双方的身上获取到自身的利益（快乐）。不然彼失我盈的这种状态都不会长久的。你渴望长久吗？是的，虽然美国有很高的离婚率，但是我仍旧是渴望长久的。是吧，所以如果结婚，这不单是对自己的提高，你得考虑一下对整体的提高了。任何单方面的幸福和不幸福都是悲剧。
+	如果你考虑婚姻了，那么你得考虑经济状况，因为经济状况在很大一部分会影响到婚姻的质量不是吗。为什么现在还不想考虑婚姻状态，因为你确确实实地不想结婚，还是说你的经济仍旧有问题。经济仍旧有问题是真的，为什么这么想？可能是因为对比心里的理想的经济状态，感觉现在的状态是很弱的吧。
+	clear
+	
+	看了知乎说可以通过造轮子写博客写书等进行社招然后再顺利轻松通过大厂的面试。
+	这个路线怎么样呢？ 只要是能进入大厂，肯定是达到了目的。所以成功肯定是成功的。
+	这个路线还有点意思，一个是成就，这是一个量化的东西。输出的积累到一个量。然后通过这个量到质变也就是同级质的相互交换。
+	兴趣也很关键，他发现他非常喜欢研究造轮子。
+	如果你思想的产出都仅限于你自己，那么就算最后你的理论和实践在你自身的条件下是正确的，但是最多会成为一个民科。 缺少已经论证的东西，你现在要做的是站在巨人的肩膀上，而不是从0开始的自我探索。
+	所以你的问题是，仍旧是缺少学习。
+	学习学习，系统学习，学习正确的，正确地理解。
+	
+-->先优化再进行改革。
+   一个
+   clear
+-->确实有人宁愿相信自己未知的东西，也不愿意相信，当然她和我和我师姐之前仍旧是缺乏信任的，当然真应该是公平的，如果有人不信任我，那么她也不值得得到我的帮助或者有关我所赞同的一切东西。
+	很多学科都会有一些考试，为什么？因为他们无法估量一个人对学科的探索到底有多深，无法知道量，其实很多时候可能都差不多的比较浅的难度，只是面的宽广问题。当然也就存在零碎的体系以及整个知识框架的天差地别。
+   你也不要这么情绪化地提早下结论，经过了一些交流，你会发现，你无法知道自己的结论到底是错的还是对的，你一昧否定别人不认同你的思想，这样不然好，不是吗，总是有度的。
+   所以这件事怎么做呢？ 进一步地交流，用事实去judge正误。
+   你需要说服别人，但是你的判断也是一种感觉，可能大多数时间会更理性一点。但是始终不是事？实不是吗
+   clear
+-->怎么才能让不认识你的人很快地认识你？
+	对，你给能接触过你的人很好的体验，但是你无法给你不认识的人快速认识你的渠道，因为你没有象征的东西。如果真的需要人在短暂的时间认识你，肯定得靠稍微有点量的积累以及夸大其词又恰到好处的吹捧。
+	这么说yg的路线还确实是适合我的，做一个平凡和普通的人，然后乐观和更为享受每一天的生活。不悔过往，不惧将来。
+	有些人总是在追寻某个目标的过程中，他们可能永远也无法成功，但是他们确实很享受其中的乐趣。
+	我虽然仍旧不知道yg的人生目标这些，但是他下面即将面临未出世的双胞胎孩子的压力和乐趣，所以我应该想问，但是现在肯定不是时候，而这个时候，可能是他做下一步打算的时候。也许也永远没有机会去问。
+	我最敬佩的是那些默默无闻的人，世界的运转和改变归根结底是他们的贡献。
+	而现在我觉得我反而有点像这种人。
+	我可能无法成为承担他们统一意志的载体。但是我尊重他们，我仍旧有渺小希望去承载。
+	往上面追寻去，那么我将少很多的矛盾。我会面对这些矛盾吗？有时候是，有时候不是，好好思考一下。应该怎么去选择。
+	clear
+-->固步自封，这不是你应该做的。但是有根基的开放的确是最好的。
+	clear
+	
+-->看我奢侈的花销，满不在乎金钱的样子，实时是这样的吗？并不是，其实我在很多时候是有经济的考量的，比如吃饭，其实我有算过，当然这不是处处算，而是算过一次后得出来一个结论，然后遵循着这个结论而已，也就是在大方向上面，我仍旧是秉持节约的精神，但是不免会在未经过考虑的状况去进行少量的花销，但是如果不拒绝这种话，仍旧会给我造成麻烦。对！拒绝自己的感性，毫无根据临时起意的想要，因为这应该只是在特殊条件环境放纵自己的感性。比如生日、奖励。你应该克服这样的感受不是吗？ 有时候，我有点没有自信，所以我会使用衣着这些弥补。这对我来说是好事吗？当然是好事了，因为自信相对来说可能比这个更有价值。少量的花销在吃食上面，稍微花一些在衣着上面。而吃食是为了满足欲望，而自信是在对自己更进一步的投资。所以这是很合理的。
+游玩呢？如果你是带有目的性地去旅游好像也还挺好的，我可能是为了下一次伴侣朋友再来的时候知道一些经验，也就是为了更加随心所欲，这也是投资，那么这个时候应该积极的花销吗，这么解释起来是应该积极花销的，但是实际上我却很考虑经济，因为不太熟悉，所以采用了最低花销的做法，但是我毫不犹豫地买了门票对吧？是的，因为这是我目的，毫不犹豫。
+clear
+:所以，如果在给自己诸如提高自信这种投资的时候，使用积极的态度，如果在食物上面，一定使用克制的态度！！！
+extenison:-->那么是否是说，在感性上面的花销就应该采用克制的态度呢？
+吃，游玩，游戏，电影？篮球？电影和篮球不一样吧，吃和游玩是我的爱好吗？阅读，阅读肯定不是的，因为阅读充满着理性和思考。电影观察、感受、思考。篮球，感受，强健体魄。
+吃，过量的吃带来负面的东西。游戏，我没有沉迷进去对吧？absolutly yes，我已经过来沉迷于游戏的年纪，但是我为什么玩游戏的时间还有点多呢？1.沟通感情，这是有的，同学也好，发小也好；2.填补我的咸鱼生活，对就像咸鱼一样的工作，像咸鱼一样地生活，像咸鱼一样地kill time,waste my life，另一方面想，如果我是在游戏的这段时间内，需要一些积累稍带负面的坚持，积累。那么游戏可以很好地进行了缓解不是吗？是的，这样说游戏还算有点作用。有些东西急了你不知道你会过早地什么，比如过早知道自己自始至终都是个平凡的人，那么会不会过早地放弃？或者沦陷？我觉得，应该不会的，当然他们害怕走极端？我会极端吗？motherfucker stupit，我就是一个普通人，怎么可能会有极端。所以，我仍旧觉得我应该在我现在这个年纪应该早一点去犯错，别等老了再去犯。
+clear
+所以答案是？
+	我可以从哲学中找到一些启发
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+
+
+
+
+
+
+
+
+	
+	
+
+	
+	

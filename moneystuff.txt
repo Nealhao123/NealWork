@@ -1,0 +1,421 @@
+get:
+	
+cost:
+b：5216.77
+	8.10: 2582.48
+	(V)y:3000
+	(V)h:1000
+	(V)R:1000
+	eat:
+	
+	7+18+18
+	43x30 = 1290
+
+	()y,()h,(V)r
+	do not borrow for eat
+	borrow for h&y just enough
+	
+	1400+4000
+	5400/6
+	900/m * 6个月
+	
+	7+3.5 + 18+18 *(22.5)=1046 + weekend.  18+18*(8) =288.
+	1300.
+Aug.15:
+	523+207+70=+800
+	-1347-2070
+	
+	still(3288)
+	total:5358
+find 
+	calculat:
+	get:5394.84
+	(X) - 2000*0.2{400}-  =
+	7000-933-233.4 =5833.6
+	7000-5000-933=1167*0.2 = 233.4
+	everyday = 7000/22.5=311 311*3 = 933
+	something:Computer rent.
+	
+	(X)400 - 233.4 = 166.6
+	(X)5394.84+166.6 =  5561.44
+	
+date:8/27
+	cost:
+	total:-5359
+	
+	9/10:jb: -1734
+		 hb: -2387
+		 rent: -1000
+		 =-5000
+							(eat: -1300)
+		 h: -1000
+		 2300
+		 7300
+		 why did cost so much?
+			check out.
+		 
+		 3387
+		 1734
+		 5121
+		 6121
+			 200
+	when will I get out of this stuff.
+	one or two month.to be exact,
+	6400+1700 =8100
+	
+	+1689
+	+6400
+	
+	8100
+	
+	-2342
+	-1733
+	-1000rent
+	-1500h
+	-6575
+	-
+	not much to left.
+	
+	after 2018/09/06
+	+24
+	+1044
+	-1824
+	-1733
+	+6400
+	-1000
+	-1500
+			(09/10)
+	-783
+	-3620
+	-1000
+	-1000
+	-1300
+			-7703
+	+6400
+	(10/10)
+	
+	-1000
+	-1000
+	+6400 			6352.47
+	-1300
+		
+	in fact
+	hb:-2313
+	jb:-358
+	   -2000
+		=-4671
+		left:1700
+		
+	(11/10)
+	-1000rent
+	-1000h
+	-1300ate
+	+6400
+	
+	
+	(12/10)
+	
+	each month 3000- left after Jan.
+	
+	in fact 10.12
+	
+	jb:-8637 total
+	hb:-3213 this month
+	any for other?
+	h:1300
+	
+	Oct.
+		common:-3213hb
+			+6400
+			-1200h
+			-950jb
+			-1000
+			balance:1037
+	Nov.
+		jb:-6687(-3351,-1336,-2000)
+		eat:-1300
+		h:-1000
+		rent-1000
+		
+		+6663              
+		balance:0
+		
+		in fact 11.07
+		jb:-6687(least:-1218)
+		hb:-712(least:-71.5)
+		h:-1000
+		rent:-1000
+		bar: -500
+		+6663-1000-1000-712 = +3951
+		-1336-2000 balance:615 - 500 = 115
+		balance:jb -3351
+		
+		in fact：(11/22)
+		hb:-2465.40
+		jb:-864~3023
+		balance:200
+		
+		-5488+200=-5288
+		
+	Dec.
+		+6663
+		-3300must
+		balance:3363 - 3351 = 12.
+		jb:0
+		balance:39 	//+6663+6663 -3300-3300-6687 =39
+		
+		in fact:12/10
+		+6921
+		hb:-3500
+		Xjb:-3023(-671.89-1851.96-500)
+		hb:0
+		normal cost:
+		xh:-1000
+		xrent:-1000
+		
+		+6663
+		
+		+6663-2000-3023
+		=1640 -400(shoes) = 1240
+		
+		balance:
+		
+		+1643-3783
+		1891
+		
+		hb:0
+		jb:-500-1891
+		balance:200+
+	Jan.
+		next month:
+		+6663-3500-3300 = 0
+		-18+-20+-10 = -48x30 = -1440
+		rent:-1000
+		h:-1000
+		normal total:-3440
+		hb:0
+		jb:-2391-3440 = -5831
+		6664-5831 = 833
+		Jan.
+		+3000-
+		3363+3363 - 5288 = +1438
+		
+		in fact 2019/1/22:
+		
+		hb:-3169
+		pack:+478
+		
+		in fact 2019/1/28:
+		hb:0
+		jb:-8000
+		pack:+3624
+		total:-4376
+		
+		
+	Feb.1
+		+3000-
+		
+	18final:
+		pack:+6000+
+		h:3900+4000 = +7900
+		count:13900
+-----------------
+	2019.2.21
+	hb:-382
+	jb:0
+	h:8k
+	packet:1k+138
+	total:756
+	
+	2019.3.10
+	get:+6817
+	hb：-382
+	jb:0
+	h:-1000
+	eat:-1300
+	rent-1000-100ele&water
+	total:6817+756-3400-382=+3791
+	
+	in fact 3.5 :
+	
+	hb:-1206
+	jb:-500
+	rent:-1000
+	h:-1000
+	eat:-1300
+	total:6817+1000+400-3300-1706 = 3211
+	
+2019/3/26:
+~
+2019/4/10:
+	get：6817
+	half month left:
+	packet:+1018+22+25
+	hb:-5182
+	rent:-1000
+	h:-1000
+	eat:-700
+	total:0
+	
+infact on 4/17
+:1126 left
+	computer
+	
+	
+2019/5/10
+	get:6817
+	commoncost:-3300
+	total:+3517
+
+2019/5/10 in fact:
+	get:6817
+	commoncost:-3300
+	hb:-2576
+	jb:-98
+	game:-300
+	total:543+446 = +989
+	
+2019/5/14 in fact:
+	get:6836
+	h:-1000
+	rent:-1046
+	hb:-2574(-1230 nextMonth)
+	jb:0
+	loan:-2000(lj)
+	
+	total:+273+51 -1230hb loan-2000
+	=1094 left.
+	
+2019/2
+B/L/D normal eat:13 16 16 7 12 15 6.95 15 7 12 18 9 13 12 15 19.5 7 12 18 7 12 7 13 15.5 7 14 15 7 10 
+ball water:2 2 
+netbarcost:2 2 3 
+tools:18 32 
+underground:100 
+dailyNecessary:18 99 14 129 
+fruit:26.5 
+cloth:50 
+elemoto:1 2 
+goingout:150 3 11 24 
+phoneCharge:47 28 
+present:395
+	
+2019/3
+B/L/D normal eat:10.5 13 8 14 17 6 2 10 14 7 18 18 7 17 7 12 18 16 30 15 2 46 36 18 30 12 2 43 1008 
+ball water:
+netbarcost:12 
+tools:8 10 
+underground:100
+dailyNecessary:	20 26 49 
+fruit:	28 
+cloth: 	
+elemoto:2 1 
+goingout:12 5 1323 6 6 5 228 6 12 219 5 3 120 25.7 12 150 142 
+phoneCharge:
+present:
+	
+2019/4
+B/L/D normal eat:17 4.5 7 16 3.5 7 16 18 7 28 16 2 14 1.5 12 4 13 18 7 13 20 7 26 13 8 18 7 6  20 7 4 16 18 26 2 4.5 14.5 110 3 2 18 7 
+b water:
+netbarcost:2 3  2 1 2 2 2 
+tools:	129 
+underground:100 
+dailyNecessary:	
+fruit:	
+cloth: 	
+elemoto:1 1 1 1 2   ------4.18
+goingout:688(退票cost) 4 7 1 
+phoneCharge:
+present:	
+book:94
+	
+2019/5
+B/L/D normal eat:
+b water:
+netbarcost:
+tools:	
+underground:
+dailyNecessary:	
+fruit:	
+cloth: 	
+elemoto:	
+goingout:
+phoneCharge:
+present:
+
+get:6817
+cost:
+hb:-4126
+jb:-2024
+rent:-1000
+home:-1000
+
+-8150+1893+6817 = -560
+
+damn
+
+in fact:
+get:6749
+hb:-2831
+h:v
+jb:v
+rent:v
+
+rest:486
+total:...
+
+2019/07/11
+get:+7682
+rest:1300
+
+2019/0905
+1600 - for:bc
+rest:2800-3751
+
+
+
+
+invest regularly:
+2w 200+ 200 			800
+1m 300 200 200 300 200 	120
+	
+	
+	
+	
+	
+per2weeks Wednesday
+perMonth 15th
+20190917:
+rest:4241
+hb:-1725	
+total:2516
+h:13k
+
+3*12 =36k
+	   2.5k
+
+	19final:
+		12000+ +3000*12- =48k
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

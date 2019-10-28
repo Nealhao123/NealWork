@@ -1,0 +1,87 @@
+坑：
+1.  description:杭州存储过程上报图纸会报 返回的不是一行。
+	location:杭州触发器不够严谨。
+	maker:金铸
+	solution time:~
+	
+2.	description:未为idea生产row_guid导致回复意见出问题。
+	location:杭州建模设计不合理
+	maker:建模/金铸
+	solution time:~
+3.		description:数据库里面数据格式不统一tbdrawinginfo表一会为decimal一会为varchar(20)，导致我这边模型没有同步更新，开发网页报了比较奇怪的错误。
+	location:建模
+	maker:郑易
+	solution time:找到问题花了一会儿的时间。
+4.
+	description:台州规划审查，上报工具收不到项目
+	location:他们调用接口传值的时候，设计院编号少一个0
+	maker:杨攀
+	solution time:3天断断续续，包括周末时间3/19
+	ex:还着急，着急又不是我这边出问题，远程服务器连接上了叫打开ms数据库，居然说没有？直到最后我打开就看见了，wnm
+5.
+	description:一直潜藏在杭州施工图上报的一个问题，如果同一个时间段上报的人过多，会触发duplicate key的问题。
+	location:这个是因为他们沿用的建模工具的逻辑：没有使用主键自增而使用的是自己单独建立表来记录maxkey的方式。结果没有考虑到查询不会锁表，同时查询使用到同一个pk，所以也就造成了实际插入的时候会触发duplicate key的问题。
+	maker:杭州建模、孟令飞（有问题却不处理，这个很奇怪）
+	solution time:3 days（一直延续直到我来接手）
+6	
+	description:图审在网页端撤回了审查阶段，将已经审查报告状态006，修改通过意见为修改，结果审查状态未改回005
+	location:这是有网页端撤回模块，只有删除阶段，没有改回状态，逻辑不全造成。
+	maker:mlf
+	solution time:2times,each half day.	
+	
+7	description:竣工图管理系统，图审需要一个状态，图纸是否上传了联系单文件的字段。他要求我在表里面加上这个字段，这将会涉及到本地、服务、数据库的修改。而且，以开闭原则来说，这属于extension的东西，不应该修改原来的设计。完全可以自己通过修改数据库查询语句完成。他强烈要求我这样做，并拒绝去修改我之前提交的代码。最终我拒绝了修改我的代码。但是最终他有这个需求，并明确表示不会我所提供的思路修改他自己的查询语句，所以最后我给他写了一个数据库查询语句
+	location:竣工图审
+	maker:zy
+	solution time：2h.	
+	ex:明显是在骗我干活，但是既然他将自己的懒惰归咎于自己的能力问题，那没有什么好说的了。真是差劲。
+	出了问题没有简单解决的心态，他已经完全放弃治疗了。
+	
+	description:
+	location:
+	maker:
+	solution time:2.	
+	
+	description:
+	location:
+	maker:
+	solution time:2.	
+	
+	description:
+	location:
+	maker:
+	solution time:2.	
+	
+	description:
+	location:
+	maker:
+	solution time:2.	
+	
+	description:
+	location:
+	maker:
+	solution time:2.	
+	
+	description:
+	location:
+	maker:
+	solution time:2.	
+	description:
+	location:
+	maker:
+	solution time:2.	
+	description:
+	location:
+	maker:
+	solution time:2.	
+	description:
+	location:
+	maker:
+	solution time:
+
+
+
+
+
+
+
+

@@ -1,0 +1,66 @@
+学习计划:（学习方法）
+	系统学习
+		原教材 1为了更好地接近底层
+			   2为了能说出来
+	零碎学习
+		从点到系统
+			为了补充完善学习系统
+			为了解决问题，更快地解决问题
+实践过程：
+	1.现在零碎学习，因为基于自己的兴趣，比较随意，所以觉得比较有意思
+		但是 很多时候并不能学习到根处
+	2.系统学习，觉得自己需要，但是难以坚持，看了就觉得困。没看进去
+		那么系统学习的时候再快一点，更快地找到突破点来讲整个知识体系串联起来
+		走马观花，记住一些"Representation Noun"就可以了，当然是深入了解一下，因为这个是key
+	3.如果你实践、探索得出结论的时候，不使用马克思，那么你只是填的坑，经验式的学习，那么这种学习方式，得通过时间的积累，而且会不断地犯错，以后在接触新的坑的时候，能很好地完成只是因为你遇到过这个坑。 所以这种对于机会这种罕见的东西，你很难抓住并且难以成功。
+		如果你的任何实践都不离开马克思，就像我们国家目前试图推崇的一种做法。使用马克思去解释和指导，那么应该就会强化你的“主心骨”——你一直所信奉的理论。通过不断地强化，到最后使用它去抓住机会。那将能更好推进，也不需要踩更多的坑，当然在做到完美方面确实需要经验（不要害怕向有经验的人需求帮助），但这些经验也只能算是你的一个补充。
+	result:遇到任何困难，没有遇到过的，遇到过的，全部使用马克思进行分析。
+		如果有时候不知道自己想达到的目的是什么怎么办呢？
+		因为这个不是你的main stuff。
+		为什么会这样，就是因为我没有目的。
+		shit，没有目标，因为没有用心，别人长时间后就不能感觉到你想法。
+		
+notes:
+	1.UserControl 动态加载
+	2.using static
+	3.
+	4.
+	5.
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<Direction>
+	1.exercise to be lusty(energetic)
+	2.Learn for news
+	3.Deep thinking
+	4.distribute the time rationally/properly
+	5.abandon the useless social circle(conflict)
+		thinking:
+		why I disapprove, because I'm in that. why I'm in that,because I have purpose ,once it worked, the word "useless" is false .so there is no conflict between them 
+		solve in two ways:
+		1.make useless turn to useful
+		2.ignore
+	
+	
+	
+	
+		
+		
+	
+	
+	
+	
+		
+		
+		
+		
+		
+		
+		
+		

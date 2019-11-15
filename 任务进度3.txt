@@ -42,7 +42,7 @@ V--> 现在手里的活又开始多了。
 	
 	http://www.lzstxt.cn/CQCensorServer/CensorService.asmx  http://www.lzstxt.cn/ECACensorFileServer/FileService.asmx  http://www.lzstxt.cn/CQCensorServer/PltManageService.asmx  http://www.lzstxt.cn/ECASignatrueFileServer/FileServer.asmx  NULL  NULL  NULL  NULL  NULL  http://www.lzstxt.cn/CQCensorServer/CensorService.asmx  http://www.lzstxt.cn/CQReportServer/ReportService.asmx  http://www.lzstxt.cn/ECAReportFileServer/FileServer.asmx  http://www.lzstxt.cn/CQEIService/EiClientService.asmx  NULL  NULL  NULL  NULL  http://www.lzstxt.cn/ECACensorFileServerAffixDownload/FileService.asmx  NULL  NULL  NULL  401  3
 	
-	http:// 172.30.33.54 /CQEIService/EiClientService.asmx
+	http:// jsgl.zfcxjw.cq.gov.cn:6018 /CQEIService/EiClientService.asmx
 
 	-->惠州记录节点信息。
 	
@@ -1120,7 +1120,6 @@ V--> 1.变更依据补充
 	这个材料是对应一个图纸节点的。
 	多个材料对应一个图纸。
 	在双击图纸节点的时候同时会获取该图纸下面的材料
-	
 
 	变更依据材料
 	先有什么就做什么吧，没有限制就不做太多的考虑，奥卡姆剃刀理论，使用最少的
@@ -2761,7 +2760,7 @@ clear
 	现在还剩一个多小时，我现在能做点什么？
 	
 	1.设计主管部门的东西
-	-->2.将所有程序调通。
+	V-->2.将所有程序调通。
 	
 		v立项->
 		
@@ -2876,17 +2875,17 @@ clear
 	乱抄代码的后果。damnit
 	接下来的演示应该不是很需要调通，只是需要知道一些业务逻辑,看起来并没
 	有什么业务逻辑，所以奥卡姆剃须理论，最简的。
+	clear
 	
-	
--->	360100 南昌 http://223.4.65.25:8080/NCWeb/#/a/lz-homePage
+-->	360100 南昌 http://59.55.120.139:8081/NCWeb/#/a/lz-homePage
 	341200 阜阳 http://60.172.12.109:8081/sgt/sgt/FYWeb/#/a/login
 	clea
 http://220.191.236.169:8088/PlanCensorFileService/FileService.asmx
 50	安徽	阜阳	341200	http://60.172.12.109:8081/sgt/ECACensorServer/CensorService.asmx	http://60.172.12.109:8081/sgt/ECACensorFileServer/FileService.asmx 	http://60.172.12.109:8081/sgt/ECACensorServer/PltManageService.asmx	http://60.172.12.109:8081/sgt/ECASignatrueFileServer/FileServer.asmx	NULL	NULL	NULL	NULL	NULL	http://60.172.12.109:8081/sgt/ECACensorServer/CensorService.asmx	http://60.172.12.109:8081/sgt/ECAReportServer/ReportService.asmx 	http://60.172.12.109:8081/sgt/ECAReportFileServer/FileServer.asmx	http://60.172.12.109:8081/sgt/EIService/EiClientService.asmx	
 http://60.172.12.109:8081/sgt/ECACensorFileServerAffixDownload/FileService.asmx	NULL	NULL	NULL	704	3
 	
-	52	江西	南昌	360100	http://223.4.65.25:8080/ECACensorServerOracle/CensorService.asmx	http://223.4.65.25:8080/ECACensorFileServer/FileService.asmx	http://223.4.65.25:8080/ECACensorServerOracle/PltManageService.asmx	http://223.4.65.25:8080/ECASignatrueFileServer/FileServer.asmx	NULL	NULL	NULL	NULL	NULL	http://223.4.65.25:8080/ECACensorServerOracle/CensorService.asmx	http://223.4.65.25:8080/ECAReportServerOracle/ReportService.asmx	http://223.4.65.25:8080/ECAReportFileServer/FileServer.asmx	http://223.4.65.25:8080/EIServiceOracle/EiClientService.asmx	NULL	NULL	NULL	NULL	http://223.4.65.25:8080/ECACensorFileServerAffixDownload/FileService.asmx	NULL	NULL	NULL	706	3
-	http://223.4.65.25:8080/NCSGTWeb/#/a/login
+	52	江西	南昌	360100	http://59.55.120.139:8081/ECACensorServerOracle/CensorService.asmx	http://59.55.120.139:8081/ECACensorFileServer/FileService.asmx	http://59.55.120.139:8081/ECACensorServerOracle/PltManageService.asmx	http://59.55.120.139:8081/ECASignatrueFileServer/FileServer.asmx	NULL	NULL	NULL	NULL	NULL	http://59.55.120.139:8081/ECACensorServerOracle/CensorService.asmx	http://59.55.120.139:8081/ECAReportServerOracle/ReportService.asmx	http://59.55.120.139:8081/ECAReportFileServer/FileServer.asmx	http://59.55.120.139:8081/EIServiceOracle/EiClientService.asmx	NULL	NULL	NULL	NULL	http://59.55.120.139:8081/ECACensorFileServerAffixDownload/FileService.asmx	NULL	NULL	NULL	706	3
+	http://59.55.120.139:8081/NCSGTWeb/#/a/login
 	看来衢州Plan的并没有布置上去。
 	这个项目放了好久了。
 	
@@ -2905,7 +2904,7 @@ http://60.172.12.109:8081/sgt/ECACensorFileServerAffixDownload/FileService.asmx	
 	下班之前把服务器地址给他配一下。
 	clear	
 -->http://60.172.12.109:8081/sgt/sgt/FYWeb/#/a/login
-	
+	clear
 	-->当然还有登录的这些等。
 	找到了，休息一下。
 	V下周二确定去衢州出差，那么你需要在那段时间集中点精力去把这个项目走通。并使它robust。
@@ -2921,7 +2920,7 @@ clear
 	所以，考验你效率的时候到了。
 	clear
 	
-	--> 今天要做什么？
+	V--> 今天要做什么？
 	有点乱，首先他们倒是提出了一些需求。
 	这个项目你怎么样？内心怎么样呢？ 
 	你与足够的知识储备来应付这个项目吗？ absolutly yes.
@@ -3130,11 +3129,308 @@ insert into sys_staffdef (st_id,st_name,st_loginname,st_passwd,row_guid,deptid)v
 	must i act seems very busy?
 	maybe maybe not.
 	没事，该装的软件，该拷贝的文件以及拷过去了，装好了。所以下一步，
-	
+	clear
 -->与其像一个咸鱼一样jzhmdyz，不如仔细思考一下下面工作的安排。
 	理清一下思路，
 	我现在要做什么？在台式机上面完成开发。
 	我可以直接把我目前的东西提交到git，然后到那边去下载啊，怎么没有想到这个呢？
+	clear
+-->接下来：
+
+1.试着转换成oracle版本
+这需要涉及到网页端、上报工具、cad的数据库交互部分，也就是Service部分。
+	看情况将dehelper重构成郑易3to1的debhelper
+2.网页端的页面优化，以及等待他们提出需求。
+
+it's already 5:30 time to toke.
+晚上有什么打算？
+当然是打打球了，练习一下转身，以及科比的虚晃。
+how about house, deside this weekend, then cost a week for movement.
+还有其他需要训练的内容吗？ 有的，但是我暂时有点想不起来。
+
+考虑一下装换成oracle吧。
+我如何处理？
+首先，看看这个dbhelper，看看他们是谁研发的，交流一下？
+如果是慧文研发的就好了，但是看起来不太现实。
+如果我需要直接对原项目进行重构以支持oracle的话，我肯定需要考虑到兼容以前的，兼容以前的好处理吗？还是说自己单独封装一个dehelper？
+虽然有一个providerName，但是根本就没有用到，所以使用郑易的3和1是必不可少的了。
+别考虑兼容什么的，直接放弃掉，自己搞一个不就好了。
+反正现在地市不多。
+	自己封装dbHelper。
+	幸好易大师的dbHelper是可以直接用的。
+所以下面呢？
+	是否需要将dbhelper替换掉？
+	算了吧，有很多其他项目也引用了这个dbhelper，所以如果修改，涉及的东西太多了。反而麻烦。
+	直接自己封装一个差不多的就好了。
+	那么就是将易大师的dbhelper提取出来，新建一个项目来进行封装了。
+当然还有一些plan的存储过程，看看还有哪个地市要方案的，看看存储过程翻译过了没有。
+答案是，并没有。 没有关系，几个脚本而已，饭后先把
+	直接用还是怎么搞，需要那啥吗？
+	需要封装吗？感觉不太需要啊，吗的，我的项目我做主，别人的项目一律不予修改。
+clear
+-->http://59.55.120.139:8081/ncweb/
+52	江西	南昌	360100	http://59.55.120.139:8081/ECACensorServerOracle/CensorService.asmx	http://59.55.120.139:8081/ECACensorFileServer/FileService.asmx	http://59.55.120.139:8081/ECACensorServerOracle/PltManageService.asmx	http://59.55.120.139:8081/ECASignatrueFileServer/FileServer.asmx	NULL	NULL	NULL	NULL	NULL	http://59.55.120.139:8081/ECACensorServerOracle/CensorService.asmx	http://59.55.120.139:8081/ECAReportServerOracle/ReportService.asmx	http://59.55.120.139:8081/ECAReportFileServer/FileServer.asmx	http://59.55.120.139:8081/EIServiceOracle/EiClientService.asmx	NULL	NULL	NULL	NULL	http://59.55.120.139:8081/ECACensorFileServerAffixDownload/FileService.asmx	NULL	NULL	NULL	706	3
+clear
+
+接下来继续完成，dbhelper的转换。
+暂时先不管，以前sqlserver版本的，先把目前的oracle版本解决掉。
+
+-->
+http://jsgl.zfcxjw.cq.gov.cn:6018/CQSGTWEB/#/a/login
+44	重庆	重庆	500000	http://jsgl.zfcxjw.cq.gov.cn:6018/CQCensorServer/CensorService.asmx	http://jsgl.zfcxjw.cq.gov.cn:6018/ECACensorFileServer/FileService.asmx	http://jsgl.zfcxjw.cq.gov.cn:6018 /CQCensorServer/PltManageService.asmx	http://jsgl.zfcxjw.cq.gov.cn:6018/ECASignatrueFileServer/FileServer.asmx	NULL	NULL	NULL	NULL	NULL	http://jsgl.zfcxjw.cq.gov.cn:6018/CQCensorServer/CensorService.asmx	http://jsgl.zfcxjw.cq.gov.cn:6018/CQReportServer/ReportService.asmx	http://jsgl.zfcxjw.cq.gov.cn:6018/ECAReportFileServer/FileServer.asmx	http://jsgl.zfcxjw.cq.gov.cn:6018/CQEIService/EiClientService.asmx	NULL	NULL	NULL	NULL	http://jsgl.zfcxjw.cq.gov.cn:6018/ECACensorFileServerAffixDownload/FileService.asmx	NULL	NULL	NULL	401	3
+clear
+
+已经基本反映成oracle的了，这么来说，我布在泸州的服务器上面试试，如果可行，然后再翻译一下上报工具的存储过程和研究一下cad端的一些东西应该就好了。
+
+http://www.lzstxt.cn/plancensor/login/index
+
+提示没有安装provider，咨询一下郑易好了。
+
+他没有回，那么试着装一个provider?
+如何装？
+先不用装，
+郑易给了意见，是因为我的配置有问题。
+
+仔细分一下。
+
+首先，确定是数据库的问题对吧。
+其次，会不会跟我这个编译出来的.net framework有关？
+	网页能正常浏览，关键的，就是这个OracleClient，但是我看了一下，他们的版本都是一样的啊。
+	
+	
+我网页是可以浏览的。
+
+休息一下吧 
+仍旧是报无法找到Provider的错误，那么，这个Provider是从哪来的呢？
+
+我只需要提供一个Provider，本地为什么不行？ 我试试我的电脑行不行，
+提交一下代码吧。
+
+太蠢了，浪费时间，不要对自己的代码这么放心，最好调试一下。
+
+首先，这个联合审查的相对独立的项目，其他服务呢?用来做些什么的呢？
+暂时不予考虑，现在需要做的是什么？
+将这个服务布置好，然后呢，
+布置个屁，布了也是白布。
+反正他们也不用的网页端。
+不用好像也没有关系吧，反正oracle的我是搞下来了。网页端的任务算是完成了，所以下面把
+上报工具和图审端弄一下。
+
+现在怎么去弄呢？
+先看一下衢州的有哪些存储过程，然后拷出来。
+然后再还原上去。
+
+jsgl.zfcxjw.cq.gov.cn:6018/CQEIService/EiClientService.asmx
+
+PLAN相关的应该都可以存储过程是可以了，那么下面呢？
+修改一下上报工具。
+让泸州可以找到 报审的项目先吧
+
+Plan的服务怎么样呢？
+没有的话叫他布置过来就好了。
+
+布置了以后的话，我需要什么？
+改一下地址服务器的地址。
+让他走通
+
+现在需要做些什么？
+1.上服务修改一下配置，然后呢？我数据库根本都没有还原过来吧？ 是的，并没有，那么就需要伪造数据？
+是的，需要伪造数据，我可以随意报建一个项目吗？试试好了。设计院选多少？cao，是从4库过来的，没事，先搞进去一部分好了。
+
+很奇怪，为什么我现在对新的项目需求有点都不感兴趣呢？
+
+工作态度真的有问题不是吗？
+
+我现在需要怎么做？
+我手里有活吗？absolutely yes.
+我应该把他们处理完吗？ yes 
+我应该用最快的速度去处理吗？ no 
+我需要计划一下我的时间和工作量吗？yes 
+
+为什么我会陷入这种状态，就是因为没有计划。
+no plan 
+
+没有计划，是因为没有目标吗？ yes 
+没有前进的目标，所以导致现在进程有点问题。
+对，有问题找上来的时候，我可能会积极处理。那么现在问题不就是找上来了吗
+
+我说过我需要一个实施，但是全部出差去了。
+
+-->我现在有计划了，把这个名义上交给我的项目，做好。TROUBLE MAKER
+现在有其他人在推动你了，你应该积极主动一点，不然会更加烦恼。
+clear
+
+如果不去主动，那么我就是给多少钱办多少事的状态，我不应该怎么做，我应该永远保持办多少事给多少钱的状态，这样我永远给了别人 压榨自己的机会，那么我也将在他们想要回报我的时候索取更多，或者直接让资本沉没掉。
+
+说实话，我这一个周都没有什么心情去处理，我只想早点搬家然后过上规律的生活。damn it!
+
+我现在需要上服务器，将服务配置好
+然后修改一下地址
+上报工具大致是通了。下面就剩下cad端了。
+然后网页端他们自己来好了。
+
+tbPlanSpecCatalogDic 
+
+那么下面呢？
+将cad端调通吧
+
+今天稍微好一点，没有那么累，还是需要多休息。
+
+
+好像是用的CensorService
+
+GetCensorShipStamp
+
+看看是哪个项目，具体了哪些函数
+
+免费入住？
+1400
+卧槽
+（）
+
+一个服务：
+http://220.191.237.175/ECACensorServer/CensorService.asmx
+
+就看看这个项目好了。
+3合一里面是有的
+在服务器上面找找好了
+
+http://www.lzstxt.cn/ECACensorServer/CensorService.asmx
+
+1.前期联合部门同事共同搭建项目框架；
+2.后期负责项目整体需求功能调整；
+3. 配合实施、销售对项目进行推广、培训及新需求功能模块撰写、调整等。
+
+登陆怎么处理呢？
+1.使用自己的？
+2.使用别人的？
+使用自己的吧。
+等等，我这边是没有做的。
+所以看看代码好了
+用的全流程的地址，那么说，这跟哪一样？
+衢州一样吗？
+V是一样的。
+那么，现在这么说，我这边好像是可以了。
+现在想办法测试一下吧。
+需要测试那么就需要一些测试数据
+从网页端下载一下测试数据吧。
+然后需要走一个测试项目吗？
+肯定的了。
+
+现在需要吗？ 
+暂时不需要，这个周末把房子搬迁的问题解决了以后，然后就可以开始疯狂工作模式了。
+所以今天正好有点累了，没有关系休息一下好了。
+80
+8080
+8081
+1521  3389
+117.157.233.200	
+clear 
+现在怎么样？
+everything is ok ?hard work time,let's begin!
+
+v1.比较紧急的是，重庆的需求。
+	ProjectType 2为勘察 
+	1为设计
+	现在找到如何生成的这个catalog
+	如果没有是怎么生成的，找错地方了...
+	V	
+-->方案审查
+
+通过手机 获取方案图纸接口
+王钰
+1.首先文档资料，截图保存到同一个文件夹
+2.项目已经到了推广阶段
+3.他们有提出测试需求
+4.泸州Oracle版本
+5.登陆对接 登陆 平台 
+6.安卓 手机端接口
+
+clear
+prjfunction
+V-->上报
+bim  
+首先马鞍山和重庆的有文档的问题都处理了，下班的时候更新一下就好了，更新。
+
+现在呢？have a rest
+clear
+
+-->然后泸州？
+	泸州的就方案审查
+	 做到了cad，如果cad通了就好说了。
+
+今天处理一下，oracle的版本。
+
+x衢州的是多少？
+登陆模块试试好了。
+
+需求不是很多，看看有么有新的功能需求吧，
+然后继续处理Oracle版本的？
+还是说比较着急，直接处理他们的？
+
+do not think too much,
+current is most important.
+
+
+
+ECA_GETPRJCATALOGBYUSERID
+	
+	http://www.lzstxt.cn/PlanCensorService/ccir/ManageDepart/GetCensorPrjCatalog?UserId=3235
+	
+	ECA_GETCENSORPRJCATALOGBYUSERI
+	现在我需要去衢州，将这些damn的存储过程拷过来。
+	并翻译成ORACLE
+	
+	休息一下吧。
+	
+	把所有的存储过程都翻译一遍，这是必不可少的damn it!
+	V    ECA_AddPlanCensorOption
+	V    ECA_AddPlanOkPlt
+	V    ECA_GetPlanOkDrawChapterInfo
+	V    ECA_AddPlanOkDrawChapterInfo
+	clear
+	都翻译了一下了，理论上面基本都通了不是吗
+	所以下面呢？ 
+	需要走流程试一下吗？
+	暂时不需要吧，下面，配合他们走流程，然后辅助性地修正错误就好了。
+
+V-->有可能无法启动是显卡的原因？
+我现在想怎么处理呢？
+1.我会考虑重装系统，这样的话，大部分软件会丢失。但是数据还在。
+	但是我不清楚重装系统是否能解决问题
+2.不重装系统，而是考虑继续坚持计算机来查找到具体的问题。这样会比较难不是吗？
+	有点难，但是是最好的解决方案。
+3.它确实是一台工作非常合适的电脑。（对于写代码来说，确实很好用）
+	完全不娱乐，那么就会考虑替代了。
+4.
+我已经用最好的解决方案解决了，当然其实我并没有做任何事，他自己就好了。
+clear
+-->现在处理一下衢州方案设计审查的。
+	
+	晚上去看看javaScript的书吧，吗的。真是烦得要死，浪费时间。
+	并没有js的书，还是得在网上买，是时候深化自己的技术了。
+	那么你想从事哪方面呢？
+	turn to :workstuff
+
+document.getElementById("table").rows[i].cells[0].getElementByTagName("input")
+
+singleCheck(a);
+
+function singleCheck(a) {
+            var checkboxs = document.getElementsByName("btSelectAll");
+            for (var i = 0; i < checkboxs.length; i++) {
+                if (a.value != checkboxs[i].value) {
+                    $(checkboxs[i]).attr("checked", false);
+                }
+            }
+        }
+V-->下面审查意见数据库查询脚本有问题，看看什么原因。
+SELECT DISTINCT t1.optionguid,t1.insertdate,t1.departoption,t1.replayopiton,t1.replaydate, t2.censordepartname FROM dbo.tbPlanCensorDepartOption t1 LEFT JOIN dbo.tbPlanCensorStaff t2 ON t1.userid=t2.censoruserid WHERE t1.PrjGuid=
+clear
+V-->还有页面时间久了报错的问题：CensorReplayIdea
+clear 
+-->单点登陆
+	复用施工图的。
 	
 	
 	
@@ -3145,10 +3441,10 @@ insert into sys_staffdef (st_id,st_name,st_loginname,st_passwd,row_guid,deptid)v
 	
 	
 	
-	
-	
-	
-	
+	clear 
+
+试着处理一下我电脑的问题，
+	继续把generation的问题思考完。
 	
 	
 	

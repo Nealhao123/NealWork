@@ -1,4 +1,4 @@
-V--> 现在手里的活又开始多了。
+﻿V--> 现在手里的活又开始多了。
 	大致为：
 	1.上报工具需求；
 		上报工具重庆需求：上报工具惠州需求、上报工具泸州需求、上报工具亳州需求。
@@ -3429,22 +3429,391 @@ SELECT DISTINCT t1.optionguid,t1.insertdate,t1.departoption,t1.replayopiton,t1.r
 clear
 V-->还有页面时间久了报错的问题：CensorReplayIdea
 clear 
+
 -->单点登陆
 	复用施工图的。
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+   哪里的单点登陆，
+   这个仍旧是和政务对接
 	clear 
 
 试着处理一下我电脑的问题，
 	继续把generation的问题思考完。
+-->所以下面处理的话，还是处理一下，重庆的需求吧。毕竟正式上线了。
+	1.勘察项目对接。
+		首先勘察项目，会要求填写项目编号，
+		http://47.108.80.111:8011/user/login?userName=scxt&userPwd=scxt@123
+		{"status":0,"msg":"加载成功","data":{"userId":"6","userName":"scxt","userPwd":"scxt@123","userRealName":"审查系统","userNewPwd":"scxt@123","userPhoneNum":null,"userPoliceID":null,"userDeptID":null,"userDeptName":null,"userRoomID":null,"userRoomName":null,"userZoonID":null,"userZoonName":null,"userEmail":null,"userQQ":null,"userSex":null,"userCCP":null,"userPicPath":null,"userAdress":null,"userGraduateSch":null,"userMajor":null,"userQualification":null,"userQualificationName":null,"userContractTypeID":null,"userContractTypeName":null,"userPositionID":null,"userPositionName":null,"userRegistStageID":null,"userRegistStageName":null,"userRegistFailReason":null,"userRegistDate":null,"userGradeID":null,"userGradeName":null,"userPostRankID":null,"userPostRankName":null,"userProTitleID":null,"userProtitleName":null,"userProTitleMajor":null,"userRoleID":null,"userRoleName":null,"userInDate":null,"userWorkStateID":null,"userWorkStateName":null,"userOutDate":null,"userPositionChg":null,"userGradeChg":null,"userPostRankChg":null,"userContractDate":null,"userAdvanceBonus":null,"userRemark":null,"startLine":null,"endLine":null,"userDeleteFlag":null,"customWhere":null}}
+		
+	2.
+	3.
+... too much.
+
+clear
+V--> 系统验收
+单独的项目查询模块
+需要列出所有项目吗？
+还是指定的项目？
+应该是指定项目的，只需要一个通用的码：校验赋码 就好了。
+然后通过这个校验赋码，在该模块查询出一些信息，设计方案项目基本信息，
+一个赋码会对应设计方案的多个项目吗？
+可以对应多个，但至少来说，这个已经是最靠谱的了，所以就出一个相应的模块，
+参数：项目赋码
+输出：一个页面 项目基本信息，规划的图纸和材料。
+clear
+	
+	V-->70ce9b2f-a0ab-41c0-99c5-7447d1789856
+	ViewPrjMaterial
+	http://220.191.237.175//PlanCensor/Plancensor/ViewPrjMaterial?prjreviewnum=2018-330800-82-03-072601-000
+	
+	要不要给他出个不需要读取的版本？
+	那么也就是需要配置各地市的文件了。
+	clear
+	http://220.191.237.175//PlanCensor/Content/PDF.JS/web/viewer.html?file=红线图.pdf
+	
+	http://220.191.237.175//PlanCensor/Plancensor/ViewRedLineMaterial?prjreviewnum=2018-330800-82-03-072601-000
+~-->http://220.191.236.169:18800/AuthServer/Auth/GetAccessToken?code=376fb791d9d344a9992981c23c6a8564
+方案审查的，简单来说就是用他们的用户体系，也就是我们只做了功能，业务，以及cad端，设计院端的研发。当然做了很多工作了。只是用户体系是他们的，
+这样不太好，你能放下地交给他们去维护吗？答案是不会的。
+而且考虑到和施工图的对接，那么你也不能这样搞不是吗？所以按照以往和施工图对接的模式，你得问问
+clear
+并没有对接，所以这个问题也暂时delay.
+	
+-->那么下面继续处理一下重庆的一些问题。
+1.这么说，bim的比较着急，那么先处理这个好了。这个周二和周三交。
+首先这个设置为单独的模块，增加一个上传bim文件，根据项目来的，所以，过滤一下所有包含bim的项目，然后当打开的时候， 判断一下断点续传，上传状态，所以应该有一个上传状态监测的。然后如果监测到该项目有需要上传的，那么询问是否继续上传，，
+需要给多个项目同时上传吗？
+没有必要，一个项目一个上传窗口就好了。
+我能复用以前文件提交的吗？那个用了委托，来实现，但是我这边的话，能这样用吗？有点复杂，我也可以控制他一个一个上传。但是感觉不是很好，所以得重新设计一个页面不是吗？
+
+最好的设计还是，跟其他下载工具一样的。
+
+迅雷、网页。
+这玩意并没有那么简单。
+但是我可以尝试着先把简单的事处理了，比如设计表。
+tbBimFileInfo (Bim文件信息)
+fileid（主键）,prjguid,fileguid,filename,fileExtension（扩展名）,UploadBeginTime（开始上传时间）,UploadEndTime（结束上传时间）,isDeleted（是否删除）。先研究一下服务看是否需要记录以及怎么记录断点。
+uploader
+
+V文件信息表，
+不要考虑太多，首先支持大文件上传，
+http://localhost:42054/Fileserver.asmx
+调试了，是可以传文件的。
+
+下面把form嵌入进上报工具。
+
+	做一个上传的页面。
+	直接用他的可以吗？
+	不可以，
+	那么把他的逻辑copy出来好了。
+	文件给他固定一下？
+	文件服务怎么搞？
+	web上面肯定是需要服务
+	怎么搞？ 
+	他这个服务怎么布置？
+	应该也是差不多的？
+	
+	copy一下页面然后，上传，
+	
+	中间还差一个窗体来显示该项目下面的BIM文件。
+	
+	然后在窗体上面 再挂一个按钮来显示，
+	这个copy一下，添加人员的吧。
+	这个已经OK了哦，
+	下面呢？ 
+	撰写服务，以及存储过程将，文件信息，等补充完成，基本上就做完了。
+	
+	服务撰写完了，现在试着 
+	 现在完成 存储过程
+V-->文件服务，
+	
+然后上报工具端的模块提供。
+
+需要打开后断点续传吗？断点续传是必须的，关键在哪比较好？
+
+断点暂不处理了。
+clear
+
+V-->企业信息对接。
+怎么个对接法？
+好吧，跟泸州差不多，大概明天需要再加半天班。
+
+
+
+
+
+2.勘察的比较麻烦，因为需要比较多的时间。
+3.短信发送
+https://help.aliyun.com/document_detail/101300.html?spm=a2c4g.11174283.6.602.76fa2c42iZsxna
+
+刘山琳(刘山琳)
+14:17
+AKID: LTAI4FxYqEx5jCqeEjUtb9JK          
+AK密码：bGWdlgPAmy9yrY22uda7UjaePqyfXi 
+@刘浩(刘浩) 刘浩 这个是短信发送提醒的
+
+也需要提醒工具。
+cool
+clear	
+
+-->
+红线的
+pdf文件
+页面
+几条数据
+easy 等他发东西给我了。
+clear
+
+现在泸州的好用吗？
+一点小地方进行了修改，但是不影响大致的东西。
+只是网页端的小修改。
+所以，照理来说，直接把本地的直接发布也是可以的不是吗。
+
+那么我还是修改衢州的吧。
+
+我是自己处理自己的需求呢？  还是把规划方案的服务布置一下呢？
+既然我答应了说后续的，那么，这个肯定不能花太多时间好吧。
+
+我只能说有点蠢，
+现在事情太多了，我不能让他们卡在我手上。
+1.首先是布置规划审查的服务的，至少需要2~3天。
+	几个服务，数据库 然后规划审查的C端（上报工具+CAD）。
+	我可以顺便出一个稳定
+-->V2.全流程的人想走通，那么需要做一点单点登陆的，
+	想想怎么调试呢？ 那么肯定是需要这个code的，所以让他给我code的方法，其实给一次应该也是够的；
+	但最好是给方法，这样给可以让我自己能冒泡测试。
+	http://220.191.236.169:18800/web/#/gateway
+账号：余林    密码：空 
+{
+    "access_token": "eyJUaW1lIjoiMjAxOS0xMS0yMlQwOTo1MDozMS44Mzg4NjcxKzA4OjAwIiwidHlwIjoiSldUIiwiYWxnIjoiSFMyNTYifQ.eyJVc2VySWQiOjY5LCJVc2VyTmFtZSI6IuS9meaelyJ9.CPzvNStmJrL_RhShyKXlFFecpjlTXLNoEf5Kg72uERw",
+    "userInfo": {
+        "userId": 69,
+        "userName": "余林",
+        "loginName": "余林",
+        "mobileTel": "",
+        "idcard": "",
+        "orgcode": "",
+        "staffType": "",
+        "mainDeptID": "53",
+        "mainDeptName": "质检一科职员",
+        "roles": null,
+        "depts": null
+    }
+}
+clear 
+别tm的什么单点登陆了，这系统以前就是好的，只是现在重新调通了一下，你还真以为你有什么大不了的负责一个项目？这些项目只不过是别人扔出来的垃圾，然后找个人来接手罢了。你要是想进步，就得自己学习，学点别人不会的，这才是你的价值体现。工作中只能积累经验，但是并不能让你学到什么深一点的知识。 通过自学而不是被当个工具一样做些别人不削的事，被迫实施。
+
+3.重庆上传bim文件，进度被打断了，那么先不着急了。
+
+4.南昌会有一些小需求，滞后。
+
+http://localhost:4522//home/Index?code=1b27eeea65ec44669d67b5dba37c6f55
+
+
+
+今天周五，有没有哪些适合周五处理的需求呢？
+好吧，这个单点登陆看起来挺合适的。
+V
+
+
+讲究度，所以有些着急，但是不应该影响你的进度。
+what fucking ever 
+V！1.明天要运动一下,白天可以打打球。
+V2.电影要看吗？ 看情况吧，可以看，当然需要下载，也有可能不用下载，下载也挺好的。
+V！3.网线做一下，这是必须的。反正我就是想做。肯定有用但是用处大不大以及是否一定有用。
+X4.上网呢？熬夜估计不太会去。
+V5.这个周事有点多，如果能休息，就尽量休息一下。
+6.
+  
+v-->不要管这么多，今天加班的目的就是把bim的处理完，
+至于他们想处理勘察对接的，最多也只能是初步对接。
+一切都不要管，先把bim做完。
+clear
+
+-->布置一下贵港的方案审查。
+	450800
+	首先，数据库，
+	oracle
+	
+	看看泸州的哪些服务用到了，不要复制不用的服务上去。
+	Plancensor 
+	Plancensorfileservice 
+	PlancensorfileserviceOut?
+	PlanCensorQualifiedFileService 
+	PlanCensorService 
+	
+	
+		008EC3C7-6BF5-4ABD-BC0D-D904B2CBAC54								
+	01D999CC-9CC5-4858-99FD-1179B4EAA9D0	重庆华彩建筑规划设计有限公司	1	李秀芳	59518390-9	91500000595183909L	工程设计乙级	勘察设计	2016/5/31 10:39:01
+	01F680F5-87DC-4030-A5BF-3B5F818A1B9A	重庆上书房建筑设计顾问有限公司	1	李建柱	75305790-9	500106000031291	工程设计甲级	勘察设计	2015/3/10 15:20:21
+	02FF2481-5983-475E-A40F-810E32B44AD2	重庆市雄远工程勘察设计有限公司	1	陈维忠	59516788-8	915002325951678887	工程设计丙级	勘察设计	2016/3/24 9:35:18
+	03165662-8A78-4BD3-968C-DBCD57812DF3	重庆伯爵王照明设计工程有限公司	1	裴小红	91500107771788772J	91500107771788772J	工程设计乙级	勘察设计	2019/2/26 9:54:24
+	
+	ViewRedLineMaterial
+	
+	
+	-->今天下午完成方案审查布置的。
+		根本上不去服务器，玩你吗啊
+		
+		我几个服务都布置了，然后呢？ 
+		数据库还差哪些？ 
+		我先配置得让web端可以访问吧。
+		
+		修改好配置，还需要干嘛？
+		
+		现在关键是，我的登陆账户哪来的。
+		吗的，大不了就数据库来，不要搞多余的事。
+		怎么简单怎么来 
+	clear
+	
+	-->温州的方案审查待更新
+	
+	clear
+	
+	-->适合下午搞的，把南昌的需求完成一下吧。
+	现在只能搞一个，那么就搞一个南昌的需求吧。
+	或者更新一下温州的？
+	更新一下温州的吧。
+	clear 
+	累了，休息一下。
+	
+	GetHsDepartInfo
+	"{d48285bf-c46c-48c2-9c7a-be8b021ffdf6}"
+	
+	-->最近工作有点忙是什么原因?
+	1.很多人都在找我，处理一些需求 
+		有哪些？
+		1.新地市开拓新的项目，方案审查
+		2.老的项目新的需求修改。
+		3.小工具因为其他公司接口的修改而做的维护工作
+		4.综合需求需要新的框架技术？有吗？不太确定就是没有
+		5.一些无关开发的事，诸如：撰写文档、回答流程、做简单的安装包之类的
+	2.
+	3.
+	
+	
+	早上我先把
+	
+		1	胡浩	男	身份证	510214197011190059	专业负责人,项目负责人	建筑
+	
+		李晓林	男	身份证	500381198512135216			
+	你发现没有，他们要求的时间，和效果其实并不是死的，但是他们总是喜欢要求时间，他们想打上flag，所以要求你这里完成某某某功能，但是你并反应不过来，这对你来说不过是漫长维护中的一个功能需求中的一个而已。
+	这个时候，1.他们要打flag，时间和效果完全没有跟我商量，他们只是需要立这个flag。
+			2.即时他们立上了flag，这跟你其实也没有什么关系，这只是心里预期而已，也就是这个flag完全不影响你自己的研发进度。
+			3.但是这个保证你不需要他们反馈的情况下。
+			他们总是觉得自己立完flag就可以跑路afk了，事实并不是这样，事情总是在process中去发生。
+			所以这也给了你自己一个警醒，如果能碰巧将事情处理的干净整洁，那么是幸运的，但是千万不要要求自己，每一件事都这样。
+			
+	他们想要完美，是不可能的，我也不会也不应该去要求完美。	
+   
+   at DrawingUnionCensorSystem.Controllers.HomeController.Index(String code) {"access_token":"eyJUaW1lIjoiMjAxOS0xMS0yNlQxMzozNjoxNC4wMDY5ODQzKzA4OjAwIiwidHlwIjoiSldUIiwiYWxnIjoiSFMyNTYifQ.eyJVc2VySWQiOjY5LCJVc2VyTmFtZSI6IuS9meaelyJ9.tK-X-VjU8KP5L6RHX27inkqFhOgVGw1IAxn5lvusj_c","userInfo":{"userId":69,"userName":"余林","loginName":"余林","mobileTel":"","idcard":"","orgcode":"","staffType":"","mainDeptID":"53","mainDeptName":"质检一科职员","roles":{"158":"质检科科员"},"depts":{"1":"系统管理员"}}}
+		
+	下面呢？ 
+	已经3点了，我还可以处理一些比较小一点的需求
+	现在有哪些小的需求：
+	V1.南昌还差一个字段
+	2.方案审查贵港，上报工具端配置
+	3.方案审查贵港，CAD端配置
+	V4.教翟建荣打包程序，可以安排上报工具的打包给她。
+		cool!!!
+	5.完成温州短信接口的修改。
+	6.温州方案审查的更新，以及系统程序的打包。
+	还有40分钟时间，感觉累吗？还行，今天没有休息过，所以不要给自己太大的压力，休息一下吧。
+	
+	fuck，不管了，说明天给就明天给。
+	
+	勘察设计企业内部管理云平台（浙江）
+	http://www.ccir.com.cn/
+	勘察设计企业内部管理云平台（浙江）安装程序
+	C:\Users\94748\Desktop\安装包
+	
+	安可	
+	厅为主
+	怎么适配要求
+	记录和听 
+	现场问清楚
+	
+今天早上先处理一下
+	
+	下面温州的短信接口大致是通的，那么我这边需要单独开发一下了。
+	
+	-->今天下午：
+	V1.温州文档
+	暂时不管了
+	2.温州测试包及网页端的更新
+	看一下svn上面的提交记录？ 或者直接更新整个。
+	直接更新整个其实也不是什么问题。
+	现在需要怎么做？
+	1.
+		首先把网页端替换上去。 
+		替换网页端，并走测试项目
+		其次，替换一下cad端，就用那个测试包好了。
+		
+	更新范围：
+	.dll 
+	
+		
+	2.
+	
+	
+	
+	3.准备明天的出差
+	4.将温州短信的研发稍微延后。
+	
+	"d332bd95-963c-46a8-8866-6f412c20fa7b"
+
+
+	
+	
+	/PlanCensor/PlanCensor/GetPltInfo
+	
+	../Content/PDF.JS/web/viewer.html?file=
+	
+		
+		http://117.149.224.15:37780/PlanCensor/PlanCensor/GetPltInfo?pltguid=d332bd95-963c-46a8-8866-6f412c20fa7b
+	
+	
+	
+	syntactically
+	
+	http://api.eyun.openmas.net/yunmas_api/smsApi/batchSendMessage
+	
+	
+	现在上传文件有点问题，
+	获取的时候，不是ftp, 然后名称是+.
+	上传没有问题，获取有问题
+	
+	问题还是上传文件，文件名和extension传错的问题。
+	
+	文件服务有问题，那么这个文件服务是哪个呢？
+	
+	../Content/PDF.JS/web/viewer.html?file=../temp/ddf3fa57-891c-4059-8abc-ba0db4114c8d.pdf
+	
+	http://117.149.224.15:37780/PlanCensor/Content/PDF.JS/web/viewer.html?
+	
+	
+	http://117.149.224.15:37780/PlanCensor/Content/PDF.JS/web/viewer.html?
+	http://220.191.237.175/PlanCensor/Content/PDF.JS/web/viewer.html?file=../temp/125b8eb1-612a-42db-b193-cf322c237697.pdf
+	
+	
+	file=..temp/6e85cbe9-319b-4276-ab02-ca5341ad0a30.pdf
+	
+	
+	对象名 'eca_tbcensornoderecordinfo' 无效。
+	
+	我现在是什么状况？
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	

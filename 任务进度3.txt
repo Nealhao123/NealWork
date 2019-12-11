@@ -3405,7 +3405,7 @@ V-->有可能无法启动是显卡的原因？
 4.
 我已经用最好的解决方案解决了，当然其实我并没有做任何事，他自己就好了。
 clear
--->现在处理一下衢州方案设计审查的。
+V-->现在处理一下衢州方案设计审查的。
 	
 	晚上去看看javaScript的书吧，吗的。真是烦得要死，浪费时间。
 	并没有js的书，还是得在网上买，是时候深化自己的技术了。
@@ -3706,7 +3706,7 @@ clear
 	他们想要完美，是不可能的，我也不会也不应该去要求完美。	
    
    at DrawingUnionCensorSystem.Controllers.HomeController.Index(String code) {"access_token":"eyJUaW1lIjoiMjAxOS0xMS0yNlQxMzozNjoxNC4wMDY5ODQzKzA4OjAwIiwidHlwIjoiSldUIiwiYWxnIjoiSFMyNTYifQ.eyJVc2VySWQiOjY5LCJVc2VyTmFtZSI6IuS9meaelyJ9.tK-X-VjU8KP5L6RHX27inkqFhOgVGw1IAxn5lvusj_c","userInfo":{"userId":69,"userName":"余林","loginName":"余林","mobileTel":"","idcard":"","orgcode":"","staffType":"","mainDeptID":"53","mainDeptName":"质检一科职员","roles":{"158":"质检科科员"},"depts":{"1":"系统管理员"}}}
-		
+	clear
 	下面呢？ 
 	已经3点了，我还可以处理一些比较小一点的需求
 	现在有哪些小的需求：
@@ -3733,7 +3733,6 @@ clear
 	现场问清楚
 	
 今天早上先处理一下
-	
 	下面温州的短信接口大致是通的，那么我这边需要单独开发一下了。
 	
 	-->今天下午：
@@ -3747,36 +3746,19 @@ clear
 		首先把网页端替换上去。 
 		替换网页端，并走测试项目
 		其次，替换一下cad端，就用那个测试包好了。
-		
 	更新范围：
 	.dll 
-	
-		
 	2.
-	
-	
-	
 	3.准备明天的出差
 	4.将温州短信的研发稍微延后。
 	
 	"d332bd95-963c-46a8-8866-6f412c20fa7b"
-
-
-	
-	
 	/PlanCensor/PlanCensor/GetPltInfo
 	
 	../Content/PDF.JS/web/viewer.html?file=
-	
-		
 		http://117.149.224.15:37780/PlanCensor/PlanCensor/GetPltInfo?pltguid=d332bd95-963c-46a8-8866-6f412c20fa7b
-	
-	
-	
 	syntactically
-	
 	http://api.eyun.openmas.net/yunmas_api/smsApi/batchSendMessage
-	
 	
 	现在上传文件有点问题，
 	获取的时候，不是ftp, 然后名称是+.
@@ -3785,22 +3767,212 @@ clear
 	问题还是上传文件，文件名和extension传错的问题。
 	
 	文件服务有问题，那么这个文件服务是哪个呢？
-	
 	../Content/PDF.JS/web/viewer.html?file=../temp/ddf3fa57-891c-4059-8abc-ba0db4114c8d.pdf
-	
 	http://117.149.224.15:37780/PlanCensor/Content/PDF.JS/web/viewer.html?
-	
-	
 	http://117.149.224.15:37780/PlanCensor/Content/PDF.JS/web/viewer.html?
 	http://220.191.237.175/PlanCensor/Content/PDF.JS/web/viewer.html?file=../temp/125b8eb1-612a-42db-b193-cf322c237697.pdf
-	
-	
 	file=..temp/6e85cbe9-319b-4276-ab02-ca5341ad0a30.pdf
-	
 	
 	对象名 'eca_tbcensornoderecordinfo' 无效。
 	
 	我现在是什么状况？
+	现在是什么情况呢？
+	
+	我应该直接发一个安装包，然后呢？ 
+	通过替换文件的方式，如果我不这样呢？
+	需要把cityreg 改一下，现在我只需要保证，阳哥电脑上面的是可以的，应该就好了。不是吗？
+	TBPERSONPRJDUTYDIC
+	tbspecialitydic
+	V-->这个周主要处理一下重庆的需求
+	人员变更以后，我这边是怎么控制的？
+	首先我人员是否能登陆进系统又是怎么控制的？
+	然后我人员变更以后，又是怎么控制的？
+	370830199001042939
+	
+	clear 
+	V-->然后温州短信的问题。
+	
+	X池州、的问题看能不能拖到下一周。
+	clear
+	
+	V先提交一些代码吧。
+	
+	想想这个是否能改的。
+	
+	首先图审会重复受理吗？ 
+	
+	项目编号 PrjCode as SerialNumber
+	显示PrjName 
+	
+	淮南
+	
+	341600
+	
+	340400
+	今天把勘察的一些东西处理一下。  看看默认岩土专业是怎么回事。
+	如果是勘察，Dropdownlist
+	如果是其他，清空Items。
+	
+	找到那个表，找到那个判断语句
+	
+	TBPRJMATERIALDIC 材料表，就这玩意。
+	问清楚需求好了。岩土的。
+	
+	上报卡流程的问题，看看脚本怎么写的
+	
+WS_Report_GetPrjSpecSubPrj	
+	
+	1263
+	1
+	27929068-1
+	
+	prjtype 错了。看看怎么回事。
+	
+	 (int)Project.Instance.CurrPrjDesc.PrjType
+	
+	Project.Instance.CurrPrjDesc.strCensorPhaseID
+	
+	就现在这个状态可以先发一个版本上去吗？
+	他们周一要过去，应该是可以发一个版本的。
+	发完了以后呢？
+	重庆的工作还没有做完。
+	但是下个周得处理一下，规划方案的，因为现在温州已经有了比较稳固的一个版本。
+	{"resultCode":0,"resultMsg":"api及时短信批量提交成功","resultMap":{"blackSendList":[],"submitWaitSendCount":1,"batchId":"d7028860-35ef-4351-bb5c-3713949095c9","repeatSendList":[]}}
+	
+	{
+    "resultCode": 0,
+    "resultMsg": "api及时短信批量提交成功",
+    "resultMap": {
+        "blackSendList": [],
+        "submitWaitSendCount": 1,
+        "batchId": "d7028860-35ef-4351-bb5c-3713949095c9",
+        "repeatSendList": []
+    }
+}
+
+	var client = new RestClient("http://api.eyun.openmas.net/yunmas_api/smsApi/batchSendMessage");
+var request = new RestRequest(Method.POST);
+request.AddHeader("cache-control", "no-cache");
+request.AddHeader("Connection", "keep-alive");
+request.AddHeader("Content-Length", "204");
+request.AddHeader("Accept-Encoding", "gzip, deflate");
+request.AddHeader("Host", "api.eyun.openmas.net");
+request.AddHeader("Postman-Token", "019731dd-973b-4144-8a68-a79e277f16d6,357110c8-a999-4461-8b28-cca5e1c8265d");
+request.AddHeader("Cache-Control", "no-cache");
+request.AddHeader("Accept", "*/*");
+request.AddHeader("User-Agent", "PostmanRuntime/7.20.1");
+request.AddHeader("Content-Type", "application/json; charset=utf-8");
+request.AddParameter("undefined", "{\r\n\"applicationId\": \"6Hi4sxt5W9NMH4IHVOxscXul2B6QWvvxZ6Y\",\r\n\"password\": \"GTVOHULuzoRPvA4\",\r\n\"funCode\": \"1002\",\r\n\"sendTime\": \"\",\r\n\"extendCode\": \"33\",\r\n\"mobiles\": [ \"\"],\r\n\"content\": \"温州短信测试\"\r\n} ", ParameterType.RequestBody);
+IRestResponse response = client.Execute(request);
+
+重庆的下午发一下文档，然后暂停处理。
+clear
+clear
+clear
+clear
+-->今天先处理一下：
+V-->1.衢州的设计方案更新；
+	先更新衢州的。
+	需要更些什么东西？ 
+	dll
+	以及几个页面。
+	其实衢州现在挺完备的不是吗？
+	是的。
+	所以呢？
+	更新几个页面就好了
+	可能还需要更新一些存储过程。
+	温州的存储过程目前来看是好用的。
+	但是这玩意我没有记录。
+	但是无所谓，直接更新过来就好了。
+	
+	更新view的时候注意一定应该是可以的。
+	先不从温州更，先从本地更。
+	
+	我也可以通过自己测试来确定更哪。
+	存储过程，
+	V现在测试一下他们说的cad端的问题。
+	暂时不用管把，
+	clear
+
+
+关键有点难搞，这个需要修改上报工具端。
+还有cad端
+看看他给的文档。
+首先调通网页端。
+
+更新一下版本。其实中间没有设计院应该暂时也不影响的。
+
+51222119560412001X
+clear
+
+	暂时没有，而且现在是三个地市。
+	怎么处理？ 
+	暂时没有思路，没有关系。先做吧。
+	反正都是先调用的control，所以先通过control来获取配置的地市也是可以的。
+	新的需求先不管，现在先完成。
+看来这个方案联审的需求还是蛮多的。
+看来必须要重构一点代码来适应了。
+clea
+
+V-->绍兴也需要验收，需要这个玩意了。
+	我是真的头大。
+	http://220.191.224.175/plancensor/login/index既然下达了命令，那么今天把绍兴的服务给布置完全，然后将测试用例发给对应的人。
+	贵港的稍微延后一点没有关系的，
+	
+	今天的任务是什么？
+	将绍兴的方案联审的系统布置上去。
+	首先，现在上面有些表上面的，
+	通通不用管了，直接把他替换掉好了，连数据也替换掉!
+	有的服务先不用布置，
+	文件服务是有的。
+	那么不就只剩下网页端了？
+	图纸需要拷贝吗？ 
+	能拷贝就拷贝吧。不要在乎时间问题。
+	
+	下面呢？ 修改一下配置 
+	
+	sxcb
+	1
+	
+	下一步做什么？
+	首先登陆账户配置一下，
+	
+	V然后呢？  然后可以测试一下通不通了。
+	V获取到服务器的ip地址。
+	  
+市资规局
+市人防办
+园林管理处
+市气象局
+市发改委
+市消防支队
+	账号也有了，现在差什么？ 
+	上报工具试试；
+	然后cad端
+	明天编译一个上报工具出来，然后呢？ 还有cad端不知道怎么样，有点烦人。
+	
+	现在好像都差不多了，试着将测试包打包一下发给相应人员。
+	OK，休息一下，明天开始处理一下贵港的。
+clear
+clear
+-->今天衢州出差，暂时不知道具体任务，有可能跟方案审查有关。
+
+
+
+
+
+
+
+clear
+-->3.我有什么办法通过配置来修改前端吗？
+clear
+-->重庆勘察对接的怎么处理？
+	下个周处理
+	勘察对接
+	重庆短信
+	重庆提醒工具
+clear
+-->2.贵港的设计方案，ORALCE版本修改和调试。
 	
 	
 	
@@ -3810,6 +3982,25 @@ clear
 	
 	
 	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+clear
+
+那么今天做些什么呢？
+
+
+
+
+
+
 	
 	
 	

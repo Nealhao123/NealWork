@@ -3196,7 +3196,7 @@ http://www.lzstxt.cn/plancensor/login/index
 首先，确定是数据库的问题对吧。
 其次，会不会跟我这个编译出来的.net framework有关？
 	网页能正常浏览，关键的，就是这个OracleClient，但是我看了一下，他们的版本都是一样的啊。
-	
+	tbcensorconfig
 	
 我网页是可以浏览的。
 
@@ -3974,33 +3974,740 @@ clear
 clear
 -->2.贵港的设计方案，ORALCE版本修改和调试。
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 clear
 
 那么今天做些什么呢？
+手头的任务：
+1.方案审查贵港 
+看看贵港的吧，调试一下。
+
+http://222.218.31.31:18086/plancensor/login/index
+
+先试试vpn，然后登陆上去，如何弄一个贵港的版本出来？
+这不跟测试的差不多？
+但是测试的是有这个，但是他没有
+vpn不好上，
+配置地市不好配置，为什么不好配置，需要给孟解释一下，总比自己把锅接下来好。沟通就是好的。
+
+调试我确实调试不了。
+问题太多了。如果服务器好上，我肯定就上去了对吧。
+如果公司服务器好上，我也上去了，然后还配置了一下上报工具的一些url。
+
+--> 服务器配置
+CREATE TABLE [dbo].[tbCensorConfig](
+  [RowID] [int] IDENTITY(1,1) NOT NULL,
+  [CityCenter] [varchar](50) NULL,
+  [CityName] [varchar](50) NULL,
+  [CityNum] [varchar](6) NULL,
+  [censorurl] [varchar](100) NULL,
+  [censorfileurl] [varchar](100) NULL,
+  [pltmanageurl] [varchar](100) NULL,
+  [signatrueurl] [varchar](100) NULL,
+  [pltqrcodeurl] [varchar](100) NULL,
+  [row_guid] [varchar](50) NULL,
+  [BackUpUploadFileUrl] [varchar](100) NULL,
+  [BackUpSignatureFileUrl] [varchar](100) NULL,
+  [BackUpCensorUrl] [varchar](100) NULL,
+  
+  [NormInfoUrl] [varchar](100) NULL,
+  [ReportUrl] [varchar](100) NULL,
+  [ReportFileUrl] [varchar](100) NULL,
+  [EiClientUrl] [varchar](100) NULL,
+  
+  [PlanUploadUrl] [varchar](100) NULL,
+  [PlanCensorUrl] [varchar](100) NULL,
+  [PlanFileUrl] [varchar](100) NULL,
+  [PlanQualifiedFileUrl] [varchar](100) NULL,
+  
+  [AffixFileUrlDownload] [varchar](100) NULL,
+  [AffixFileUrlUpload] [varchar](100) NULL,
+  [CompeteMappingUrl] [varchar](100) NULL,
+  [CompeteMappingFileUrl] [varchar](100) NULL,
+  [SortNum] [int] NOT NULL,
+  [DbTypeNum] [int] NULL
+) ON [PRIMARY]
+
+insert into tbCensorConfig (RowID,CityCenter,CityName,CityNum
+,censorurl,censorfileurl,pltmanageurl,signatrueurl
+,NormInfoUrl,ReportUrl,ReportFileUrl,EiClientUrl
+,PlanUploadUrl,PlanCensorUrl,PlanFileUrl,PlanQualifiedFileUrl
+,SortNum,DbTypeNum)
+values
+((select max(RowID)+1 from tbCensorConfig),'广西','贵港', '450800'
+,'http://222.218.31.31:18086/CensorServer/CensorService.asmx','http://222.218.31.31:18086/ECACensorFileServer/FileService.asmx','http://222.218.31.31:18086/CensorServer/PltManageService.asmx','http://222.218.31.31:18086/ECASignatrueFileServer/FileServer.asmx'
+,'http://222.218.31.31:18086/CensorServer/CensorService.asmx','http://222.218.31.31:18086/ReportServer/ReportService.asmx','http://222.218.31.31:18086/ECAReportFileServer/FileServer.asmx','http://222.218.31.31:18086/EIService/EiClientService.asmx','http://222.218.31.31:18086/PlanCensorWebService/PlanCensorWebService.asmx','http://222.218.31.31:18086/PlanCensorService/ccir/ManageDepart','http://222.218.31.31:18086/PlanCensorFileService/FileService.asmx','http://222.218.31.31:18086/PlanCensorQualifiedFileService/FileService.asmx',458,3)
 
 
 
 
+http://jsgl.zfcxjw.cq.gov.cn:6018/CQSGTWEB/#/a/login
+44	重庆	重庆	500000	http://jsgl.zfcxjw.cq.gov.cn:6018/CQCensorServer/CensorService.asmx	http://jsgl.zfcxjw.cq.gov.cn:6018/ECACensorFileServer/FileService.asmx	http://jsgl.zfcxjw.cq.gov.cn:6018 /CQCensorServer/PltManageService.asmx	http://jsgl.zfcxjw.cq.gov.cn:6018/ECASignatrueFileServer/FileServer.asmx	NULL	NULL	NULL	NULL	NULL	
+
+http://jsgl.zfcxjw.cq.gov.cn:6018/CQCensorServer/CensorService.asmx	http://jsgl.zfcxjw.cq.gov.cn:6018/CQReportServer/ReportService.asmx	http://jsgl.zfcxjw.cq.gov.cn:6018/ECAReportFileServer/FileServer.asmx	http://jsgl.zfcxjw.cq.gov.cn:6018/CQEIService/EiClientService.asmx	NULL	NULL	NULL	NULL	http://jsgl.zfcxjw.cq.gov.cn:6018/ECACensorFileServerAffixDownload/FileService.asmx	NULL	NULL	NULL	401	3
+
+http://220.191.237.175/PlanCensorWebService/PlanCensorWebService.asmx	http://220.191.237.175/PlanCensorService/ccir/ManageDepart	http://220.191.237.175/PlanCensorFileService/FileService.asmx	http://220.191.237.175/PlanCensorQualifiedFileService/FileService.asmx
 
 
+
+
+广西 贵港 450800 然后其他的url地址将头部替换成http://222.218.31.31:18086，其他名称不变
+clear
+
+看来问题解决了。
+现在看来服务器确实不太稳定，就算稳定了。我还需要什么东西呢？
+首先我需要调试一下网页端，
+然后上报工具的地址也配上去了。那么下面就需要单独编译一个贵港的版本出来。
+有什么特性？ 
+1.地址配置
+2.模块。
+没根据哪的进行配置呢？
+首先，需要注册吗？需要那么就需要EIService不是吗？
+一步一步来好了。
+copy一下其他地市的eiservice。
+-->V2.方案审查衢州 
+
+	他需要发送短信，那么其实也很好实现，也就是需要，
+	为什么看不到项目呢？
+	因为是按人推送的,userid，那么就需要改成 按 部门推送。
+	那么只有按照部门推送了。
+	
+	V那么现在怎么处理？
+	V报错？先查看报错什么原因吧。
+	
+	V2.配置账户 
+3.方案审查绍兴
+	1.绍兴校验赋码的接口是多少？找谁要？
+	 window.location.reload();
+	
+	绍兴想要单点登陆的？ 给做吗？ 
+	当然可以做了，但是，看看吧。
+	
+建设单位  密码 jsdw  Sysadmin 密码 cmdi
+
+住建局 密码qwe
+	把绍兴的更新上去吧
+	代码看起来都提交过了
+	
+	http://220.191.224.208:8088/sxQlcWeb/
+	http://220.191.224.208:8088/sxQlcServer/EcaServices/EcaAppServer/LoginToken?token=
+	问题找到了，全是大写的原因。
+	
+	
+	{"Success":false,"Msg":"token验证失败，token 无效！"}
+	
+{"Success":true,"Ticket":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJVc2VySUQiOjEsIlVzZXJOYW1lIjoi566h55CG5ZGYIiwiTG9naW5OYW1lIjoiU3lzYWRtaW4iLCJEZXB0SUQiOjAsIkRlcHROYW1lIjpudWxsfQ.TChUFAmOHpnac-T9ygsgL1B5LUVx3Uce7x1ycmWGi1k","UserID":1,"UserName":"管理员","DeptID":519,"DeptName":"管理员","Roles":{"119":"系统管理"},"Depts":{"519":"管理员"}}
+	
+	{
+"Success":true,"Ticket":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJVc2VySUQiOjEsIlVzZXJOYW1lIjoi566h55CG5ZGYIiwiTG9naW5OYW1lIjoiU3lzYWRtaW4iLCJEZXB0SUQiOjAsIkRlcHROYW1lIjpudWxsfQ.TChUFAmOHpnac-T9ygsgL1B5LUVx3Uce7x1ycmWGi1k"
+,"UserID":1
+,"UserName":"管理员"
+,"DeptID":519
+,"DeptName":"管理员"
+,"Roles":{"119":"系统管理"}
+,"Depts":{"519":"管理员"}}
+
+{
+    "access_token": "eyJUaW1lIjoiMjAxOS0xMi0xMlQxMToxOToxMy4wODUwOTM3KzA4OjAwIiwidHlwIjoiSldUIiwiYWxnIjoiSFMyNTYifQ.eyJVc2VySWQiOjMxNDIsIlVzZXJOYW1lIjoi6KGi5bee5biC5pS_5bqc5oqV6LWE6aG555uu5bu66K6-5Lit5b-DIn0.BayIaXBvuZV1CnL7UcpdQEURQJjp556VEIX1KtIE094",
+    "userInfo": {
+        "userId": 3142,
+        "userName": "衢州市政府投资项目建设中心",
+        "loginName": "jszx001",
+        "mobileTel": "",
+        "idcard": "",
+        "orgcode": "",
+        "staffType": "",
+        "mainDeptID": "",
+        "mainDeptName": "",
+        "roles": {
+            "168": "建设单位"
+        },
+        "depts": {
+            "1": "系统管理员"
+        }
+    }
+}
+clear
+-->4.上报工具重庆 
+	
+重庆的这个勘察的怎么处理？
+
+瞅瞅
+我直接用java搞些模块出来调用好不好？
+看看需求好了。
+他们都在忙，没有回复。
+等他们在的时候再咨询好了。
+
+http://jsgl.zfcxjw.cq.gov.cn:6018/BigFileService/FileServer.asmx
+
+记得去火车站取票的时候把发票打印一下。最好提前出发。
+是弄丢了。
+clear
+-->这个周：
+1.贵港 
+	1.报建项目，无法赋码校验，暂无赋码校验接口
+	2.暂无勘察设计四库接口。这个可能需要从上报工具端注册的企业中选择，也就是需要做一个接口来查询库里面注册的人员。
+	
+	V3.上传文本材料后无显示信息，看看日志和逻辑。
+	
+	4.他现在的逻辑是只要能图审可以审查就行了。所以我设计院端暂时不予配置也是可以的。
+	
+	我现在卡在哪了？
+	卡在获取材料信息的时候，全部显示undefined。吗的什么鬼？
+	首先dll复制了，view复制了。
+	调试看起来也没有多少问题，为什么会undefined？
+	一会再看一下吧，oracle版本的确实很烦人。
+	
+	池州导出意见是空的，调试一下什么原因，得休息好累。
+	
+	首先，数据里面看起来好像是对的？
+	刚替换了一波好像，又有了新的问题。
+	V按理来说，替换了的，都是最好的。
+	原来是datatable大小写的问题。
+	
+	V上传的图纸无法预览，看一下是为什么
+	是不是工具没装？ 
+	考虑一下如何装工具，
+	文件传上去了的
+	ggmis5
+	下面是需要导表。节点表
+	CREATE TABLE [dbo].[tbPlanCensorStateDic](
+	[censorstateid] [int] NOT NULL,
+	[censorstatecode] [varchar](3) NULL,
+	[censorstatename] [varchar](100) NULL
+) ON [PRIMARY]
+GO
+SET ANSI_PADDING OFF
+GO
+INSERT [dbo].[tbPlanCensorStateDic] ([censorstateid], [censorstatecode], [censorstatename]) VALUES (1, N'001', N'设计单位完成赋码校验')
+	
+CREATE TABLE [dbo].[eca_tbcensornoderecordinfo](
+	[noderecordid] [int] IDENTITY(1,1) NOT NULL,
+	[nodecode] [varchar](50) NULL,
+	[prjrowguid] [varchar](50) NULL,
+	[prjcensorstagename] [varchar](50) NULL,
+	[nodebzinfo] [varchar](500) NULL,
+	[username] [varchar](100) NULL,
+	[noderecorddate] [datetime] NULL
+) ON [PRIMARY]
+	
+	CREATE TABLE [dbo].[eca_tbcensornodedic](
+	[nodeid] [int] IDENTITY(1,1) NOT NULL,
+	[nodecode] [varchar](50) NULL,
+	[nodename] [varchar](200) NULL
+) ON [PRIMARY]
+GO
+SET ANSI_PADDING OFF
+GO
+SET IDENTITY_INSERT [dbo].[eca_tbcensornodedic] ON
+INSERT [dbo].[eca_tbcensornodedic] ([nodeid], [nodecode], [nodename]) VALUES (1, N'100', N'建设单位完成赋码校验')
+INSERT [dbo].[eca_tbcensornodedic] ([nodeid], [nodecode], [nodename]) VALUES (2, N'200', N'设计单位完成图纸材料补充')
+INSERT [dbo].[eca_tbcensornodedic] ([nodeid], [nodecode], [nodename]) VALUES (3, N'300', N'主管部门完成受理')
+INSERT [dbo].[eca_tbcensornodedic] ([nodeid], [nodecode], [nodename]) VALUES (4, N'301', N'主管部门不予受理')
+INSERT [dbo].[eca_tbcensornodedic] ([nodeid], [nodecode], [nodename]) VALUES (5, N'302', N'主管部门出具审查意见')
+INSERT [dbo].[eca_tbcensornodedic] ([nodeid], [nodecode], [nodename]) VALUES (6, N'303', N'主管部门完成复审受理')
+INSERT [dbo].[eca_tbcensornodedic] ([nodeid], [nodecode], [nodename]) VALUES (7, N'304', N'主管部门出具复审意见')
+INSERT [dbo].[eca_tbcensornodedic] ([nodeid], [nodecode], [nodename]) VALUES (8, N'201', N'设计单位完成意见回复')
+INSERT [dbo].[eca_tbcensornodedic] ([nodeid], [nodecode], [nodename]) VALUES (9, N'101', N'建设单位完成意见回复')
+INSERT [dbo].[eca_tbcensornodedic] ([nodeid], [nodecode], [nodename]) VALUES (10, N'305', N'主管部门审查通过')
+SET IDENTITY_INSERT [dbo].[eca_tbcensornodedic] OFF
+
+现在是什么情况？ 
+	好像是可以了吧，走走流程？
+	还是说给那个测试？
+下一步网页端的模块都试试吧。
+下一步，配置一下主管部门的账户。
+市资规局
+	
+	tbPlanCensorStaff
+	做一下自增列。
+	
+	现在卡在添加会审部门这。
+	我继续走流程那么下面就是，走cad审查端了，我先把cad审查端的配好吧。然后最多的就是调试一下存储过程。整个流程应该就可以了吧。
+clear
+2.甘肃有些需求 最好在元旦之前。不算很急
+V 3.贴发票
+
+······
+
+172.18.4.9:18086
+	
+	gdyb21LQTcIANtvYMT7QVQ==
+	
+4.看一下玉林的需要些什么？
+只需要些服务文件，我已经有了。
+
+现在有哪些任务？
+1.玉林
+	需要配置服务器
+	然后cad端
+2.重庆
+	V人防保存不上
+	升级不行，暂时不管
+	要加的四个字段也加上去了，听他BB了。
+	我得改改架构了。
+	理想的架构是很方便拓展的。当然像mvc这种就是非常容易拓展的不是吗？ 会数据库语句，会前端控件。
+	什么是可变的? 字段是可变的。
+	
+3.甘肃
+	看看甘肃的。
+	
+V4.贵港
+	需要继续调试服务，然后cad端，
+5.绍兴
+	单点登陆的问题
+6.
+
+先从简单的做起，处理一下 上报工具的吧。
+然后绍兴
+	然后贵港玉林
+	
+<root><RFSubInfo RFGuid="4b60edb0-77c2-4176-8667-c6bdb0c303e6" RFInfoGuid="6231fb73-326e-47dd-a976-485e5e752336" FHNumber="12123" FloorCountUnderground="" WarAction="-1" FHLevelName="-1" OutNumber="" BuildArea="" SYAra="" YBArea="" YBPerson="" /></root>
+	
+	http://220.191.224.208:8088/sxQlcServer/EcaServices/EcaSingleSignOnServer/GetAccessToken?code=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJVc2VySUQiOjEsIlVzZXJOYW1lIjoi566h55CG5ZGYIiwiTG9naW5OYW1lIjoiU3lzYWRtaW4iLCJEZXB0SUQiOjAsIkRlcHROYW1lIjpudWxsfQ.TChUFAmOHpnac-T9ygsgL1B5LUVx3Uce7x1ycmWGi1k
+	
+	{"Success":true,"access_token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJVc2VySUQiOjEsIlVzZXJOYW1lIjoi566h55CG5ZGYIiwiTG9naW5OYW1lIjoiU3lzYWRtaW4iLCJEZXB0SUQiOjAsIkRlcHROYW1lIjpudWxsfQ.TChUFAmOHpnac-T9ygsgL1B5LUVx3Uce7x1ycmWGi1k","userInfo":{"userId":1,"userName":"管理员","loginName":"Sysadmin","mobileTel":"18504318302","idcard":"","orgcode":"","staffType":"","mainDeptID":0,"mainDeptName":null,"Roles":{"119":"系统管理"},"Depts":{"519":"管理员"}}}
+休息一下，don't mind that stupit who just give pressure, fuck off !dumbass!
+
+人防单体怎么加？
+先测试一下其他三个可以了吗
+可以的，
+现在加一个人防等级：
+下面修改一下获取和存储的就可以了。
+VECA_Addsubprj
+VEca_getbasicinfo
+看看甘肃的
+哪些可以做，哪些做不了。
+
+市民中心
+解释一些问题。
+
+继续处理甘肃的问题，还有一些问题需要查找
+
+	delete from tbprjmaterial where row_guid = '';
+	
+	http://222.218.31.31:18086/
+	
+先处理甘肃的需求。
+
+n   RegistCode.Visib
+n   WorkTradeRight.V
+n   techtitlename.Vi
+
+贵港的暂时放放。
+
+咨询一下能不能直接用平台做出那个url+参数的页面。如果可以，那么事情就很简单了。
+首先你完全可以把大部分重复性的工作交给会建模工具的实施工程师去做。
+2.我觉得目前我的这种做法是有问题的。有什么问题？对于地市的扩展是不容易的？
+首先，地市的个性化需求是一定的。是必需有的。但是在现在来看，目前这些个性化的需求，全部都有我自己编码实现，而且对以前的代码，堆积得越来越厚重。所以这个时候，我得，想一些办法，保持我的部分独立性。然后，
+
+思考一个问题，是做项目呢？还是做产品，如果是做项目，做一个丢一个。但是如果是做产品。那么就需要一些通用的东西，然后通用的简单的方式实现，而花精力去做产品的优化、研发等，让后做产品的话，个性化的需求，就属于服务了。
+
+今天先把绍兴的单点登陆的处理了吧。其实就是通过验证出来的信息，
+绍兴的无法赋码校验，也无法单点登陆，为什么？因为服务器和外网没有通。
+尴尬。
+	http://220.191.224.175/plancensor/home/index?code=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJVc2VySUQiOjEsIlVzZXJOYW1lIjoi566h55CG5ZGYIiwiTG9naW5OYW1lIjoiU3lzYWRtaW4iLCJEZXB0SUQiOjAsIkRlcHROYW1lIjpudWxsfQ.TChUFAmOHpnac-T9ygsgL1B5LUVx3Uce7x1ycmWGi1k
+	http://220.191.224.175/plancensor/home/index?code=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJVc2VySUQiOjEsIlVzZXJOYW1lIjoi566h55CG5ZGYIiwiTG9naW5OYW1lIjoiU3lzYWRtaW4iLCJEZXB0SUQiOjAsIkRlcHROYW1lIjpudWxsfQ.TChUFAmOHpnac-T9ygsgL1B5LUVx3Uce7x1ycmWGi1k
+	
+	220.191.224.175/plancensor/home/index?code=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJVc2VySUQiOjEsIlVzZXJOYW1lIjoi566h55CG5ZGYIiwiTG9naW5OYW1lIjoiU3lzYWRtaW4iLCJEZXB0SUQiOjAsIkRlcHROYW1lIjpudWxsfQ.TChUFAmOHpnac-T9ygsgL1B5LUVx3Uce7x1ycmWGi1k
+	http://220.191.224.208:8088/sxQlcServer/EcaServices/EcaSingleSignOnServer/GetAccessToken?code=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJVc2VySUQiOjEsIlVzZXJOYW1lIjoi566h55CG5ZGYIiwiTG9naW5OYW1lIjoiU3lzYWRtaW4iLCJEZXB0SUQiOjAsIkRlcHROYW1lIjpudWxsfQ.TChUFAmOHpnac-T9ygsgL1B5LUVx3Uce7x1ycmWGi1k
+
+贵港的问题，
+
+考虑一下架构。
+我现在都变成工程人员了。
+
+不行，下午要咸鱼一下，顺便考虑一下自己现在的状态。
+
+请问，我现在是不是想要做一个，JAVA的转化？
+
+那么我需要做什么？
+
+http://localhost:4522//login/Index
+
+webBrowser是非常局限的。
+只能实现简单的页面，对js/css那些的支持是非常少的。  
+原来是内核的问题。
+那么换成谷歌浏览器的内核，那不用说，肯定是很
+现在是什么情况？
+首先，如果我是一个简单的页面，没有过多复杂的js和css肯定是不会出问题的。
+第二，如果我兼容性好一些，需要看一下目标页面的内核是IE还是Chrome类型。
+一般现在他们搭建出来的网页都是用Chrome比较兼容的。why? 自己做出来的网页有是Chrome比较兼容。
+3.建模工具到底能不能实现URL+参数的方式进行访问。 这就关系到能不能让他们使用建模工具来搭建这个网页。
+我好像找到了，可以的。
+所以使用
+
+而对Chrome的兼容等问题，其实只是希望自己在下一步技术探究的时候可以用一些java技术，然后快速搭建网页（其实说实话，肯定是没有他们的建模工具快？他们有局限性。但是学习成本低。
+如果用系统的独立性来说呢？
+首先我都是可以搭建系统的，
+其次是速率的问题。（我最在意的是速率的问题）
+第三是美化的问题。（这个是其次，但是JAVA肯定是完胜的）
+第四是成本的问题。（对于公司而言成本是必须得考虑的问题之一）
+）
+
+今天做些什么？
+1.贵港的
+	网页端的大致是可以的了吧
+	然后现在呢？
+	处理一下cad端的。
+	这个周一定给他改造完成。
+	现在到哪里？
+	cad端，试试看
+好像也只有一个，也没有啥东西。
+	那么看看网页端有没有什么Bug
+	节点的现在也有了。
+	下一步呢？ 
+	处理一下，
+	文档里面的需求，把该屏蔽的字段屏蔽一下。
+	现在遇到的问题是什么呢？
+	代码重构的问题，我是否需要考虑一下这个问题？
+	考虑各地市不同的需求。
+	那么页面可能会有很多个，那么如何去应对这种问题呢？
+	各地市页面不同，那么最理想的是各地市各自加载自己的页面。
+	代码重构暂时不考虑，留到后面看怎么处理好了。问问他们是怎么处理的
+	
+	接下来看看，优化一下显示的项目信息好吧。
+	怎么讲？看看sql语句就好了。
+	从页面进入
+	
+	00700d87-4408-4bfa-bba4-5dfd535d287a
+2.a9ec34be-2589-4629-9677-dc25cf0498d3
+	先休息一下，然后看看下一步做什么
+	nothing gonna happen 
+
+1.先处理甘肃的问题
+	甘肃的这个通用的差字段，
+	新创建页面的话，如何去兼容老的呢？
+	两个存储过程都不太一样。
+	字段不一样，所以肯定是不能使用重庆的存储过程，那么重庆的字典表也不管用了。
+	但是我方式还是可以这样处理不是吗？
+	只是字典表换一个。
+	
+	看看能走到哪一步吧。
+	
+	首先我这个版本可以跟老的兼容吗？
+	肯定是可以的这是重构，完全是可以兼容的。
+	
+	那么就做一个老的兼容好了。
+	
+	保存的字段，初始化的字段，初始化应该不用了吧。
+	
+	原来是不小心把框拖进来了。现在怎么处理？
+	
+	仍旧保持这个样子吗？
+	还是说重新做一个？
+	肯定是保持现在的样子比较方便，为什么呢？
+	
+	无非多添加几个页面。
+	
+	不，还是重新做好了。最多兼容原有的。
+	
+	现在做怎么处理？
+	首先
+	1.字典表需要改一下。
+	2.然后新增字段通过建模工具加一下
+	3.然后页面重新画一下。
+		简单的页面设计完成，
+		下面就是补充字段及页面重命名
+		DesignSpeed 			道路设计车速
+		GPSDesignAgeLim 		给排水设计年限
+		SolvStandard			处理标准
+		SolvCraft				处理工艺
+		PrjContent				工程内容
+		GPSDesignLevelName 		给排水设计规模
+		GasSupLevelName				燃气供气规模
+		GasSaveLevelName  		燃气储存规模
+		GasPipeRadius			燃气管径
+		GasPipeLengh			燃气长度
+		HeatDesignLevelName 		热力设计规模
+		HeatSupArea 			供热面积
+		HeatRadiusLim 			口径限制
+		LandscpTotalArea 			风景园林基地总面积
+		LandscpWaterArea 		水体面积
+		LandscpGroundArea 		园路及场地面积
+		LandscpBuildArea  		建筑占地面积
+		LandscpGreenArea  		绿化种植面积
+		LandscpOtherArea		其他使用地面积
+		GarbageTreaAYear 		环境卫生年处理量
+		EnvirAgeLim				环境卫生设计年限
+		DesignStorage 			环境卫生设计库容
+		
+		只做增加，
+		
+	4.然后调试一下。
+	
+	1.甘肃的字段
+	
+	2.重庆的字段查询和更新存储过程。
+	surveygrade			kcdj	            ID  KANCHANAME 
+	xzkcname			TBKCJDDIC              NAME
+	slopetype			bplxzdb                BPLXNAME
+	levelslope           bpjbzdb               BPJBNAME
+											   
+	WATERCORROSIVE         stfsxzdb            FSXNAME
+	SOILEROSION            stfsxzdb            FSXNAME
+	yantuxiangmtype  		ytgcxmlx           YTGCTYPENAME
+	yantubianpotype         bplb               BPLXNAME
+	
+		52	江西	南昌	360100	http://59.55.120.139:8081/ECACensorServerOracle/CensorService.asmx	http://59.55.120.139:8081/ECACensorFileServer/FileService.asmx	http://59.55.120.139:8081/ECACensorServerOracle/PltManageService.asmx	http://59.55.120.139:8081/ECASignatrueFileServer/FileServer.asmx						http://59.55.120.139:8081/ECACensorServerOracle/CensorService.asmx	http://59.55.120.139:8081/ECAReportServerOracle/ReportService.asmx	http://59.55.120.139:8081/ECAReportFileServer/FileServer.asmx	http://59.55.120.139:8081/EIServiceOracle/EiClientService.asmx					http://59.55.120.139:8081/ECACensorFileServerAffixDownload/FileService.asmx
+		706	3
+	
+	insert into tbCensorConfig (RowID,CityCenter,CityName,CityNum
+,censorurl,censorfileurl,pltmanageurl,signatrueurl
+,NormInfoUrl,ReportUrl,ReportFileUrl,EiClientUrl
+,PlanUploadUrl,PlanCensorUrl,PlanFileUrl,PlanQualifiedFileUrl
+,SortNum,DbTypeNum)
+values
+((select max(RowID)+1 from tbCensorConfig),'广西','贵港', '450800'
+,'http://222.218.31.31:18086/CensorServer/CensorService.asmx','http://222.218.31.31:18086/ECACensorFileServer/FileService.asmx','http://222.218.31.31:18086/CensorServer/PltManageService.asmx','http://222.218.31.31:18086/ECASignatrueFileServer/FileServer.asmx'
+
+,'http://222.218.31.31:18086/CensorServer/CensorService.asmx','http://222.218.31.31:18086/ReportServer/ReportService.asmx','http://222.218.31.31:18086/ECAReportFileServer/FileServer.asmx','http://222.218.31.31:18086/EIService/EiClientService.asmx','
+
+http://222.218.31.31:18086/PlanCensorWebService/PlanCensorWebService.asmx','http://222.218.31.31:18086/PlanCensorService/ccir/ManageDepart','http://222.218.31.31:18086/PlanCensorFileService/FileService.asmx','http://222.218.31.31:18086/PlanCensorQualifiedFileService/FileService.asmx',458,3)
+	
+	update tbCensorConfig 
+	set 
+	censorurl= 'http://59.55.120.139:8081/ECACensorServer/CensorService.asmx'
+	,	pltmanageurl	 = 'http://59.55.120.139:8081/ECACensorServer/PltManageService.asmx'
+	,		NormInfoUrl =  'http://59.55.120.139:8081/ECACensorServer/CensorService.asmx'
+	,		ReportUrl =    'http://59.55.120.139:8081/ECAReportServer/ReportService.asmx'
+	,	EiClientUrl	 =     'http://59.55.120.139:8081/EIService/EiClientService.asmx'
+
+	where CityName = '南昌';
+	
+	3.贵港 
+	4.
+	 
+	500
+	9500
+	
+clear
+	因为没有对工作及时清零，但是要工作清零是不存在的。
+	工作是永远做不完的，直接顺利接手出去以后，才算清除掉了。
+	
+	3b2f448a-121c-41f8-9f29-4f326fc9bcf0
+	
+	http://localhost:1261/ReportService.asmx
+	
+	delete from tbprjmaterial where row_guid = 'fe8d8d99-0204-47ce-82b5-1a4f40a95ded';
+	
+	delete from tbprjmaterial where row_guid = '84baf4cb-6f9d-4f32-8301-83c535261e85';
+	
+	-->设计方案联审：
+	考虑一下如何架构才能符合各地市的需求，且便于推广。
+	首先，各地市肯定有自己不同的字段录入需求？首先这个字段的录入需要
+	我想考虑架构是怎么架构呢？ 
+	对于地市的扩展，尽量少地对代码进行修改，更多地是通过修改数据库来达到字段新增的目的。
+	但是前端又不得不变对吧？ 
+	毕竟是需要录入的。
+	那怎么搞？通用的，根据数据库的字段录入来映射？
+	那么我就需要一个自动生成页面的方法。
+	如何根据数据库字段，生成对应的页面？
+	这个不但是要求动态，还要求自动。这也太难了吧。但是确实有很多人有这样的想法。
+	当然如果你会了自动生成，那么你肯定也可以进行半静态，半自动的方式。来进行处理。
+	
+	如果需要中文，那么我还需要搞映射文件？
+	或者我不需要，像oracle数据库一样，直接根据顺序插入进去就好了。存储过程是关键。
+	先把思路走通吧。
+	现在不想通，那么后面又得改了。每个地市改一下，如果你乐于这样还好说。但是你的代码要是同一套的呀。
+	你也需要根据不通的地市来配置不同的前端的呀。
+	而且你得分清，运行时编译和提前编译的不同点。
+	
+	而且你完全可以用java来实现的呀。
+	首先是没有考虑建立，而有了考虑修改拓展兼容。所以公司的建模工具也差不多是这样的逻辑来进行的，那么效果怎么样呢？  表象：招大量的非专业技术人员，来进行大量的重复性工作。 但是确实代码层面的话，专业人士的工作量确实变少了，但是这样说，和非专业的比呢？
+	首先来说，确实将一部分的内容进行的封装和解决。 扩展性不强。但是工作效率确实是有的，资本投入的节省也确实是有的不是吗？
+	
+	解决方案和进步的解决方案。
+	：针对用户的问题叫解决方案，针对解决用户的问题的解决方案的问题叫进步的解决方案。
+	而我现在就是在寻找这种解决自己问题的方案。
+	不管是想用java语言还是寻求更好的框架技术，其实这完全是为了解决我自己问题。
+	而我现在的问题是什么，疲于应对重复性的工作。
+	
+	那么确实是我需要学习的时候，
+	我已经找到了，兼容chrome内核的网页端winform页面技术，这意味着我很多东西都可以往网页端进行靠拢。
+	当然是在用得很熟悉的情况下。
+	那么下一步我需要做的事：
+	1.深度使用WEBKIT控件；
+	2.学习java，及相关框架技术，了解一下是否更为便利，然后为什么使用java的人那么多？论坛如此活跃？
+	3.看一下文档，还有哪些问题待处理的？
+	
+	周五放一下更新
+	把几个简单的需求处理一下
+	
+-->测绘成果，我应该怎么去处理这个事？
+
+首先，只是搭建demo，并不作为正式的系统。
+所以有些时候如果设计不通的话，完全可以使用写死的页面。
+数据写死行不行？
+
+首先，最坏的情况是整个demo都需要我来搭建。
+然后如何搭建这个demo，需求什么的都不明确。
+那么我应该如何去处理呢？
+
+现在好像是根据现有的 竣测合一的去反推？
+好像不需要，调试一下不就知道了
+
+虽然说是现成的，但是我觉得一点都不现成。
+然后周五要完成的话，有点困难，除非需要加班。
+搭一个demo需要多长时间？一天不够吗？
+我就算连不通的，我怎么处理？
+我到底需不需要跟数据库连接？
+看看图纸？能不能来一个完全不连接数据库的？
+niu B!!!
+最好试着完全不连接数据库。
+不然你还得去调通？
+
+得了吧。别调通了，要什么数据我马上给你造。
+开发两个函数，一个是输入字段快速生成dt的
+一个是输入dt和字段数据快速加数据行的。
+
+文件不提供上传，直接提供预览。
+
+开始调试
+自然资源、建设、人防等主管部门
+
+数据伪造地还行，但是最好 还是不同项目有点区分。
+
+先把这一部分处理掉，然后看资讯一下他是否需要进一步的，制造数据。 调通预览。 不包括上传。
+
+几个模块看起来好像是可以了，下面呢？ 做一下上传和下载的？
+放在服务器上面，下载的时候，就下载呗，下载的代码还差一点。
+
+图纸上传需要管吗？
+这要是管起来，挺麻烦的不是吗？
+上传要让它上传上去吧。
+先把技术走通，然后有什么修改意见再提好了。
+
+布置到服务器上面去，
+
+http://220.191.237.175/CMCensor/
+plt1.pdf
+seems good
+
+现在需要怎么处理这个东西？
+首先
+1.坚持不用数据库
+2.一些前端页面有点难处理。
+3.先从简单的做起。
+4.
+
+-->最后一个周，还有一些什么需求？
+V1.测绘系统：
+	V1.需要画一个项目页面；
+		页面画好了，
+		然后表打印的，
+		在前端加一个按钮，打印出一个word文档，
+		
+		V在项目
+		V明天统一更新一下
+		
+		
+	V2.需要考虑两个模块的实现；
+		1.申请表打印；
+		2.一键归档。
+2.上报工具：
+	1.重庆：1.勘察需要添加两个字段；
+			V屏蔽掉一个字段；
+			添加一个页面来录入字段信息。
+			2.和勘察对接。
+	2.甘肃：企业基本信息添加主要技术负责人。
+	X3.提交意见回复为灰色的提示。
+	V4.上报工具更新的问题，生成的快捷方式找不到更新文件，但是如果把更新文件放在桌面快捷方式的相同，所以这个生成快捷方式有点问题。
+		
+		所以意思的生成的快捷方式有问题。
+		
+		当然也可能是文件地址有点问题，
+		首先我可以怎么解决？ 首先我可以通过安装写注册表，然后登陆获取注册表的方式获取。
+		其次呢？
+		第二种，单独写一个快捷方式。
+		第三种，单独写一个启动方式。
+		
+		目前看来换一个获取方式比较好，
+		怎么说呢？
+		首先本地是肯定不行的，唯一一个全局的地方就注册表了。
+		注册表好处理吗？
+		当然好处理了不是吗？
+		那么现在怎么处理呢？
+		
+		看来更新程序也有点问题，这个怎么处理？
+		首先，肯定改改上报工具的更新程序。
+		有两种方式：
+		1.直接改成只有上报工具可以使用
+		2.改成通用的，通过一些配置手段来区分是否为上报工具。
+		感觉第二种靠谱一点。
+		改成什么配置？
+		
+		那么现在是成功的了。
+		32位的先不处理了
+		先把这个更新的问题搞定。
+		
+		考虑到一个电脑上面有多个版本的上报工具，那么又该怎么去处理呢？
+		首先肯定会出现注册值抢夺的情况
+		如果做多个
+	
+3.设计方案系统：
+	1.贵港新的需求；
+		1.贵港提出9个问题，有些问题确实不支持的；
+		2.单点登陆问题。
+	2.玉林新的需求；
+	3.整体架构；
+	4.整体单点登陆对接方案。
+	
+	需要保存吗？不需要保存。
+	怎么处理比较好?
+	其实有多个版本的时候，也可以用其他方式？跳过去
+	不读注册表的方式进行更新，那么修改将作用于上报和更新工具不是吗？
+	那么直接控制好了。
+	新的都给他加一个bat文件进行控制。
+	而旧的仍旧走老的流程。
+	good job.
+	
+	不用加 直接会判断有没有，等等，这个是兼容老的，所以不能让他们用新的？
+	是的，不能让他们用新的安装包。如果安装过一次，那么就会出现争抢。
+	那么还是用一个文件来判断吧，也就是 出现了bat，那么就使用本地。的获取方式
+	
+	所以没有反而成了常态，老版本没有行不行？也是可以的，老版本没有，为空，也是读取的当前的。
+	 
+	然后出现的情况就变成了：新的有，bat，有注册值，可以使用，没有bat有注册值，可以使用，没有bat 没有注册值可以使用。
+	
+	就这样实现一下吧。
+	如果逻辑没有问题了的话。
+	V
+	
+	现在是什么情况呢？
+	基本的代码都修改完成了，测试一下完整的流程。
+	
+	好吧，也算完成了，至少可以解决一部分了
+	  
+			dtCerts.Rows[i]["ZZLB"].ToString()
+			dtCerts.Rows[i]["ZSJB"].ToString()
+			
+			电子审图 ConsoleUpdate.exe EcaDwfCheckSystem10x64.dll EcaDwfDim10x64.dll version.xml 电子审图.exe
+			EPDMSGT.exe uploadclient EPDMSGT.exe 
+			EPDMSGT.exe uploadclient EPDMSGT.exe  EcaUpSdk.dll EcaUpSdk.dll.config ElecTuShenCilent.dll ElecTuShenCilent.dll.config EnergyConservation.dll EnergyConservation.dll.config Epdm.Controls.dll EPDMSGT.exe EPDMSGT.exe.config PlanUploadSdk.dll QMINewCensorIdea.htm UploadClientUpdateFilePath-20191206.rar UploadOperationLogic.dll UploadOperationLogic.dll.config version.xml 操作手册.pdf 更新内容.txt
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	

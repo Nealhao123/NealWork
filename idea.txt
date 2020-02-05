@@ -130,7 +130,6 @@ clear:
 		:这里其实有真理的
 		
 	>:如果你的目标在变小，你正在慢慢地倾向于舒适区
-
 	-->解释的时候总是很复杂，实践的时候总是很简单粗暴
 	clear:
 	:上帝和解决方案
@@ -213,7 +212,7 @@ clear:
 	:2.begin my new plan
 	:3.still not clearly is what did I learned?
 	
-	:at last, It's not all my problem, now you make your future partner more clearly.
+	:at last, It's not all my problem, now you make your future partner more clearly. 
 	
 	-->CompanyIdea:没有一个任务的完成的回复机制
 	 clear
@@ -385,7 +384,7 @@ clear
 	:适当地	Have Fun
 Extension:
 	我应该把最难的东西，放在我最精力充沛的时间段。
-  
+	
 -->I feel comfortable in this environment, also busy.
 		concern early always be good.
 		What concerned by me?
@@ -480,9 +479,9 @@ just works, no life. Is it because the season? I don't konw, maybe a litte bit c
 	If can it conclusion, the relationship make people superficial? If busy work make people superficial? no.I think, do not spend time leave yourself alone make you superficial.
 	so leave me alone.
 	I must learn something.ExBoss give me some advise, the best is staying in the next company at least two years. yes this thing I always looks hurry.I don't know why he told me be slow.But I'm going to obey his advise if there is no serious problems. because if I do not believe it, How about my haft-year pain I'v being through.Do not know the reason but I wouldn't let it go with out means.
-the other advise he gives me:this trade learn 5 years are enough. it is hard to exhaust the knowledge of Computer Science . it means that you can spend your lift time on it.
+the other advise he gives me:this trade learn 5 years are enough. it is hard to exhaust the knowledge of Computer Science . it means that you can spend your life time on it.
 	how to keep balance on your world and life.
-	that not the question.
+	that's not the question.
 	the real question is how to live in now and live forever.
 	sln: live in now. sln: live forever.(goal).
 	clear
@@ -528,6 +527,11 @@ the other advise he gives me:this trade learn 5 years are enough. it is hard to 
 	:不好的情绪需要发泄，但是需要转换。
 	:该拒绝的时候坚定地拒绝，你不应该对任何人难为情。
 	:请不要在情绪上面量化，情绪确实是时效性比较短的东西，而你应该在意和花费时间精力的，是你自身的核心。
+	2019/12/19 
+	目标仍旧是不能宣扬出来的。
+	而情绪，就算是宣泄在了笔记上面，问题也会迎刃而解。
+	“不清楚，不知道，不太确定，但是我很乐意试一下。”
+	
 -->sometimes, they can knows that your some small mind.
 	but that's ok, even they are right, do not care, they care because they are too free to do care such thing,
 	clear
@@ -1166,8 +1170,6 @@ clear
 clear
 我需要向上追寻，或者说，本来我就是在向上追寻。
 
-   
-
 回家考公务员并不是我想选择的，那是一条退路，我只是因为我对现在的生活有所不满，然后幻化出来的解决方案。如果有退缩的想法，那么不管你走到哪都是在退缩，而会过得愈加辛苦，主动找寻痛苦，总比不请自来的好得多。
 所以尤其是在我这个年龄，应该主动地去走一些艰难的路，no pain no gain.
 clear 
@@ -1183,23 +1185,6 @@ clear
 clear
 conclusion:1.避免无效的社交是正确的，这不是自闭。
 			2.如果遇见有效的社交关系，你应该更加主动一点进行信息的交换。
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 -->软件是有生命周期的。
 看时间的累计，有些知识学来会长时间的使用到。
@@ -1220,7 +1205,14 @@ clear
 	如果我们让一个物种一个环境：足够多的生存条件、不得不学习的驱动力。那么他们会成为人类吗？答案是肯定的。也就是你承认了科学。
 	但是你又怎么去解释量子力学里面的不确定性呢？你无法同时确定一个例子的位置和动量。
 	也就是，如果确切地知道现在，那么未来就是可预见的。可是由于不确定性原理，所以现在本来就是不可确定的。现在不确定，那么未来也不可确定。 这跟马克思呢？ 唯物还是唯心呢？
+	马克思是实践理论，而不确定性是唯心的。所以在确定性没有确定下来之前，人都可以是唯心的，虽然越来越接近，n=np但是在这之前都可以是唯心的，所以说，一事一议的理论也是很重要的。
+	经济学和一事一议的理论相通吗？答案是肯定的。
+	所以你不得不去遵从一些既得利益的原理。
 	
+	确定性是什么？就算按照宿命论那也是可以确定的不是吗？
+	但是事实上呢？仍旧是不确定的不是吗，虽然都是可以解释的，但是你如何预估呢？意图跑在时间的前面？也不是不行，毕竟时间只是一个虚拟单位。
+	
+	clear
 	
 -->我必须要尊重别人的学历，不是吗？ 
 	因为学历也是一种劳动成果，所以如果你要跟他们平齐，你必须也要投入相同的劳动量。
@@ -1255,10 +1247,6 @@ qoute:最优解永远都只存在于理论之中，次优解才是我们的奋�
 -->两个点:1.抽烟是感性，它目前来说是可以放大感性，也就是在感性的时候，弥补放大感性。
 2.你不会酗酒过度抽烟，理性是占比较重要的部分，但是在没有最有解的时候，需要感性来平衡你的理性，次优解。
 如果你想延续你的想法，那么你却控制了你的传承，这有点矛盾，但是我更希望的延续并不是通过生物的传承，因为这个肯定是有限度的，所以你是想要脱离物理的传承。这是你想要的。
-
-
-
-
 
 -->按需分配和按劳分配
 如果对较少的劳力支出，负面劳动比较大的（先假设负面劳动是完完全全的负面，就不应该存在的无意义劳动（反基本）），
@@ -1375,14 +1363,30 @@ extension2:
 	所以根据这个道理，我得使用实际的例子去测验一下。
 	这是什么？是打破厌烦的心理，而不是说是去达到不可能的目标。
 	
+-->idea 
+	1.一部电影两条线，甚至可以用场景和人物来进行穿插，
+	但是主线是罗生门。
+	后来用一把钥匙来打开悬疑。但是可以强行解释为很小的起因。
+	2.
+	clear
+-->鸡头与凤尾
+	我并不是个优秀的人，也没有优秀的成绩。我是个平凡普通的人，当然每个人都有自己的优点。所以我如果得进步，只能靠改变自己的所处的环境，接触的人。宁愿选择凤尾，莫做一个鸡头，这是理性得来的策略。
+	clear
+-->工程师和研究员
+	其实我小时候是和崇拜工程师的。
+	应该说，很多人都崇拜。
+	clear 
 	
+-->idea
+	每个人都有一个record，recode时刻，人类的辅助大脑。
+	所以你需要的，只是一个。这是用来做什么？用来回顾的吗？
+	知道原理，这又能做什么呢？
+	clear
 	
-	
-	
-	
-	
-	
-	
+-->民宿
+clear
+-->7年一个行业，如何让自己的思想活下来。
+clear
 	
 	
 	

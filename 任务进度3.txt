@@ -972,7 +972,8 @@ funny
 还是说来一个总的，相当于一个中间的东西。
 	可能需要考虑到高并发的问题。但这个后面的事了，先告一段落吧。
 clear
-
+
+
 -->一张大图片 png 贴45个图片上去，先固定位置。
 
 
@@ -1431,7 +1432,8 @@ X-->
 	我使用了其所包含的，
 	
 	所以我这些服务等东西，是不是不应该展示给用户呢？
-	我是不是应该只展示 服务所包含的方法？
+	我是不是应该只展示 服务所包含的方法？
+
 	
 	我是不是应该使用一个Souce将其独立起来？
 	
@@ -4578,8 +4580,8 @@ niu B!!!
 先把技术走通，然后有什么修改意见再提好了。
 
 布置到服务器上面去，
-
 http://220.191.237.175/CMCensor/
+
 plt1.pdf
 seems good
 
@@ -4675,7 +4677,7 @@ V1.测绘系统：
 	
 	现在是什么情况呢？
 	基本的代码都修改完成了，测试一下完整的流程。
-	
+	 
 	好吧，也算完成了，至少可以解决一部分了
 	  
 			dtCerts.Rows[i]["ZZLB"].ToString()
@@ -4684,6 +4686,195 @@ V1.测绘系统：
 			电子审图 ConsoleUpdate.exe EcaDwfCheckSystem10x64.dll EcaDwfDim10x64.dll version.xml 电子审图.exe
 			EPDMSGT.exe uploadclient EPDMSGT.exe 
 			EPDMSGT.exe uploadclient EPDMSGT.exe  EcaUpSdk.dll EcaUpSdk.dll.config ElecTuShenCilent.dll ElecTuShenCilent.dll.config EnergyConservation.dll EnergyConservation.dll.config Epdm.Controls.dll EPDMSGT.exe EPDMSGT.exe.config PlanUploadSdk.dll QMINewCensorIdea.htm UploadClientUpdateFilePath-20191206.rar UploadOperationLogic.dll UploadOperationLogic.dll.config version.xml 操作手册.pdf 更新内容.txt
+	
+	现在处理什么？
+	1.陇南服务器配置修改
+		服务器布置，放到晚上好了
+	2.方案审查问题贵港
+		
+	3.测绘成果系统问题
+	
+	4.
+	
+	今天先处理一下 单点登陆后的，静默登陆问题。
+	
+	上服务器获取一个验证的地方
+	
+	http://172.18.4.7:18085/GGQLCServer/EcaServices/EcaSingleSignOnServer/GetAccessToken?code=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJVc2VySUQiOjIyNzEsIlVzZXJOYW1lIjoi5LyB5LiaIiwiTG9naW5OYW1lIjoicXkiLCJEZXB0SUQiOjAsIkRlcHROYW1lIjpudWxsfQ.pojtMYphwvCnOhgE1_cGyxmuCWY64ehSXf6n9mHFEk4
+	
+	{\"Success\":true,\"access_token\":\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJVc2VySUQiOjIyNzEsIlVzZXJOYW1lIjoi5LyB5LiaIiwiTG9naW5OYW1lIjoicXkiLCJEZXB0SUQiOjAsIkRlcHROYW1lIjpudWxsfQ.pojtMYphwvCnOhgE1_cGyxmuCWY64ehSXf6n9mHFEk4\"
+	,
+	\"userInfo\":
+	{
+	\"userId\":2271
+	,\"userName\":\"企业\"
+	,\"loginName\":\"qy\"
+	,\"mobileTel\":\"\"
+	,\"idcard\":\"\"
+	,\"orgcode\":\"\"
+	,\"staffType\":\"1\"
+	,\"mainDeptID\":0
+	,\"mainDeptName\":null
+	,\"Roles\":
+	{
+	\"2979\":\"企业用户\"
+	}
+	,\"Depts\":
+	{
+	\"834\":\"企业用户\"
+	}}}
+	
+	
+	http://222.218.31.31:18086/plancensor/home/index?code=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJVc2VySUQiOjI0NDEsIlVzZXJOYW1lIjoi5Y-R5pS55aeUX-aigembheiOiSIsIkxvZ2luTmFtZSI6ImZndy1saWFuZ3lhbGkiLCJEZXB0SUQiOjAsIkRlcHROYW1lIjpudWxsfQ.iqcwQM-F6cEpD1jjEgUiPp22UaaMJbBWkTn8xrnmef0
+	
+	
+	http://172.18.4.7:18085/GGQLCServer/EcaServices/EcaSingleSignOnServer/GetAccessToken?code=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJVc2VySUQiOjI0NDEsIlVzZXJOYW1lIjoi5Y-R5pS55aeUX-aigembheiOiSIsIkxvZ2luTmFtZSI6ImZndy1saWFuZ3lhbGkiLCJEZXB0SUQiOjAsIkRlcHROYW1lIjpudWxsfQ.iqcwQM-F6cEpD1jjEgUiPp22UaaMJbBWkTn8xrnmef0
+	
+	{"Success":true,"access_token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJVc2VySUQiOjI0NDEsIlVzZXJOYW1lIjoi5Y-R5pS55aeUX-aigembheiOiSIsIkxvZ2luTmFtZSI6ImZndy1saWFuZ3lhbGkiLCJEZXB0SUQiOjAsIkRlcHROYW1lIjpudWxsfQ.iqcwQM-F6cEpD1jjEgUiPp22UaaMJbBWkTn8xrnmef0","userInfo":
+	{"userId":2441,"userName":"发改委_梁雅莉"
+	,"loginName":"fgw-liangyali"
+	,"mobileTel":""
+	,"idcard":"450803199008176666"
+	,"orgcode":"450803199008176666"
+	,"staffType":"2"
+	,"mainDeptID":0
+	,"mainDeptName":null
+	,"Roles":{"3069":"贵港市"}
+	,"Depts":
+	{
+	"deptID":"1073",
+	"deptName":"贵港市发展和改革委员会"
+	}}}
+	
+	如果着急，先把锁号去掉，
+	什么原因呢？
+	因为以前可能是用云平台上报的。
+	所以记录了锁号，
+	EI上报到底记不记录锁号？
+	应该是不会记录的，
+	
+	该项目是否使用该锁在云平台进行上报过？
+	
+-->
+	设计方案审查，还差些什么？
+	1.几个触发器
+	哪几个表的字段需要触发器？
+	
+	3个表：
+	表：tbBuildCorpBasicInfo
+	列：id(MAX(ID)+1)
+	
+	表：sys_deptdef
+	列：DEPTID ROW_GUID ISPLANDEPT(MAX(DEPTID)+1,NEWID(),1)    
+	
+	表：sys_staffdef
+	列:ST_ID (MAX(ST_ID)+1)
+	
+	V
+clear
+-->测绘成果需求 
+	简单地把测绘院的登陆模块做一下？
+	只完成选择了测绘院，可以看到项目
+	1.也就是选择对应的测绘院，在cad端就算是写死也可以看到新报建的项目。
+	
+	现在呢？ 
+	看着需求的文档，一个个处理吧。只要一天处理点东西出来就好了。
+
+	处理一下获取材料目录的
+	
+	现在的情况是什么？
+	是网页端上传的图纸和 cad端上传的材料冲突了。
+	
+	我修改哪一边比较好？
+	
+	或者是中间做个存储过程？触发器什么的？
+	没有必要吧。
+	
+	网页端的存储模式是：
+	一个材料文件一条数据	然后如果有单体（材料所在父级目录，则新建表存储父级（默认创建三个父级））
+	不存在多级
+	cad端的存储模式是：
+	一个目录一条数据
+	存在多级的情况
+	一个文件一条数据新建表；然后使用matralguid来对应row_guid来挂在目录下面。
+	也就是目录和文件分别存储。
+	这不是一样的模式吗？
+	只是一个是多级一个是单级的问题，那么下面我如何修改合并呢？
+	
+	首先修改哪里的比较好？
+	最好是cad端，因为bs端是有先前的设计在里面的。
+	
+	所以修改cad端。
+	把哪些改了？
+	
+	我网页端如果有多个目录，如何处理的？
+	。灵活配置是好的，只是网页端无法支持这个灵活配置的
+	根本不需要，是直接展示的，所以修改是支持的。
+	
+	只是无法上传自定类型的
+	这也没有关系不是吗，
+	所以改造一下 cad端上传逻辑是完全可以的。
+	
+	添加目录存储过程，添加材料存储过程
+	获取目录和材料的存储过程 以及初始化。
+	
+	我还是根据cad端来调试好了。
+	
+	V看一下网页端怎么样
+	
+	1.那么下面：完成cad端对其他类型的材料进行下载的逻辑，而对dwf等，试着直接在cad端打开。
+	V2.完成申请表打印的功能。
+		暂时忽略一下细节，把大致的完成好了。
+	V明天把获取文件名称做了这个功能基本完成。
+	
+	下面就做cad端的文件加载逻辑。
+	this.getResponseHeader('Content-Disposition')
+	"%bd%ad%c9%bd%b3%c7%c4%cf%d3%d7%b6%f9%d4%b0%c9%ea%c7%eb%b1%ed"
+	"attachment;filename=%bd%ad%c9%bd%b3%c7%c4%cf%d3%d7%b6%f9%d4%b0%c9%ea%c7%eb%b1%ed.doc"
+	"%BD%AD%C9%BD%B3%C7%C4%CF%D3%D7%B6%F9%D4%B0%C9%EA%C7%EB%B1%ED"
+	"%E4%BD%A0%E5%A5%BD%E5%95%8A"
+	"attachment;filename=æ±å±±ååå¹¼å¿å­ç³è¯·è¡¨.doc"
+	
+	看样子cad端应该是支持dwg文件的直接打开，
+	但是不支持dwf和pdf等其他文件。
+	那么我现在什么逻辑呢？
+	她说的话
+	Vdwf可以在cad端直接打开吗？ 应该是可以的
+	
+	玉林的需要布置这套测绘成果的东西。
+	
+	V2.陇南的服务器情况看一下。
+	
+	1.所有列表分页：
+	vue
+	2.文档模板图片章
+	将doc文档打印的功能做成通用的
+	
+	变量：模板、数据查询语句、图片章以及盖章的位置。
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	

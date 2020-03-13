@@ -3150,6 +3150,658 @@ insert into sys_staffdef (st_id,st_name,st_loginname,st_passwd,row_guid,deptid)v
 	
 	1.在git上面下载自己的note，2.看看联审相关的项目，考虑如何出一个oracle版本。（只是提前考虑一下，先没必要实际去做。）
 	
+	使用另一台电脑
+	
+	ou damn it 
+	
+	南昌oracle有点问题，我去技术支持一下
+	
+	53	甘肃	甘肃	620100	http://117.157.233.200/ECACensorServerOracle/CensorService.asmx	http://117.157.233.200/ECACensorFileServer/FileService.asmx	http://117.157.233.200/ECACensorServerOracle/PltManageService.asmx	http://117.157.233.200/ECASignatrueFileServer/FileServer.asmx	NULL	NULL	NULL	NULL	NULL	http://117.157.233.200/ECACensorServerOracle/CensorService.asmx	http://117.157.233.200/ReportServer/ReportService.asmx	http://117.157.233.200/ECAReportFileServer/FileServer.asmx	http://117.157.233.200/EIServiceOracle/EiClientService.asmx	NULL	NULL	NULL	NULL	http://117.157.233.200/ECACensorFileServerAffixDownload/FileService.asmx	NULL	NULL	NULL	507	3
+	
+	怎么进行设计比较好？
+	5个表，
+	然后每个表可能单独调用，
+	总是单独调用不是吗，
+	然后呢？ 有查询条件吗？
+	最好是有的
+	一次返回吗？
+	还是弄成我只需要某张表和查询数据的时候。
+	
+	所以这样做，传递表名和过滤条件。
+	select  * from xxx where 1=1 and ,
+	明天将服务布置到服务器，然后获取一下表，然后进行一个筛选。
+	
+	然后和泸州逻辑差不多地，放在企业那以及人员那。
+	
+	现在有表了，虽然看起来不太规范，但是大致都是有的，那么下面怎么处理呢？
+	截图，找字段，关联表
+	
+	筛选条件已经有了，现在开始嵌入，企业信息的嵌入应该比较简单吧 
+	跟泸州的一样就Ok
+	
+	给tbcaseuserinfo 表 添加字段：registrarType (是否注册人员) 注册资质 registrarTypeName varchar (注册类型名称)
+	
+	
+	然后呢？
+	所以在获取企业基本信息的时候，随便把资质信息也填加进去好了。
+	在接口进行处理
+	参考一下
+	
+	如何给这tbcorpinfo 加4列，随便添加四列应该也是可以的。
+	
+	 91500000595183909L
+	上传内容，本次大小：1048576，当前累计：4508 8768B ( 共：1 2930 6700B)
+	
+V	-->现在需要把流程走通，图纸的没有关系，我四库校验的呢？
+	我找个温州的四库校验的
+	
+	我这个周末的任务是什么？
+	将设计方案的调通 不用撰写新的功能，不用修复Bug
+	
+	衢州也是这样？
+	这不太科学啊
+	这一会有可以一会又不可以的？ 什么原因？
+	刷新一下又可以了？ 这是为什么？
+	
+	去衢州拷一点图纸下来。
+	
+	我都搞过去了，那么老的图纸也好像不行啊，除非把图纸也拷过去。
+	一切都没有什么问题了，只是添加主管部门的时候，好像反应有点慢。
+	下面呢？ 打算怎么处理?
+	现在到了开始审查阶段。
+	所以得用到cad，可是我现在没有cad，上报端呢?
+	
+	现在电脑上面是可以直接启动的，有可能是config的问题。
+	现在修改了，还是报错，
+	现在是什么问题？  
+	一个是登录进来没有直接登录上去。RunCpc  
+	第二个问题是 选择项目的显示图纸有点问题。
+	
+	现在要做什么呢？
+	需要调试一下程序吗？
+	需要找一下原因，什么原因？ 
+	首先如果我是衢州的可以通过吗？
+	试试 
+
+	*记得把那个CPCPATH的文件拷一下。
+	
+	
+	5961e71d-aa66-4859-9133-c84ecc1f3fad&开始技术性审查"
+
+	这个页面初始化的时候没有将用户名重置，现在考虑如何赋值上去
+	
+	现在先把需要代码的东西弄上去。
+	现在查一下初始化项目的问题
+	上传图纸的时候，没有带上默认subprjguid 和subprjname信息。
+	
+	这个怎么处理呢？
+	首先我有没有默认的？
+	通过触发器来处理：
+	首先报建项目的时候直接给该项目默认三个subprj目录
+	然后在页面上传的时候，
+	我记得以前好像有点印象，做过这个触发器？
+	在哪做的衢州。  看看储存过程有吗？ 设计院的 
+	有的，但是那是设计院的，那么怎么说呢？ 
+	
+	建设单位的也给来一个好了。通过储存过程可以改吗？
+	想想方案，建设单位来个默认的，
+	然后直接在网页端进行修改，也就不使用触发器了。
+	1.首先在报建项目的时候，先来一个默认的，还是默认三个？先解决bug，不要设计得太深了。
+	
+	X建设单位报建的时候有了，那么下面看，建设单位添加图纸的时候了。
+	需要做什么？
+	1.首先查询到这个个默认的subprjguid
+	2.然后在添加图纸的时候，把这个subprjguid记录上去，是这样吗？
+	是的，两个值：subprjguid/designcode 
+	
+	有了一个type
+	建设单位的在添加图纸处处理。
+	按钮名称有点不一样，怎么处理比较好？
+	其实都一样的。
+	方案说明，设计图纸，其他材料。
+	
+	这个好处理吗？ 
+	还算ok吧。
+	那么不着急，take it easy.
+	
+	现在是什么情况呢？ 
+	应该可以了，所以现在尝试着
+	
+	1.上传材料类型根本就没有做控制。
+	2.上传文本后，没有刷新需要点击一下
+	
+	我需要当前选中行，
+	好处理吗？
+	获取到选中的行，
+	看一下 
+	
+	发给阳哥调试的话，需要些什么东西？
+	
+	1.网页端：url/登录账户 
+	2.上报工具端：整个包
+	3.cad：outdir ,将cityplan的reg文件修改一下，整个包+运行ecaplt.vbs文件。
+	ok cool!
+	
+	我需要更新一下吗？ 当然需要的。
+	
+	意见呢？
+	
+	这有点问题我先保存数据再关闭窗口，还是先调用保存数据，再关闭窗口
+	
+	现在问题是什么？
+	
+	用盈川小区，我怎么处理？ 
+	当然是调过来了。然后把图纸拷贝过来。
+	
+	clear
+	clear 
+	clear 
+	clear
+	clear
+V-->既然到衢州了，那么就专心处理一下衢州的问题好了。
+衢州问题大部分是网页端的问题吧？
+好像是的，那么现在就处理网页端的问题就好了。
+
+ok，试着把一些东西优化一下。
+首先一个Bug，也就是初次点击上传文件的时候会出现404页面。
+找找这是为什么
+上传图纸现在测试又没有问题。这是为什么呢？Bug无法还原，这挺难找的。
+
+第二个问题，将规划局改成资归局
+需要做两件事，
+V1.更新dll
+V2.修改数据库 登录表，企业表，别忘了新增字段，以及项目staff表
+
+先处理一下其他部门添加会审部门的问题，
+再进行修改
+明天对接一下单点登录的问题。
+单点登录怎么处理？
+首先看看建设单位，
+
+最多也只是做一个静默注册的，
+也就是每一个从他们系统跳转过来的人，
+都将注册进我们系统。
+继续使用施工图的？
+首先有施工图的肯定是用施工图的，没有施工图的静默注册进施工图。这样好处理吗？
+做吧，做静默注册。
+首先，我需要知道他们的接口能校验出人员哪些信息。
+这个先试着停一下校验，然后最对应的开发吧。
+
+他们老是搞一些没有id什么的账户过来，这很烦人。
+
+然后他们需要看一下系统，那么就给他们看一下好了。
+
+第二，
+
+还有一个材料上传自动刷新的小问题。
+
+{
+    "access_token": "eyJUaW1lIjoiMjAxOS0xMi0xMlQxMTowNTo0My4yNDgxNzk2KzA4OjAwIiwidHlwIjoiSldUIiwiYWxnIjoiSFMyNTYifQ.eyJVc2VySWQiOjMxNDEsIlVzZXJOYW1lIjoi5byg6aKWIn0.zrtN4uzMoaSE-rLMPZDqcDRb0EMyrY88L0Ks7-_VgSc",
+    "userInfo": {
+        "userId": 3141,
+        "userName": "张颖",
+        "loginName": "张颖",
+        "mobileTel": "",
+        "idcard": "",
+        "orgcode": "",
+        "staffType": "",
+        "mainDeptID": "",
+        "mainDeptName": "",
+        "roles": {},
+        "depts": {
+            "1": "系统管理员"
+        }
+    }
+}
+
+{
+    "access_token": "eyJUaW1lIjoiMjAxOS0xMi0xMlQxMToxOToxMy4wODUwOTM3KzA4OjAwIiwidHlwIjoiSldUIiwiYWxnIjoiSFMyNTYifQ.eyJVc2VySWQiOjMxNDIsIlVzZXJOYW1lIjoi6KGi5bee5biC5pS_5bqc5oqV6LWE6aG555uu5bu66K6-5Lit5b-DIn0.BayIaXBvuZV1CnL7UcpdQEURQJjp556VEIX1KtIE094",
+    "userInfo": {
+        "userId": 3142,
+        "userName": "衢州市政府投资项目建设中心",
+        "loginName": "jszx001",
+        "mobileTel": "",
+        "idcard": "",
+        "orgcode": "",
+        "staffType": "",
+        "mainDeptID": "",
+        "mainDeptName": "",
+        "roles": {
+            "168": "建设单位"
+        },
+        "depts": {
+            "1": "系统管理员"
+        }
+    }
+}
+	现在什么情况呢？
+	他们给了很少的东西，几乎能用的只有一个登录名，密码估计还得我这边默认，无所谓，大刀阔斧。userName还和loginName不一样。
+
+首先给的东西不全是肯定的，但是我无法判断是他的错还是我这边有问题。
+所以现在，我先拿一个比较好用的账户，
+去做比对。
+是这样吗？ 
+然后其实我也
+	ok fine，问题确实就是他们的。
+	徐建是可以的。
+	
+{
+    "access_token": "eyJUaW1lIjoiMjAxOS0xMi0xMlQxMjowNDozMC4wNzYzMDQ2KzA4OjAwIiwidHlwIjoiSldUIiwiYWxnIjoiSFMyNTYifQ.eyJVc2VySWQiOjMxOTgsIlVzZXJOYW1lIjoi5b6Q5YmRIn0.SzIvD-HqxfzZU2BHDlpus8UJXW_MhTKRGcNMiJ8CYZU",
+    "userInfo": {
+        "userId": 3198,
+        "userName": "徐剑",
+        "loginName": "徐剑",
+        "mobileTel": "",
+        "idcard": "",
+        "orgcode": "",
+        "staffType": "",
+        "mainDeptID": "62",
+        "mainDeptName": "资规局",
+        "roles": {},
+        "depts": {
+            "1": "系统管理员"
+        }
+    }
+}
+
+	{
+    "access_token": "eyJUaW1lIjoiMjAxOS0xMi0xMlQxMjoxMjozMC42MDE2OTUyKzA4OjAwIiwidHlwIjoiSldUIiwiYWxnIjoiSFMyNTYifQ.eyJVc2VySWQiOjMxOTksIlVzZXJOYW1lIjoi5bu66K6-5Y2V5L2N5rWL6K-VMDEifQ.AtTwaAmQvWrII7haIVuw23wcdz-xzuf2Y_k5NrkCHrM",
+    "userInfo": {
+        "userId": 3199,
+        "userName": "建设单位测试01",
+        "loginName": "建设单位测试01",
+        "mobileTel": "",
+        "idcard": "",
+        "orgcode": "",
+        "staffType": "",
+        "mainDeptID": "",
+        "mainDeptName": "",
+        "roles": {
+            "168": "建设单位"
+        },
+        "depts": {
+            "1": "系统管理员"
+        }
+    }
+}
+{
+    "access_token": "eyJUaW1lIjoiMjAxOS0xMi0xMlQxNDozMzowMS40MDYzODI3KzA4OjAwIiwidHlwIjoiSldUIiwiYWxnIjoiSFMyNTYifQ.eyJVc2VySWQiOjMxODksIlVzZXJOYW1lIjoi5rWZ5rGf54OB5Z-O5bu66K6-5bel56iL5pyJ6ZmQ5YWs5Y-4In0.GHphrXFzVtny7qbMhRALjkqkKC5AkQO3wGR1PiVhocs",
+    "userInfo": {
+        "userId": 3189,
+        "userName": "浙江烁城建设工程有限公司",
+        "loginName": "91330822MA29UGWF29",
+        "mobileTel": "",
+        "idcard": "91330822MA29UGWF29",
+        "orgcode": "",
+        "staffType": "0",
+        "mainDeptID": "54",
+        "mainDeptName": "施工单位",
+        "roles": {
+            "166": "施工单位"
+        },
+        "depts": {
+            "1": "系统管理员"
+        }
+    }
+}
+单点登录好做吗？
+
+现在来看他们那边也水得一批，所以我这边先放放了，反正也不催他们。
+先不管了，
+
+下面，将一些安装包什么的需要给一下他们。后面再讲解吧。
+V账户添加一下
+
+上传文件后重新刷新列表可以吗？
+
+感觉不是很好操作。
+
+clear
+
+V-->问题找到了，可以重现了。
+现在是什么情况呢？ 
+应该直接刷新的，结果
+style="padding-bottom: 10px;overflow-y: auto;"
+明天把这个页面都调整一下。	
+	
+还有其他什么问题吗？
+先调整一下好了。
+clear
+
+现在还有哪些问题呢？
+1.重庆勘察的问题
+2.贵港的方案联审
+   
+3.记得上报工具的更新，将会更新温州的一个功能。
+  
+1.
+2.
+3.
+
+现在的任务：
+1.上报工具四个地市的更新，等待封文龙等我测试即可提交代码及软件更新
+2.阳哥交给我的周任务，最主要的是完成这几个项，看起来也没有多少，最复杂的也不过是数据库的建立
+然后询问清楚一些东西。
+   下一步
+	对接的事情无法处理。
+	下一步，将mysql数据库 架构建立好。
+	首先，我可不可以使用现在的plancensor的数据库？
+	最好不用，因为字段名称等。
+	我没有单独的实施，所以需求暂时也不清楚，能问则问，不能问自己理解。
+	反正工作量在那，
+	当做一个正式的项目做，那么，也需要安装自己的架构方式来进行架构。
+	第二种方式是，一切从简。
+	
+	不，现在已经不是一个demo。
+	为什么不乐意，因为感觉我就是为他们服务，给他们干活。我事实上是这样吗？当然了，我确实就是来干活的，但是我无法得知整个项目情况，这让我不知道如何处理。那么他们给的需求不明确吗？
+	
+	下面我需要做什么？
+	
+	有些什么表？
+	tbPlanCensorPrjInfo 项目基本信息表
+	tbCaseCorpBasicInfo 测绘院信息表
+	tbPlanDrawinginfo	测绘图纸信息表
+	eca_tbcensornoderecordinfo 项目节点信息表
+	
+	tbPlanCensorStaff 审查机构项目事务表
+	tbPlanCensorDepartOption 审查机构意见表
+	sys_deptdef 审查机构信息表
+   
+   
+   因为oracle的id不好用，而且也反应不了什么，所以直接使用guid关联。
+   字段什么的好像就一些显示出来的字段，
+   并不用太多繁杂的。
+   以至于cad端怎么样，这个项目不是属于我主管，所以我只管建设好了。统筹的事不是我的问题。
+   像上一个方案设计的项目一样，他们他妈的已经做到什么情况了也不跟我说，结果我拿过去自己翻了一遍。
+   是什么原因导致我接手的时候翻一遍？ 就是因为没有日志。
+   http://222.218.31.31:18086/GGQLCServer/GGQLCServer/EcaServices/EcaSingleSignOnServer/GetAccessToken?code=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJVc2VySUQiOjIyNzEsIlVzZXJOYW1lIjoi5LyB5LiaIiwiTG9naW5OYW1lIjoicXkiLCJEZXB0SUQiOjAsIkRlcHROYW1lIjpudWxsfQ.pojtMYphwvCnOhgE1_cGyxmuCWY64ehSXf6n9mHFEk4
+   
+   {"Success":true,"access_token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJVc2VySUQiOjIyNzEsIlVzZXJOYW1lIjoi5LyB5LiaIiwiTG9naW5OYW1lIjoicXkiLCJEZXB0SUQiOjAsIkRlcHROYW1lIjpudWxsfQ.pojtMYphwvCnOhgE1_cGyxmuCWY64ehSXf6n9mHFEk4","userInfo":{"userId":2271,"userName":"企业","loginName":"qy","mobileTel":"","idcard":"","orgcode":"","staffType":"1","mainDeptID":0,"mainDeptName":null,"Roles":{"2979":"企业用户"},"Depts":{"834":"企业用户"}}}
+   
+   现在怎么处理？
+   换一种远程连接方式。
+   
+   总会有很多报错需要你去查找。
+   
+   相信自己的代码。
+   做足够详细的日志报错。
+   
+   下面，将表格导入Mysql数据库
+   
+--> 今天先把甘肃的需求处理了，
+	没有关系，你可以使用一整天来处理。
+	现在重构单体的代码
+	如何重构？
+	现在重构到什么地方了？
+	遇到的问题是什么？
+	如何解决？
+	先不管初始化的事，先处理保存信息的事。
+	
+	首先我已经把所有的控件加入列表了
+	然后我已经将所有的字段也加入进去了
+	我比对字段名和控件名
+	既然我已经把所有的字段加进去了，那么我一定是可以使用使用上报的。
+	
+	重构已完成。
+	下一步：
+	可以选择继续完成甘肃的需求，也可以选择处理
+    测绘成果的问题
+	测绘成果的系统有些什么东西需要处理?
+	1.首先，系统的数据都是假的，所以需要补充系统数据相关代码的问题。
+		这个需要做些什么？
+		1.建表；
+			最困难的就是建表，需要考虑是否新命名。
+			不用考虑了，新命名！
+			然后字段呢？使用拼音就好了。
+			可以把
+		2.调试系统。					
+    2.将衢州的拷过来布置到省系统
+	3.建立数据库等。
+	
+	时间大概是下个周。可以完成吗？ 可以的
+	那么最困难的是什么？
+	建表
+	今天已经
+	写工作日志吧，明天再将服务布置上去。
+	
+	今天将服务布置上去，
+	然后关联一下表，如果今天不进行改造，明天恐怕没有时间处理。
+	
+	V看样子是需要衢州的服务器
+	1.表
+	尝试把表导入到现在的mysql里面去
+	V 已经把之前的三张表导入到mysql
+	2.服务
+	把服务器布置上去。
+	布置上去了，
+	下面修改服务并进行测试。
+	3.修改服务，重新设计表，结合语句完成对数据库的逆向建立。
+	你知道下一步做什么和怎么做，休息一下。
+	 
+	首先，先把测绘院表导入，然后再对其他表进行架构，新增字段等。
+	
+	http://223.4.65.113/cm/completemappingservice.asmx
+	http://223.4.65.113/cmcensor/login/index
+	
+	现在基本已经访问通了，下面，修改一下
+	连接字符串。
+	数据库已经调通。
+	现在就可以开始调整整个架构了。
+	
+	写工作日志好了，
+	知道下面需要处理什么了吗？
+	知道了 
+	可以从流程慢慢过来，先建表。
+	如果不知道怎么建，可以试着和前面的一模一样
+	只是涉及得到那三张表的时候需要注意：
+	1.mapping prjinfo 
+	2.matrail catalog 
+	3.cm  plt info
+	
+	当然为了完成演示需求，需要录一些东西进去
+	
+	可以先完成部分模块，比如先需要完成
+	项目信息模块及材料模块
+	
+	项目信息模块应该好说
+	
+	材料模块怎么处理？
+	今天处理一下两个模块，总共可能有四个模块
+	
+	要不先把表全部导过来，
+	然后再使用
+	修改的方式
+	
+	getdate() 没有这个函数，需要添加一个
+	
+	要看一下In怎么写的
+3.其他问题
+	1.节前压的需求  
+	2.一些维护工作。
+	
+clear
+	之前的工作暂时先告一段落。
+	
+    接下来需要处理的：
+	1.测绘成果系统相关问题
+		1.导出申报单功能点研发；
+	2.竣测其他问题；
+	3.方案审查用户单点登录模块静默登录相关问题研发；
+	4.
+	
+	先处理测绘成果系统cad到S端的调试
+		1.分为已有功能
+			意见汇总等功能，
+			然后估计有可能有一些储存过程等需要翻译。
+		2.融入EI的S端，好像是控制着一些图纸的上报等。
+	之前部分功能已经
+	
+		张万科	男	身份证	370830198602353503	结构	13655555444	在职	职称2	资格2	资格号2http://117.157.233.200/GSSGTWEB/eca/core/login/registAgreement.html
+	
+	
+	<root><corpbasicinfo ProvinceNum="" CityNum="" LinkMan="11" LinkPhone="15111111111" CertTypeNum="" CorpCode="2222333333" LegalMan="" address="" Loginname="2222333333" password="xMpCOKC5I4INzFCab3WEmw==" CorpName="11" TitleLevelName1="" CertCode1="" TitleLevelName2="" CertCode2="" TitleLevelName3="" CertCode3="" TitleLevelName4="" mainTecherIdNum="" AddType="0" /></root>
+	
+	<root><corpbasicinfo ProvinceNum="62" CityNum="620100" LinkMan="11" LinkPhone="15111111111" CertTypeNum="" CorpCode="27929068-1" LegalMan="刘山琳" address="" Loginname="2222333333" password="xMpCOKC5I4INzFCab3WEmw==" CorpName="北京建设数字" TitleLevelName1="甲级" CertCode1="11" TitleLevelName2="" CertCode2="" TitleLevelName3="" CertCode3="" TitleLevelName4="" mainTecherIdNum="235788655455442523" CertCode4="" AddType="1" /></root>
+	
+	-->这个的难点是什么？
+	难点是我现在根本不知道怎么去改造这个东西，
+	这个玩意需要花大量的时间精力。
+	我离回杭还有14天，
+	
+	其实我也有点想学习
+	
+	其他的暂时不管，登录模块我先独立出来一个，
+	或者直接在CAD默认一个独立账户，区分的我也先不管，
+	主管部门提意见在bs？
+	主管部门在BS提意见的话，那么这个模块是未处理的。
+	
+	  在cad端提意见的又是
+	
+	实际写代码处理才是最关键的。
+	其他时候的规划完全都是没有多大意义的；
+	所以，今天必须晚点处理几个需求出来
+	白天多休息睡觉，
+	先解决测绘院提意见的问题，这里没有，那么就新增。
+	
+	方案的提意见模块
+		登录模块呢？ 不完成，只先做一个修改好了，因为本来就是要分开登录的，那么说，还是可以独立完成测绘院登录的模块，也可以完成，
+		那么下面两个任务：
+		1.完成测绘院登录模块；
+		2.测绘院提意见模块。
+		
+		其他的就不要多想了。
+		那么主管部门在cad端的需求就暂时先不管了。
+	先让他能查到项目？
+	然后提交几条意见？
+	那不是要调通吗，布置服务，调通。
+
+	看逻辑是少不了的，
+	
+	现在方案联审的交给我处理了，
+	竣测合一的交给我处理了。
+	
+	他们有些地方是相似的，我如何使用代码更好地架构两个项目？
+	我目前有几种解决方案？
+	1.分开管理，但是这个时候，代码得写两套，也就是他们通常的叫做集成，这有关系吗？其实先的就是这样的，只是ctrl c +ctrl v罢了，这样有关系吗？  没有关系的，拷贝就拷贝，反正自己也只是一个搬砖工
+	2.尽量利用好的架构？
+	使用解耦合，尽量少地写重复代码。
+	比较通用的进行封装一下；
+	3.利用svn的分支，至少分出一个比较完整的出来，在那基础上面进行修改，这样会减少较大的工作量。
+	
+	ok，看看是否摒弃，现在的cm工程？从svn出分支。
+	之前果然是通的，还是由我调的，现在不过是新增，艹！
+	现在是什么意思，其实大部分代码都不需要我自己去处理，
+	
+	就我们电子图审部门来说，项目代码管理得非常乱，大部分都是靠复制粘贴而来。
+	
+	V把服务布置上去试试
+	服务器上面有人
+	其他地市有这个plan的吗？ 有的 
+	V还是直接发布好了。
+	
+	现在已经发布了，需要调试吗？
+	无所谓，也可以完成了上传意见的代码逻辑后再调试也可以的。
+	
+	下面为了应付工作：
+	V1.调试，看是否可以正常获取到项目
+	2.如果可以，那么试着完成上传意见
+	
+	现在还有一点没有调通 
+	调通后完成意见上传模块
+	
+	ECA_GetCompleteMappingFileInfo
+	
+	修改一下一些存储过程。
+	有必要上杭州服务器看看吗？
+	没有必要
+	几个简单的存储过程直接修改好了。
+	
+	
+不应该越来越多的错误。
+
+	名字区分 
+	安装路径
+	  
+1.总院的打包
+   总院的有些什么不同？
+   总院可以看到所有的项目，
+   而分院，只能看到自己锁上报的项目
+   
+   其实问题不是很大，
+   首先我有总院的版本吗？
+   我这样？ 
+   X1.首先，我得处理一下安装包的问题，
+		这个问题包括，不同地市不同命名方式 
+   2.
+  
+  首先处理一下总院独立出来的问题，这个之前好像有处理过，
+  处理完了以后，打个安装包出来。
+  
+  其次再处理一下一台电脑安装同一个版本的问题。
+  
+
+   
+   
+2.上报工具安装包的问题
+目前是由注册表的方式读取的
+现在的需求是，一台电脑上面安装好几个地市版本。
+我可以做到吗？
+应该是可以的
+	快捷方式注册表值的问题应该是好解决的
+	那什么比较难解决？
+	
+	V生成同一个注册表值比较难解决。
+	怎么处理？
+	自己来亲自打包看看会不会还是生成同一个
+	V
+	原来是因为打包安装包的时候AppId没有更改的原因。
+	                                                                                                                                
+
+	如果一台电脑上面安装2个上报工具，那么安装默认路径会变成前一个的。
+	
+	{D2F3E9BD-08AD-4A1C-8CE1-3FB0DA0EFA25}_is1
+	{D2F3E9BD-08AD-4A1C-8CE1-3FB0DA0EFA25}_is1
+	
+现在是总院对不是自己上报的项目只有查看权限的控制比较难处理。
+
+有一个ISReadOnly的判断。
+现在的问题就是如何处理这个ISReadOnly
+
+首先，我有多少个地方需要这个值？
+1.勘察设计的项目模块
+2.意见查询的项目模块
+所以我应该做的，
+在isReadOnly的get函数那，完成对项目锁号的查询，
+完成对锁号的判断，已经最后得出isReadOnly的判断。
+
+存储过程已经写上了。
+下面呢？ 测试，然后呢？ 
+完成提交意见的模块
+卧槽
+
+	
+	220.191.237.175
+	http://220.191.237.175/SgtInterface/InterfaceService.asmx
+情况比我预计的糟糕很多，很多模块是直接没有做。
+
+没有关系，先完成上传意见的模块，至少这样说得过去
+
+V这样来说我还有几个存储过程需要翻译：
+ECA_GetCensorPrjPltCatalogByPrjGuid
+ECA_GetCensorPrjCatalogByUserId
+	ECA_AddPlanCensorOption
+	select row_number() over(order by t1.optionid) as nindex, t1.departoption,t1.optionguid,t2.censordepartname,position from tbcmcensordepartopinion t1 left join tbcmCensorStaff t2 on t1.prjguid = t2.prjguid and t1.userid=t2.censoruserid where t1.prjguid='{0}' and userid='{1}' and pltguid='{2}'
+	ECA_AddPlanOkPlt
+	ECA_GetPlanOkDrawChapterInfo
+明天找到杭州的远程，去拷贝一下最好了。
+然后看比较重要的才调通。
+
+V	
+	http://223.4.65.113/cmcensor/login/index
+	
+今天处理服务器配置的问题
+
+然后看看贵港的需求
 	
 	
 	
@@ -3160,13 +3812,7 @@ insert into sys_staffdef (st_id,st_name,st_loginname,st_passwd,row_guid,deptid)v
 	
 	
 	
-	
-	
-	
-	
-	
-	
-	
+		
 	
 	
 	

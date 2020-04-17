@@ -199,9 +199,7 @@ so a lot of thing they can deal they deal, I shouled not make myself too busy, d
 	jnm b 
 	
 	进度详情表，
-	
-	
-	
+
 	begin
 if (new.noderecorddate is null)  then 
 set new.noderecorddate =NOW();
@@ -265,12 +263,9 @@ end
 	
 	下面继续做什么？
 	
-	
 	46	安徽	亳州	341600	http://114.98.62.33:8080/ECACensorServer/CensorService.asmx	http://114.98.62.33:8080/ECACensorFileServer/FileService.asmx	http://114.98.62.33:8080/ECACensorServer/PltManageService.asmx	http://114.98.62.33:8080/ECASignatrueFileServer/FileServer.asmx	NULL	NULL	NULL	NULL	NULL	http://114.98.62.33:8080/ECACensorServer/CensorService.asmx	NULL	NULL	NULL	NULL	NULL	NULL	NULL	NULL	NULL	NULL	NULL	702	3
 	
-	
 	46	安徽	亳州	341600	http://114.98.62.33:8080/ECACensorServer/CensorService.asmx	http://114.98.62.33:8080/ECACensorFileServer/FileService.asmx	http://114.98.62.33:8080/ECACensorServer/PltManageService.asmx	http://114.98.62.33:8080/ECASignatrueFileServer/FileServer.asmx	NULL	NULL	NULL	NULL	NULL	http://114.98.62.33:8080/ECACensorServer/CensorService.asmx	http://114.98.62.33:8080/ECAReportServer/ReportService.asmx	http://114.98.62.33:8080/ECAReportFileServer/FileServer.asmx	http://114.98.62.33:8080/EIService/EiClientService.asmx  	NULL	NULL	NULL	NULL	http://114.98.62.33:8080/ECACensorFileServerAffixDownload/FileService.asmx	NULL	NULL	NULL	702	3
-	
 	
 	1.下面写一下服务器布置文档:
 	他们会布置吗？会，但是所以这部分没有多少写的必要，先写一下必要的东西就好了。
@@ -343,7 +338,6 @@ end
 	就是他们没有传过来，这个目录，当然可能根据对接的情况不太乐观。  所以我这边怎么做呢?
 	首先还是完成这个 竣测人员可以自由编辑目录。
 	
-	
 	然后存入我们的库，最后通过接口给别人调用。
 	
 	没有关系，不要害怕麻烦，就好像做那个mvc的demo，即时你花了一个周的时间，结果最后并没有启用，但是这只是一个证明而已:你能学得会快，只有简单的口述需求的话，那么就做一个简单的版本。 一切从简。
@@ -392,7 +386,6 @@ end
 	http://218.89.178.158:8018/ECAReportFileServer/FileServer.asmx	http://218.89.178.158:8018/MYEIService/EiClientService.asmx	NULL	NULL	NULL	NULL	http://218.89.178.158:8018/ECACensorFileServerAffixDownload/FileService.asmx	NULL	NULL	NULL	0	0
 	clear
 
-
 	https://bbs.csdn.net/topics/390410480
 	
 	female in the 
@@ -403,7 +396,6 @@ end
 	 Longitude="" 
 	 Latitude="" 
 	 FabricatedArea="0" FinishedHouseArea="0" RenFangLevel="" area1="0" TopSumArea="0" ButtomArea="0" AllInvest="0" CarWei="0" BargainNum="" BargainNum2="" EconCorpLinkMan="" EconCorpLinkPhone="" DesignCorpLinkMan="刘山琳" DesignCorpLinkPhone="13188893800" /></root>
-	
 	
 	9.10二审结束
 	图纸上传时间9.50
@@ -471,7 +463,6 @@ http://localhost:19902/cz/ECAInterface /ZWECAAccess
 	不存在，绑定页面
 我tm直接用他的demo试试，反正他这已经搞了一半了都。
 
-
 http://localhost:12297/ExternalInterface/ZWBuildCorpLoginAccessForm.aspx?CorpCode=00261754-9&CityNum=330800
 
 现在整个东西已经通了，下面就是看一下是怎么设计的了。如何把这个页面做好，现在时间着急吗？
@@ -489,7 +480,6 @@ CorpCode在那边是唯一的
 那边的CorpName
 一个CorpCode 一个CorpName 在我们系统一个登陆账户。
 单点登录,这就是单点登录。
-
 
 让他选择，哪个作为主要的，其他的不管了。
 你不可能一个账户能绑定多个 子账户。
@@ -4879,7 +4869,7 @@ clear
 	
 	clear 
 	
-	现在测试成果提了一些新的需求，
+	V-->现在测试成果提了一些新的需求，
 	
 	首先，看看 哪些字段没有存进去
 	
@@ -4887,17 +4877,17 @@ clear
 	prjbuildlinkmanidnum
 	servicestuffs
 	
-    3个小时：
-	3个队 
-	每场比赛2个队
+    3h：
+	3teams 
+	2teams context each game
 	
 	
 	1v2 
 	
 	180分钟怎么跑？
 	
-	3个队，一个队至少2个小时 
-	1.5
+	3个队，each team 2hour at least 
+	
 	
 	ABC
 	
@@ -4915,32 +4905,454 @@ clear
 	A team 
 	
 	each 
-	刚上传的可以了。
-	那么下面就是
-	做一个标记的功能了。
+	刚上传的可以了。9+-**+9
 	
-	应该是只有竣工图有
-	方案也有
-	那么下面怎么处理呢？
+	下面完成标记的功能。
+	然后学习一下vue.
+	改造一下前端的一些东西
+	what ever you think,that ur bussiness, anyway, that is what it is.
 	
-	当然是集成进去就好了。
+	先谈能不能，再谈市场
 	
+	spring is coming ,buy some coat 
 	
+	看起来标注的逻辑是有的，那么找找读取的逻辑
 	
+	意见倒是上去了
+	但是重新打开又没有了
 	
+	他会记录一个Positin
 	
+	，那么有没有下次加载的时候，主动读取的呢？
 	
+	看起来好想是没有的
 	
+删除单体的时候，一并把图纸信息删除掉。
 	
+	现在项目有点乱，当然是完全需要进一步管理的。
 	
+	首先，标注意见了以后，他会在图纸上面显示
+	然后记录了position及内容到数据库，那么使用数据库的这些东西，是否可以还原到图纸上面去？
+	这个看起来是用c++封装的，也就是这个功能应该无法更改了。
+	所以无法还原的话，只能通过保存图纸的方式了，
+	那么下面问题是，是否可以保存到dwf，以及如何保存？
 	
+	这个功能有了。
+V	clear
+
+	还有哪些问题？
+	V1.重庆删除单体把图纸删除的逻辑。
+		刘山琳	刘山琳	12-31.html	Neal2019	C:\Users\Administrator\Desktop\Neal2019_12-31.html.pdf	f306d361-c83f-4b06-afd8-3155c87e85c0	1	ce7a6f6e-8b7c-4838-b427-d66f2576ea8c	370830199001042939	370830199001042939	27929068-1	0	0	.pdf	1									北京建设数字		是
+		估计是记录的guid并不是单体的guid
+		而是
+		
+	V接下来需要一个刷新的操作，将后面的sdk刷新一下。
 	
+	2.玉林竣测的系统需要布置
+		也需要翻译成Oracle的数据库
+	V3.方案审查贵港的有些东西需要做
+		1.区县的问题
+			首先需要新增字段来存储区县
+			2.需要在前端查询到区县表，然后将数据库渲染到前端页面供选择
+			3.将前端的选择区县存储数据库
+			4.在上报的时候试着查询一下对应区县的牵头部门标识，有多个就推送到多个部门的下面。
+				-->
+	项目可修改的问题，是自己独立取得的。
 	
+	反正现在也没有ei了对吧？
+	那就不用管了
+	统一从已有的来。
 	
+	今天也需要更新一下上报工具，
 	
+	让后试着把贵港的需求处理一下，
+	然后玉林的呢？
+	使用vue.js
+	处理贵港的需求，考虑一下是否能使用vue.js，做一个分页，简单，区县的需求，应该也是简单的。
+	现在是什么情况呢？
+	答案基于他vue的理解，前端完全是可以独立于后台的，
+	所以我现在已经玩去可以在我的一些页面来使用这个玩意了。
+	而且这个玩意是非常好玩的。
+	如果你知道的控件再多一点。
+	或者有时候看见比较好的控件，直接拷过来好了。
+	现在直接试一下
 	
+	分页的功能使用vue.js做怎么样呢？
+	答案是当然可以的，不过实际上传输到前端的数据仍旧是整个项目列表。
+	最好的，肯定是查询语句的时候就限制一下条数
+	然后反复获取？
+	其实有时候只是想看看一两条最新的，少数情况才会去看以前的。
 	
+	SYS_SELFDEF_BIZDIC
+	DICNAME DICCODE
 	
+	ok已经使用了vue并且将数据弄进去了。
+	下面在确认送审的时候，
+	推送给各区县牵头人
+	
+	1.首先得有这个区县的账户
+	2.区县账户人员有一个登陆账户，该账户为该区县的牵头人
+	ispincharge=1 
+	countynum
+	或者我不需要 
+	每个区县给他添加一个默认的牵头账户不就好了
+	如果，没有牵头账户呢？
+	那么就使用市本级的好了。
+	这样就留给他来做一些添加用户的操作了。
+	字段的问题，反正都会报错，所以不做不再修改那个版本了。
+	所以大胆去改进就好了，最多把数据库的操作记录到svn里面。
+	V
+	X看来单点登陆有可能需要重新做一下。
+	clear
+
+	4.vue.js需要学习，这个怎么说呢？
+		学好了应该可以在方案审查直接引用。
+		已经把基础的视频看完了
+		那么下面怎么搞呢？
+		想想怎么进行分页比较好，
+		用vue.js分页好吗？答案是不否定的，
+		分页最好还是通过
+		
+		但是前端到后天的分页交互实在是有点麻烦，
+		所以还是直接用vue实现一个简单的分页好了。
+		不行，到时候还要做查询的，不能全部放到前端来实现了吧。
+	试试是否可以通过ajax来传递页面参数。
+	传到控制器，然后控制返回给view渲染的多一点东西，多什么呢？
+	多一个页面分割页面的东西，所以定义一个页面分割类。
+	
+	搞个假的好了，数据库好麻烦的。
+	那么假的好搞吗？
+	1.这里的js和@ViewDate是可以获取值的
+	所以在vue里面直接使用这种方式来获取到data[]是可行的
+	
+	2.先获取，然后绑定几个参数，1.totalcount，eachpagecount,pagecount,current page 
+	根据参数来对数据库进行筛选，然后动态拼接<dr><input>
+	
+如何前端和后台分离，首先Control坚决不带数据
+然后前端获取值全部使用ajax来调取后台函数获取数据
+
+不要盲目自信地以为java的Mvc和c#一样。看完spring了再说。
+
+
+		-->
+	今天怎么处理？
+	V首先，试着把上报工具更新一下。
+		首先更新，如果不更新更新程序，会不会对系统有影响？答案是不会的。 
+		所以只更新更新程序完全是可以的。
+		
+	V2.今天周二，可以尝试学习一下vue.js相关的东西。
+	学了顺便把贵港的需求处理一下。
+	clear
+	3.然后再考虑玉林布置等问题
+	
+	玉林的布置需要些什么东西？
+	1.将mysql数据库的相关表格拷贝过去
+	2.修改存储过程。
+	3.将服务直接拷过去。
+	4.cad端稍作修改。
+	5.
+大不了时间有点长，不如把图纸都一起拷贝过去好了。
+	
+现在基本翻译完了，
+下面需要怎么处理？
+当然是找到那两个get的，进行一下相应的改造就好了。
+或者改造一下dbhelper
+
+稍微放松一下，不要害怕。
+接下来：
+1.完成对服务器的布置
+已经布置了，而且对配置进行了简单的修改
+	V1.修改了两个存储过程的名称：
+	
+	ECA_AddCompleteMappingCatalogInfo
+	ECA_GetPrjCatalogByUserId
+	第一个是在CMService.asmx 
+	第二个是在CMInterface
+	2.dbHelper待修改，两个get的存储过程多了一个out 参数。
+	看看get的又分别在哪。
+	 ECA_GetCensorPrjCatalogByUserId
+	 ECA_GetPrjPltCatalogByGuid
+	V ECA_GetCompleteMappingFileInfo
+2.调试
+	直接将两个服务文件替换上去进行调试。
+	已经替换上去了，下面调试一下？
+	走走流程调试一下，贵港的有点东西需要改。
+	这边呢？
+	数据库通了，可能得怎么处理呢？走流程？
+	
+	表差几个序列，怎么搞呢？
+	用触发器？
+	倒是可以直接从贵港copy过来，
+	触发器不弄了
+	记得以后任何表，建立的时候不再使用自增长的Id作为主键，而是是使用row_guid作为唯一主键。
+	BS端大致是好了，
+	下面就cad端了
+	
+3.cad端改造。
+	CAD端着重 测试一下跟两个存储过程有关的地方。
+	
+	获取文件目录的两个，
+	catalog 
+	
+Vue学习-->
+池州的统计需要做几个页面，试着使用vue.js 
+
+那么得试一下，可以直接访问 html的文件吗？
+
+首先他得是一个
+这样循环可以得到 
+
+然后回事一个item的集合
+这样循环可以得到tr
+
+td得到的是一个Object
+而tr 得到的是一个items
+
+既然不能两个嵌套循环
+那么手写tr 
+完成td好了。
+
+已经测试了是可以嵌套v-for的
+
+那么下面的就是，如何通过ajax等一些方式，将datatable装换成
+	lists:[
+					{
+						msgs:[
+                    { value: '0.0' },
+                    { value: '0.0' },
+                    { value: '0.0' },
+                    { value: '0.0' },
+                    { value: '0.0' },
+                    { value: '0.0' },
+                    { value: '0.0' },
+                    { value: '0.0' },
+                    { value: '0.0' }
+                ]},
+				{
+					msgs:[
+				    { value: '0.1' },
+				    { value: '0.1' },
+				    { value: '0.1' },
+				    { value: '0.1' },
+				    { value: '0.1' },
+				    { value: '0.1' },
+				    { value: '0.1' },
+				    { value: '0.1' },
+				    { value: '0.1' }
+				]}
+	
+				]
+				这种格式
+msgs：
+	for(var i=0;i<5;i++)
+	{
+		for(var j=0;i<10;j++){
+		
+		
+		
+		}
+	}
+lists：
+	this.lists.push(
+	{
+		msgs:[]
+	}
+	)
+	
+假设我的表是这种状态的：
+column1 column2 column3 column4 
+row1v1	 r1v2        v      v
+row2v1	    v        v      v
+row3v1		v        v      v
+row4v1		v        v      v
+
+首先我把整行取出来
+得到dr
+这个组织成msgs
+msgs:[
+	{value:row1v1
+	},
+	{	value,row1v2},
+	{ value,row1v3},
+	{value,row1v4}
+]
+其实我应该是Lists里面存object好了。而不是
+直接存值所以我的dr对应的应该为object
+	
+	那么下面呢？
+	下面就是如何将
+	@ViewDate 和script直接交互了。
+C# 
+using Newtonsoft.Json;
+ public string getRaw() {
+        return JsonConvert.SerializeObject(iChartList);
+ }
+
+javascript：
+<script type="text/javascript">
+    try {
+        var data = JSON.parse('@Html.Raw(@ViewBag.model.getRaw())');
+    } catch (e) {
+        dataString = null;
+        console.error(e);
+    }
+    new rp_prefer_controller(data);
+</script>
+
+已经可以Push进数组了，
+我只需要将ViewBag传过来的数组与现在的兼容即可。
+
+clear
+	-->
+	既然知道
+	<root>
+	<params 
+	FirstCensorBDateFrom="" FirstCensorBDateTo="" FirstCensorEdateFrom="" FirstCensorEdateTo="" PassedCensorDateFrom="" PassedCensorDateTo="" IsFirstCensorBDateIncludeNull="1" IsFirstCensorEDateIncludeNull="1" IsPassedCensorDateIncludeNull="1" CensorShipName="宁波市设联" IsCensorShipNameIncludeNull="" 
+	
+	/></root>
+	
+	我现在做什么比较好？
+	1.学习 
+	2.继续测绘成果系统的改造？
+	3.上报工具甘肃新需求。
+	
+	价值在哪？
+	在于给更多人使用。vue
+	
+	把他变成全局的好了。
+	
+	ProjectType
+	
+	明天再更新一版好了，
+	今天呢？
+	调试一下玉林的竣测系统
+	
+	今天先处理一下，上报工具更新的问题 
+	然后继续调试一下cad端，
+	不同数据库的问题怎么解决？
+	参考一下他3 to 1是如何解决的。
+	他是通过查询参数，然后给为输入的参数赋值，
+	其他参数就不管的方式。
+	直接随意弄一个OUTput的参数就可以了，真是神奇。
+	
+	分页的代码写好了，
+	虽然看起来逻辑不通
+	但是我现在如何调试？
+	
+	首先已经在vueBuilder上面完全实现了，
+	接下来将分页的功能嵌入进cshtml，主要是对，@ViewBag来做一下相应的改造就好了。
+	
+	我这个周需要完成些什么东西？
+	~1.重庆显示有点问题：
+		消防设计表，占地面积
+	~2.甘肃新加很多字段
+	~3.南昌的需求（不着急）
+	~4.分页功能嵌入目前的方案审查BS端
+		考虑做成通用的是最好的。
+		
+	V5.（衢州）设计方案审查，将项目的材料展示为树状。
+		1.不再使用aspx，使用html+vue的方式。
+		2.我已经有了html+vue，那么下面，考虑如何嵌入进去不就好了。
+	这个使用展示页面
+	根据一个url直接跳进去就好了。
+	
+	V6.省平台，单点登陆，
+	屈琦
+	有项目的主管部门账户调过来。
+	
+	写个存储过程好了。
+
+	输入参数：varchar2 2017-03-07 	 2020-11-11,type 
+	
+	输出参数：3个类型的表
+	
+	先把sql语句写一下吧，that rubbish
+	
+	可再生能源:
+	区县
+	休息一下
+	
+	很好处理，都是用countynum来分的组
+	
+	写一个存储过程
+	easy
+	
+	先分别查询，再汇总就好了。
+	     
+	语句已经出来了
+	而且查询到了 
+	再加一个时间的判断
+	在存储过程里面
+	下面写 另外两个表的查询语句
+	
+	clear
+	下面：
+	-->V1.将上报工具更新一下
+	2.处理一下 玉林的问题
+	数据库上不去，cad端的包是很久以前的，但是不能用应该是有问题的。
+	这个问题应该不着急
+	http://202.103.216.62:18088/PlanCensorService/ccir/ManageDepart/GetCensorPrjCatalog?UserId=53448
+	http://202.103.216.62:18088/PlanCensorService/ccir/ManageDepart/GetPlanOkDrawChapterInfo?PltGuid=bb78969b-42fe-472b-856d-fc57affd8245
+	clear
+	
+	甘肃资质：
+勘察资质等级  ECONCORPTITLELEVEL
+设计资质等级  DESIGNCORPTITLELEVEL
+勘察单位资质证书号  ECONCORPCERTCODE
+设计单位资质证书号  DESIGNCORPCERTCODE
+	
+	plotoName
+	plotno
+	
+陈泽钊
+面试评价
+优点：有独立完成小程序开发经验，处理任务态度较好，沟通能力较好
+
+缺点：专业基础非常薄弱，非常简单的关键字定义及用法未知，编程基础问题未能解答，未（尝试）解答编程问题，项目实战经验并不丰富，无法处理复杂sql语句，git会简单使用，学习主动性不足，未能表达出对某一知识点的深入理解。 
+
+期望薪资：7.5k
+综合评价：态度和专业基础未能达到期望，预计培养成本较大，不建议招聘该人员。
+
+朱梅
+面试评价
+优点：基础相对稍好（但是并不是很固实和透彻），很多计算机名词能知道概念，有前端和后台代码撰写经验，了解vue，有良好的计算机交际（有同门可以提供帮助），在校成绩良好，要价较低，态度诚恳。
+
+缺点：属于毕业生，无太多实战项目经验，代码经验并不丰富，未（尝试）解答编程问题，学习和理解能力未知。
+
+期望薪资：4.5~6k
+
+综合评价：专业基础薄弱，对计算机理念理解不深，态度较好，初步估计属于：“盯着干能做百分之七八十类型”，要价很低，可以考虑给试用机会做进一步的考察。如果试用期无体现出强烈的责任心，则建议不予招聘。
+	
+对该员工的培养计划:
+目前情况：刚毕业的女生，专业基础薄弱，实战经验不多，工作态度不明确。
+
+期望：最大期望，能完全接手目前的项目，除了cad端的东西。
+完全能和孟、慧文平级。但是这个是需要时长的，不是吗，不一定，如果是已做的贡献，平级是需要很长时间的持续输出，而证明有这个能力就不一定，如果是加上学习能力和工作态度上面的超越的话，那么相对平级就变得很容易了。
+
+具体实践计划:
+1.简单的网页端模块开发
+2.网页端调试任务，帮助实施进行网页端的调试如果可以的话；
+3.帮助实施处理数据库问题（存储过程）；
+4.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	
 	
 	

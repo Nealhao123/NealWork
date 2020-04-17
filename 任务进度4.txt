@@ -1,4 +1,4 @@
-任务进度4：
+-->任务进度4：
 总院给ei的模块怎么做？
 有难度吗?
 我不太熟悉ei6.0，问问他们更新时间？
@@ -74,15 +74,166 @@ windows服务
 那么现在有这个发送信息，接收信息的做法吗？
 
 请问是发送即时消息吗？
+clear
 
+~2.甘肃新加很多字段
+~3.南昌的需求（不着急）
+~4.分页功能嵌入目前的方案审查BS端
+考虑做成通用的是最好的。
+5.上报工具企业对接trello。
 
+这个周做什么？
+V甘肃需求
+项目基本信息添加一些字段
+项目绿建星级改为
 
+tbcensorsubprjinfo：GREENLEVEL varchar(10) 绿建星级（表里原有） ，AssemblyRate varchar(38) 装配率,AssemblyArea varchar（38）装配面积，AssemblyType  varchar（38） 装配式结构类型，MinusSeismic  int 减隔震，XFTYPE int 消防类型 
 
+tbcensorprjinfo：XFTYPE int 消防类型，ISZPS int 是否装配式，ISGreenbuild int  是否绿建 ，是否超限有了
 
+页面加上去了，下面修改存储过程，然后调试
+还有单体的。
 
+甘肃的更新放在下午。
 
+-->1.竣测成果系统，玉林可以，但是得在杭州上面也布置一个。
+	2.杭州设计方案审查，这玩意，在哪有呢？目前浙江只有温州、衢州有
+	外地有：贵港、玉林有，但是那边的版本没有上报工具端，可以的吗？
+	可能得修改修改了。
+	
+	那么全部得重新配置和做相应的修改了，
+	定于20号。一个多周的时间，有点麻烦。
+	那么怎么处理呢？
+	预计会有哪些工作量？
+	1.服务器的配置和调通，修改数据库存储过程等
+	2.单点登陆适配
+	3.上报工具端的存储过程修改，ei服务配置
+	4.
+	其实上报工具端，像衢州这些都是没有的，那么可不可以直接不要？ 
+	当然这个最终不是由我说了算，所以我也无需操心这种问题。
+	
+clear 
+	今天周三，怎么说？
+	处理什么问题？
+	V1.一定要完结是甘肃的新字段需求
+	2.
+	
+	V杭州建委 
+	V去开会
+	V图审的相关内容，
+	V1.回答问题
+	V2.听就好了
+	
+	15:30
+	今天周四，normal work day. what should I do?
+	
+	do not feel guilt,is it hard for you? 
+	no, hard thing always need persist in 
+	life time feels good, but what for? what's the meaning?
+	
+	why can I learn this time?
+	I just wanna have fun?
+	
+	空和浙江 新街口
+	
+	tbcorppersonalinfo 
+	
+	tbcaseuserinfo
+	企业人员
+	
+	packit, there are lot of problems waiting for me.
+	but that's ok,cause not all of them are hurry.
+	
+	如何在本地调试这个Index.html?
+	手动模拟datatable，然后使用absolutly yes, pack off.
+	
+	what you gonna do this week?
+	first at all, 2 interface.
+	
+	南昌的只有企业信息
+	没有资质等信息
+	
+	那意思是什么呢？只对接作为一个验证和信息的提取。
+	
+	如果愿意给我高薪，我愿意去吗？
+	机器人哦，人工智能哦
+	但是还是cad的二次开发哦
+	pack
+	
+	他这个接口随意传输一个就好了，
+	但是我还是通过统一社会信用代码来吧。
+	
+	我能获取一些信息吗？
+	当然可以，
+	所以，验证调用这个，后面的资质的，也获取一下这个不就好了。
+	
+	91210231683013176G
+	legalman
+	table[0].row[i]["certid"]
+	
+	D321086978
+	A121012120
+	A221012127
+	E121012120
+	甲190121320376
+	
+D321086978
+A221012127
+甲190121320376
+A121012120
+E121012120
 
+D321086978
+A221012127
+甲190121320376
+A121012120
+E121012120
 
+	黑名单
+	
+	不能编辑资质
+	
+	只取勘察设计的资质
+
+接口有问题那么就是处理不了了。
+看看其他东西
+	
+	ECA_GetPersonPrjInfo
+	
+	只能对接，号，但是不能对接名称，
+
+exactly
+
+	tbCorpBasicInfo 
+	
+编码  类型及等级
+11  助理工程师
+12  助理建筑师
+13  助理规划师
+21  工程师
+22  建筑师
+23  规划师
+31  高级工程师
+32  高级建筑师
+33  高级规划师
+41  教授（或研究员）级高级工程师
+42  教授（或研究员）级高级建筑师
+43  教授（或研究员）级高级规划师
+99  其他
+
+how about today's work?
+if you do not want it, just don't 
+
+我现在需要完善哪方面？
+首先我已经做完了对接口的信息获取，那么现在我只需要完成：
+1.对企业专业人员信息的保存。
+2.对项目参与人员信息的保存。
+我已经违背了阳哥说的使用第三方的形式来对接口进行撰写，
+为什么？
+1.如果使用第三方，意味着得单独使用一个处理程序来对接口数据，查询并插入我们公司服务器
+2.
+
+把所有工作内容上传svn，为新入职同事腾出电脑。
 
 
 

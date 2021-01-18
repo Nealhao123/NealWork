@@ -200,12 +200,12 @@ date:8/27
 		+3000-
 		3363+3363 - 5288 = +1438
 		
-		in fact 2019/1/22:
+		in fact -2019/1/22:
 		
 		hb:-3169
 		pack:+478
 		
-		in fact 2019/1/28:
+		in fact -2019/1/28:
 		hb:0
 		jb:-8000
 		pack:+3624
@@ -220,14 +220,14 @@ date:8/27
 		h:3900+4000 = +7900
 		count:13900
 -----------------
-	2019.2.21
+	-2019.2.21
 	hb:-382
 	jb:0
 	h:8k
 	packet:1k+138
 	total:756
 	
-	2019.3.10
+	-2019.3.10
 	get:+6817
 	hb：-382
 	jb:0
@@ -245,9 +245,9 @@ date:8/27
 	eat:-1300
 	total:6817+1000+400-3300-1706 = 3211
 	
-2019/3/26:
+-2019/3/26:
 ~
-2019/4/10:
+-2019/4/10:
 	get：6817
 	half month left:
 	packet:+1018+22+25
@@ -262,12 +262,12 @@ infact on 4/17
 	computer
 	
 	
-2019/5/10
+-2019/5/10
 	get:6817
 	commoncost:-3300
 	total:+3517
 
-2019/5/10 in fact:
+-2019/5/10 in fact:
 	get:6817
 	commoncost:-3300
 	hb:-2576
@@ -275,7 +275,7 @@ infact on 4/17
 	game:-300
 	total:543+446 = +989
 	
-2019/5/14 in fact:
+-2019/5/14 in fact:
 	get:6836
 	h:-1000
 	rent:-1046
@@ -286,7 +286,7 @@ infact on 4/17
 	total:+273+51 -1230hb loan-2000
 	=1094 left.
 	
-2019/2
+-2019/2
 B/L/D normal eat:13 16 16 7 12 15 6.95 15 7 12 18 9 13 12 15 19.5 7 12 18 7 12 7 13 15.5 7 14 15 7 10 
 ball water:2 2 
 netbarcost:2 2 3 
@@ -300,7 +300,7 @@ goingout:150 3 11 24
 phoneCharge:47 28 
 present:395
 	
-2019/3
+-2019/3
 B/L/D normal eat:10.5 13 8 14 17 6 2 10 14 7 18 18 7 17 7 12 18 16 30 15 2 46 36 18 30 12 2 43 1008 
 ball water:
 netbarcost:12 
@@ -314,7 +314,7 @@ goingout:12 5 1323 6 6 5 228 6 12 219 5 3 120 25.7 12 150 142
 phoneCharge:
 present:
 	
-2019/4
+-2019/4
 B/L/D normal eat:17 4.5 7 16 3.5 7 16 18 7 28 16 2 14 1.5 12 4 13 18 7 13 20 7 26 13 8 18 7 6  20 7 4 16 18 26 2 4.5 14.5 110 3 2 18 7 
 b water:
 netbarcost:2 3  2 1 2 2 2 
@@ -329,7 +329,7 @@ phoneCharge:
 present:	
 book:94
 	
-2019/5
+-2019/5
 B/L/D normal eat:
 b water:
 netbarcost:
@@ -364,11 +364,11 @@ rent:v
 rest:486
 total:...
 
-2019/07/11
+-2019/07/11
 get:+7682
 rest:1300
 
-2019/0905
+-2019/0905
 1600 - for:bc
 rest:2800-3751
 
@@ -376,9 +376,14 @@ invest regularly:
 2w 200+ 200 			800
 1m 300 200 200 300 200 	120
 
+now is -2019/8/10:
+get:9400
+cost:forfood?
+less than (15 +18+3)*5 + 30+30+50+200forLiving a week -1800 per month.
+
 per2weeks Wednesday
 perMonth 15th
-20190917:
+-20190917:
 rest:4241
 hb:-1725	
 total:2516
@@ -390,28 +395,58 @@ h:13k
 	19final:
 		12000+ +3000*12- =48k
 fact：
-	2020-03-24：
-	39k(p17k+h22k)
+--------------------------------------
+-2020-03-24：
+39k(p17k+h22k)
 hb:-3409
 jb:0
 p:17285
 h:21000
 
 now:38285-3409 = 34876
-2020-4-10
+-2020-4-10
 get:9200
 cost:(22+23)*17 = -756
 rest:34876+9200-756=43320
 
-2020final:43320+8*(9200-1400-3000):38400=81k
+-2020-9-14
+packet: 1183+7119+15883 = 24185
+last month get:9942.83
+it's seem's that I have enough money for iphone12 and rent 
+cause I can get 20k till 11-18,so I have 
+44185-2 mounth cost(-2*1800)
+h:-2500
+=38085 
+cost for cloth:
+3k
+35085
+-3000 guitar
+-
+10k for iphone 
+8500 for rent 
+
+-2020final(calced in May-2019):43320+8*(9200-1400-3000):38400=81k
+12*12=144k per year.
+
 marrybasic:
 80+300k
 it means:
 I can't marry till 29-30
 
-统计一下自己消费，使用总支出减去总收入，然后平均一下。
-		
-		
+Statistic your cost,totalCost-totalIncome then average them.
+
+Xstill:
+per month calc once
+or quater？or half year?
+
+so？so what?
+I can still learn a lot 
+is that so?
+yes it is.
+
+
+ 
+
 		
 		
 		

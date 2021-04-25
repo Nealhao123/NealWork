@@ -49,6 +49,8 @@ settle down city:
 	冬天，南方特有的寒冷。
 	贵阳还好，我试过，但也是冷。
 	杭州呢？不太好，真是有很深的印象。
+	当然今年来看也和穿着有点关系，冷还是冷，只是冷的方式发生了改变。
+	在外面冷， 在家里面也冷，但是心倒是蛮热。
 	
  .地貌：
 	喀什克地貌、
@@ -95,6 +97,8 @@ settle down city:
 	初中稍远但也好说
 	大学直接异地了
 	高中很远，但是未满18岁
+	湖北省的教育是非常不错的
+	还有江苏
 学区房
 昂贵的原因就是因为其居住证。
 所以如果不是因为教育原因买学区房是不划算的
@@ -119,8 +123,39 @@ settle down city:
 	2.如果定居，有可能的生活方式是：夫妻在不同的地方上班（如果是双职工家庭），然后家有点远，
 	3.这绝对不是一个适合养老的城市，所以定居也只是目前的
 	4.
-	
-	
+
+20210120:
+current finance situation:
+144k/per year
+30k/per m²
+130 m² 3900k
+1300k headPayment
+2600k 30years 
+87 per year 
+7.2k everymonth
+
+it's hard for you to pay for you house,
+but while 1/9 for house that is easy for you, it means 64.8k per month is easy for you to buy a house.
+
+300k~400k in gy or cq.
+
+how much i had?
+60k
+240k i need
+144per year
+48save 96cost
+5years
+if twise rise,
+y=a² y=ax+b a=2.5 b=2
+not exponential(指数) function
+rise 
+calc definite integral(定积分)
+240/2 
+hard to calc
+3years still need.
+
+
+
 	
 	
 	

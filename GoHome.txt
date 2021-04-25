@@ -28,6 +28,12 @@ arr:GY 2.7night or afternoon, but that's ok ,I have place&time to stay at GY for
 2.7 arr,
 2.11 SprFes
 
+HR 661+72 7hours to GY 凌晨2点开
+14:55->19:35 4:40h to XZ 740 
+ 8:05->10:55 2:50h to xz 863
+
+
+
 
 
 
@@ -39,9 +45,11 @@ arr:GY 2.7night or afternoon, but that's ok ,I have place&time to stay at GY for
 
 go to work:2.20
 buy tickets:2.05
-
-
-
+GY->HZ	 
+GY->SH	->HZ  +73
+(X)CQ->HZ
+SH->GY 734 (-73)
+HZ->GY 661
 
 
 

@@ -471,6 +471,67 @@ x				   12k for date?
 home:44+2k*3 = 50k
 packet:32219
 
+infact 20210511:
+34771 - 8220 = 26551
+
+50k+26551 ~=80k
+
+detail 20210517:
+202103:
+food:14+4.5+27+18+110+18+98+2.5+20+170+30+55+40.5+16+3.5+4+12+11+13+16+17+21+22+11+22+24.5+5+51+45+16+14+3+7+14+18+12+15+14+16+18+21+14+24.5+24+4+27+22+1+5+18+18+18+10+17+41+18+3+14+12+3+22+20+19+12+13+18+48+3+17.5+3+5+21=1564
+phone:50+25=75
+traffic:9+28+8.4+7.6+96+258(rent car)+2.5+2.5+2.5+45+9+2+1+600+515+1+11.5+12.6+11.5+1+16.5+19+10+1+1+4+4+6+1+12+8=1706.6
+hotel:690
+cloth:400+500+12+8+8+138+128+58+13=1265
+haircut:300
+hospital:1060+8+25=1093
+elec:200
+hobbies:10+8+16=34
+cost:6927.6
+not normal cost:258+1093+690+600+515+200=3356 = (1093 for hospital)
+wetchat:-4484
+emotionCost:5k
+totalcost:11411
+
+in fact 20210616:
+home:50+2=52k
+packet:31600+2572+1388=355560
+-552-965=34043
+~=86k
+carStuff
+canBorrow:30k    (1.25k/perMonth)
+canBorrow:50k	 (2.1k/perMonth) or (1.7/perMonth)
+totalBorrow:80k   (3,333/perMonth) or (3k/perMonth)
+
+in fact 20210617:
+home:37k(can use 30k)
+sister 20k:can't use
+packet:34043
+64k
+canBorrow:30k
+94k
+canBorrowPlus:50k
+144k
+
+canBorrow always can borrow,but How about your solvent debt
+
+perMonth:-3.4k
+
+
+
+
+-->
+
+
+
+
+
+
+
+
+
+
+clear
 --------------->
 29-30
 marrybasic:
@@ -503,5 +564,5 @@ yes it is.
 
 
 
-
+clear
 	
